@@ -55,6 +55,20 @@ print(a*x1^2+b*x1+c)
 print(a*x2^2+b*x2+c)
 
 
+.. image:: rstudio.png 
+
+
+> getwd()
+
+> ??install.packages
+
+> installed.packages()
+
+> packageDescription("stats")
+
+> help(package = "stats")
+
+
 
 
 

@@ -1,3 +1,8 @@
+https://www.datacamp.com/es/tutorial/r-packages-guide
+
+https://docs.kanaries.net/es/topics/R/6-r-lib-for-beginners
+
+https://rsanchezs.gitbooks.io/ciencia-de-datos-con-r/content/paquetes/paquetes.html
 https://www.w3schools.com/r/
 https://www.geeksforgeeks.org/r-programming-language-introduction/
 
