@@ -20,4 +20,5 @@ Contents
 
    usage
    clase-01
+   Numeros_Operadores
    api
