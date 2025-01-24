@@ -1,3 +1,15 @@
+https://en.wikipedia.org/wiki/R_(programming_language)
+
+https://bookdown.org/rdpeng/rprogdatascience/history-and-overview-of-r.html
+
+https://www.datacamp.com/blog/all-about-r
+
+https://learn.saylor.org/mod/book/view.php?id=58417&chapterid=44962
+
+https://es.wikipedia.org/wiki/R_(lenguaje_de_programaci%C3%B3n)
+
+https://www.researchgate.net/figure/Timeline-of-R-history-with-selected-milestones_fig1_360246719
+
 https://www.datacamp.com/es/tutorial/r-packages-guide
 
 https://docs.kanaries.net/es/topics/R/6-r-lib-for-beginners

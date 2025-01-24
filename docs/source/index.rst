@@ -19,6 +19,7 @@ Contents
 .. toctree::
 
    usage
+   historia
    clase-01
    Numeros_Operadores
    Lenguajes_Programacion
