@@ -35,6 +35,12 @@ https://www.r-project.org/
 
 .. image:: inst05.png
 
+Instalacion RStudio
+-------------------
+
+https://posit.co/download/rstudio-desktop/
+
+.. image:: insrstudio.png
 
 
 
