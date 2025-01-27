@@ -30,6 +30,6 @@ Creando un Repositorio:
 
 --------------------------------------------------------------
 
-.. image:: git05.png
+.. image:: git04.png
 
 
