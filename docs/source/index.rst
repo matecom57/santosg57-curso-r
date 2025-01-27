@@ -15,6 +15,7 @@ Contents
 .. toctree::
 
    temario
+   lenguajes-program/Lenguajes_Programacion
    historia-instalacion/historia
    historia-instalacion/instalacion
    gitdoc/github-doc 
