@@ -16,6 +16,7 @@ Contents
 
    temario
    historia-instalacion/historia
+   historia-instalacion/instalacion
    gitdoc/github-doc 
    clase-01
    Numeros_Operadores
