@@ -1,6 +1,9 @@
+TEMARIO
+=======
+
 1. Qué es “R”. Instalación y Ambiente de Programación. Historia
 
-2. R como Calculadora. Operadores Aritméticos, Operadores de Comparación.
+2. R como Calculadora. Operadores Aritméticos, Operadores de Comparación, Valores Lógicos.
 
 3. Conceptos básicos de Programación Orientada a Objetos. Tipos de Datos. Datos Escalares, Vectores, Factores, Matrices. Definición de Variables.
 
@@ -8,15 +11,15 @@
 
 5. Script’s. Implementando algoritmos en la solución de problemas con el lenguaje de programación “R”.
 
-6. Estructuras de Control: if, while, for
+6. Estructuras de Control: ``if, while, for``
 
-7. Funciones en R. “apply”, Paquetes. Ayuda!.
+7. Funciones en R. ``apply``, Paquetes. Ayuda!.
 
 8. Graficación. ggplot
 
 9. Otras estructuras de datos. Arreglos, Listas y DataFrame’s
 
-10. Otras estructuras de datos. Arreglos, Listas y DataFrame’s
+10. Entrada Y Salida. Salvando y restaurando datos de R.
 
 11. Funciones de Usuario y Programación.
 
