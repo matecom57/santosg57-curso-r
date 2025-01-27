@@ -9,17 +9,13 @@ Objetivos:
 2.  Aprender herramientas que proporciona R para hacer análisis estadístico de datos, paramétrico y no paramétrico.
 
 
-.. note::
-
-   This project is under active development.
-
 Contents
 --------
 
 .. toctree::
 
    temario
-   historia
+   historia-instalacion/historia
    gitdoc/github-doc 
    clase-01
    Numeros_Operadores
