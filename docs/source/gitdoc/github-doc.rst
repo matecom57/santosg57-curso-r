@@ -5,10 +5,13 @@ Github
 abierto 
 que facilita la colaboración entre usuarios. 
 
+0. Crear un usario en https://github.com/login y entre a **github**.
+ 
 Creando un Repositorio:
 ---------------------
 
-1.
+1. En la pagina-imagenlocalize el boton **"+"**, esta en la parte superior derecha y pinchelo..
+
 
 --------------------------------------------------------------
 
