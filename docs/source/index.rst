@@ -9,14 +9,14 @@ Objetivos:
 2.  Aprender herramientas que proporciona lenguaje "R" para hacer análisis estadístico de datos, como paramétrico y no paramétrico.
 
 
-Contents
+Contenido
 --------
 
 .. toctree::
 
    temario
-   lenguajes-program/Lenguajes_Programacion
    historia-instalacion/historia
+   lenguajes-program/Lenguajes_Programacion
    historia-instalacion/instalacion
    gitdoc/github-doc 
    clase-01
