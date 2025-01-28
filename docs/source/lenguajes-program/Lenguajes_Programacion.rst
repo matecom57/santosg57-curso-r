@@ -4,7 +4,7 @@ Lenguajes de Programación
 Fotran
 ------
 
-** Peograma fuente: f1.f90**
+**Programa fuente: f1.f90**
 
 .. code:: Bash
 
@@ -12,13 +12,13 @@ Fotran
       print *, 'Hello, World!'
    end program hello
  
-** Compilando el programa fuente y dejarlo ejecutable **
+**Compilando el programa fuente y dejarlo ejecutable**
 
 .. code:: Bash
   
    gfortran f1.f90 -o f1
 
-** Ejecutando el programa **
+**Ejecutando el programa**
 
 .. code:: Bash
    
@@ -27,87 +27,144 @@ Fotran
    Hello, World!
 
 
-(base) vagrant@vagrant:~$ cat f1.f90 
-program hello
-  ! This is a comment line; it is ignored by the compiler
-  print *, 'Hello, World!'
-end program hello
-
-
-
 C
 ---
 
-(base) iMac-de-Fernando:source santosg$ cc c1.c 
+**Programa fuente: p1.c**
 
-(base) iMac-de-Fernando:source santosg$ cat c1.c 
-#include <stdio.h>
+.. code:: Bash
 
-int main() {
-  printf("Hello World!\n");
-  return 0;
-}
+   #include <stdio.h>
+
+   int main() {
+      printf("Hello World!n\n\n"); 
+      return 0;
+   }
+
+
+**Compilando el programa fuente y dejarlo ejecutable**
+
+  
+.. code:: Bash
+
+   cc p1.c
+
+**Ejecutando el programa**
+
+.. code:: Bash
+
+   (base) vagrant@vagrant:~$ ./a.out 
+   
+   Hello World!n
+
 
 C++
 ---
 
+**Programa fuente: cmas.cpp **  
 
-(base) iMac-de-Fernando:source santosg$ c++ cmas.cpp 
+.. code:: Bash
 
-(base) iMac-de-Fernando:source santosg$ cat cmas.cpp 
-#include <iostream>
+   #include <iostream>
 
-using namespace std;
+   using namespace std;
 
-int main() {
-  cout << "Hello World-2!\n";
-  return 0;
-}
+   int main() {
+      cout << "Hello World-2!n"; 
+      return 0;
+   }
 
+**Compilando el programa fuente y dejarlo ejecutable**
+      
 
+.. code:: Bash
+
+   c++ cmas.cpp 
+
+**Ejecutando el programa**
+
+.. code:: Bash
+
+   (base) vagrant@vagrant:~$ ./a.out 
+
+   Hello World-2!n(base) vagrant@vagrant:~$ 
 
 
 
 Java
 ----
 
-(base) iMac-de-Fernando:source santosg$ cat GFG.java 
-// A Java program to print "Hello World" 
-public class GFG { 
-    public static void main(String args[]) 
-    { 
-        System.out.println("Hello World"); 
-    } 
-}
+**Programa fuente: GFG.java**
+
+.. code:: Bash
 
 
-(base) iMac-de-Fernando:source santosg$ javac GFG.java 
-(base) iMac-de-Fernando:source santosg$ java GFG
-Hello World
+   // A Java program to print “Hello World” 
+
+   public class GFG {
+      public static void main(String args[]) {
+         System.out.println(“Hello World”);
+      }
+   }
+
+
+**Compilando el programa fuente y dejarlo ejecutable**
+
+.. code:: Bash
+
+   javac GFG.java 
+
+**Ejecutando el programa**
+
+.. code:: Bash
+
+   (base) vagrant@vagrant:~$ java GFG
+   
+   Hello World
+
 
 -------------------------------------------------------------------
+
 
 R
 ______
 
-(base) iMac-de-Fernando:source santosg$ cat r1.R 
-print("Hola Mundo!")
 
-(base) iMac-de-Fernando:source santosg$ cat compilaR.sh 
-#!/bin/bash
+**Programa fuente: r1.R**
 
-Rscript $1".R"
+.. code:: Bash
+
+   print("Hola Mundo!")
+
+**Ejecutando el Script**
+
+.. code:: Bash
+
+   Rscript r1.R
+
+   [1] "Hola Mundo!"
+
+
 
 ------------------------------------------------------------------
 
 Python
 ------
 
-(base) iMac-de-Fernando:source santosg$ python p1.py 
-Hola Munod!
+**Programa fuente: p1.py**
+    
+.. code:: Bash
 
-(base) iMac-de-Fernando:source santosg$ cat p1.py 
-print("Hola Munod!\n")
+   print("Hola Munod!\n")
+
+**Ejecutando el Script**
+
+.. code:: Bash 
+
+   (base) iMac-de-Fernando:source santosg$ python p1.py 
+
+   Hola Munod!
+
 
 
 
