@@ -1,11 +1,19 @@
 R como Calculadora
 ==================
 
+
+Levante R y mostrara la siguiente ventana:
+
 .. image:: r01.png
 
-e01.
+El símbolo **">"** que se muestra al final es llamado **Prompt** y quiere decir que estamos interactuando con el lenguaje R, es decir espera ordenes o 
+comandos para ejecutar.
+ 
+ejemplo-01.
 
-> print("Hola Mundo!")
+.. code:: Bash
+
+   > print("Hola Mundo!")
 
 e02.
 
