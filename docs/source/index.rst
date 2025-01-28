@@ -22,5 +22,4 @@ Contenido
    clase-01
    Numeros_Operadores
    Lenguajes_Programacion
-   r_como_calculadora
-   api
+   Clase01/r_como_calculadora

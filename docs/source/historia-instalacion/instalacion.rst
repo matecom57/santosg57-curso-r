@@ -1,7 +1,7 @@
 Instalación de R
 ================
 
-Pagina donde se baja en Lenguaje R: https://www.r-project.org/
+Pagina donde se baja Lenguaje R: https://www.r-project.org/
 
 1. Vaya a **Download CRAN**
 
@@ -16,7 +16,7 @@ Pagina donde se baja en Lenguaje R: https://www.r-project.org/
 .. image:: inst02.png
 
 
-3. Busquemos el repositorio: **México* y pichemos la liga
+3. Busquemos el repositorio: **México** y pichemos su liga.
 
 -----------------------------------------------
 
