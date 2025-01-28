@@ -4,7 +4,7 @@ Lenguajes de Programación
 Fotran
 ------
 
-** Ejemplo: f1.f90**
+** Peograma fuente: f1.f90**
 
 .. code:: Bash
 
@@ -12,10 +12,13 @@ Fotran
       print *, 'Hello, World!'
    end program hello
  
+** Compilando el programa fuente y dejarlo ejecutable **
 
 .. code:: Bash
   
    gfortran f1.f90 -o f1
+
+** Ejecutando el programa **
 
 .. code:: Bash
    
