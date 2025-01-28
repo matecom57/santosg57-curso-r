@@ -24,5 +24,17 @@ integrado) y Jupyter (una interfaz para notebook).
 
 -------------------------------------------------------------------------
 
+.. image:: Ross.jpg
+
+R fue creado por los profesores Ross Ihaka y Robert Gentleman como lenguaje de programación para enseñar estadística introductoria en la Universidad de Auckland. El lenguaje se inspiró en el lenguaje de 
+programación S, y la mayoría de los programas S pueden ejecutarse sin modificaciones en R.[6] El lenguaje también se inspiró en el alcance léxico de Scheme, que permite variables locales.
+
+-------------------------------------------------------------------------
+
+.. image:: Robert_Gentleman.jpg
+
+El nombre del lenguaje, R, proviene tanto de ser un sucesor del lenguaje S como de la primera letra compartida por los autores, Ross y Robert.[11] En agosto de 1993, Ihaka y Gentleman publicaron un 
+binario de R en StatLib, un sitio web de archivo de datos.[12] Al mismo tiempo, anunciaron la publicación en la lista de correo s-news. El 5 de diciembre de 1997, R se convirtió en un proyecto GNU 
+cuando se lanzó la versión 0.60.[14] El 29 de febrero de 2000, se lanzó la primera versión oficial 1.0.
 
 
