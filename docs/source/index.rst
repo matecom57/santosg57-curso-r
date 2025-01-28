@@ -4,9 +4,9 @@ CURSO: Introducción al Lenguaje de Programación "R"
 Objetivos:
 ---------
 
-1. Aprender un lenguaje de programación, fácil de aprender y útil para el análisis de datos.
+1. Aprender un lenguaje de programación, que es fácil de aprender y útil para el análisis de datos.
 
-2.  Aprender herramientas que proporciona R para hacer análisis estadístico de datos, paramétrico y no paramétrico.
+2.  Aprender herramientas que proporciona lenguaje "R" para hacer análisis estadístico de datos, como paramétrico y no paramétrico.
 
 
 Contents
