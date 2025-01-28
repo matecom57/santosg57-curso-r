@@ -4,7 +4,7 @@ Lenguajes de Programación
 Fotran
 ------
 
-**f1.f90**
+** Ejemplo: f1.f90**
 
 .. code:: Bash
 
@@ -13,7 +13,16 @@ Fotran
    end program hello
  
 
-gfortran f1.f90 -o f1
+.. code:: Bash
+  
+   gfortran f1.f90 -o f1
+
+.. code:: Bash
+   
+   vagrant@vagrant:~$ ./f1 
+ 
+   Hello, World!
+
 
 (base) vagrant@vagrant:~$ cat f1.f90 
 program hello
