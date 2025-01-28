@@ -10,26 +10,26 @@ que facilita la colaboración entre usuarios.
 Creando un Repositorio:
 ---------------------
 
-1. En la pagina-imagenlocalize el boton **"+"**, esta en la parte superior derecha y pinchelo..
+1. En la pagina-imagen localize el botón **"+"**, esta en la parte superior derecha y pinchelo.
 
 
 --------------------------------------------------------------
 
 .. image:: git01.png
 
-2.
+2. Se mostrara una lista de opciones, escoja "New repository".
 
 --------------------------------------------------------------
 
 .. image:: git02.png
 
-3.
+3. Meta un nombre de repositotio en la caja de texto e inicialice el repositorio **"Add a README file"**
 
 --------------------------------------------------------------
 
 .. image:: git03.png
 
-4.
+4. y con este creo el repositorio!
 
 --------------------------------------------------------------
 
