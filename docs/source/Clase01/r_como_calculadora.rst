@@ -56,6 +56,7 @@ Otra manera de calcularlo:
 
 Calcular lo siguiente:
 
+.. image:: algunos-calculos.png
 
 
 
