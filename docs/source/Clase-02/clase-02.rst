@@ -1,11 +1,12 @@
 Contenido
 ========
 
-1. Sistemas de Numeracíon
+1. Sistemas de Numeraciónn
 2. Operadores: Aritméticos, de Comparación y Lógicos. Algunas Constantes.
 3. Funciones matemáticas
 4. Algunos Calculos Numéricos 
 5. Scripts. Folder de trabajo
+6. Vectores
 
 ------------------------------------------------------------------------
 
