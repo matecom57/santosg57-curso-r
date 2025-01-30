@@ -40,5 +40,7 @@ Contenido
 
    mean(x)
 
+:doc:`configurar_folder`
+
    
    
