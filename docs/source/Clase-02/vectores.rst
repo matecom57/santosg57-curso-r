@@ -25,3 +25,21 @@ Ejemplos:
    z = (-3, 0, 1)
 
 El vector **x** es de longitud 5 y los vectores **w** y **z** son de longitud 3.
+
+Para sacar elementos de un vector, existen varias maneras. Agunos ejemplos:
+
+Consideremos el vector:
+
+.. code:: Bash
+   
+   a = (.5, .3, sqrt(2), exp(5), 10, 1/2, pi, e)
+
+Entonces:
+
+.. code:: Bash
+
+   a[2]
+
+   a[5:7]
+
+
