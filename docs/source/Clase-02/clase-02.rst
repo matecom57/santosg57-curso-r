@@ -56,5 +56,8 @@ Algunos ejercicios:
 
 :doc:`configurar-directorio-r`
 
+3. 
+-------------------------------------------------
    
+.. image:: e03.png    
    
