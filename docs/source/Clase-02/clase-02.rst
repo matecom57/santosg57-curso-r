@@ -40,7 +40,7 @@ Contenido
 
    mean(x)
 
-:doc:`configurar_folder`
+:doc:`configurar-directorio-r`
 
    
    

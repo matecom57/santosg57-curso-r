@@ -1,5 +1,5 @@
-Clase-02
-========
+Configurar un folder de trabajo para los programas
+===============================
 
 1.
 
@@ -25,3 +25,4 @@ Clase-02
 
 
 .. image::r04.png
+
