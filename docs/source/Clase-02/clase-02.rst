@@ -54,13 +54,16 @@ Algunos ejercicios:
 .. image:: e02.png
 
 
-:doc:`configurar-directorio-r`
-
 3. 
 -------------------------------------------------
    
 .. image:: e03.png    
    
 -------------------------------------------------
+
+:doc:`configurar-directorio-r`
+
+-------------------------------------------------
+
 
 :doc: `vectores`
