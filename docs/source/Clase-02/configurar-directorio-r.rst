@@ -17,12 +17,12 @@ Configurar un folder de trabajo para los programas
 
 -----------------------------------------------------
 
-.. image::r03.png
+.. image:: r03.png
 
 4.
 
 -----------------------------------------------------
 
 
-.. image::r04.png
+.. image:: r04.png
 
