@@ -51,7 +51,7 @@ Algunos ejercicios:
 2. 
 -------------------------------------------------
 
-.. image:: e01.png
+.. image:: e02.png
 
 
 :doc:`configurar-directorio-r`
