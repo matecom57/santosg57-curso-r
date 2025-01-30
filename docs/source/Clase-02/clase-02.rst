@@ -20,5 +20,25 @@ Contenido
 
 .. image:: funcion.png
 
+------------------------------------------------------------------------
 
+**Algunas Funciones Aritméticas**
 
+.. code:: Bash
+
+   cos(x)
+
+   sin(x)
+   
+   exp(x)
+
+   factorial(x)
+
+   log10(x)
+
+   log(x)
+
+   mean(x)
+
+   
+   
