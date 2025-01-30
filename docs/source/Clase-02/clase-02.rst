@@ -1,7 +1,7 @@
 Contenido
 ========
 
-1. Sistemas de Numeraciónn
+1. Sistemas de Numeración
 2. Operadores: Aritméticos, de Comparación y Lógicos. Algunas Constantes.
 3. Funciones matemáticas
 4. Algunos Calculos Numéricos 
@@ -40,6 +40,19 @@ Contenido
    log(x)
 
    mean(x)
+
+Algunos ejercicios:
+
+1.
+---------------------------------------------
+
+.. image:: e01.png
+
+2. 
+-------------------------------------------------
+
+.. image:: e01.png
+
 
 :doc:`configurar-directorio-r`
 
