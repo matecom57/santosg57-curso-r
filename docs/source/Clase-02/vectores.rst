@@ -32,7 +32,7 @@ Consideremos el vector:
 
 .. code:: Bash
    
-   a = c(.5, .3, sqrt(2), exp(5), 10, 1/2, pi, e)
+   a = c(.5, .3, sqrt(2), exp(5), 10, 1/2, pi, exp(1))
 
 Entonces:
 
