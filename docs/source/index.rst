@@ -7,4 +7,5 @@ Clase02
 .. contents::
    :local:
 
-   Clase-02/clase-02
+   ./Clase-02/clase-02
+
