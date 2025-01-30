@@ -61,3 +61,6 @@ Algunos ejercicios:
    
 .. image:: e03.png    
    
+-------------------------------------------------
+
+:doc: `vectores`
