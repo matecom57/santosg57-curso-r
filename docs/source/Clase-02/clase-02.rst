@@ -66,4 +66,4 @@ Algunos ejercicios:
 -------------------------------------------------
 
 
-:doc: `vectores`
+:doc:`vectores`
