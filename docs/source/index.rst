@@ -1,11 +1,11 @@
 CURSO: Introducción al Lenguaje de Programación "R"
 ===================================
 
-Clase02
+Clase03
 -------
 
 .. contents::
    :local:
 
-:doc:`Clase-02/clase-03`
+:doc:`Clase-03/clase-03`
 
