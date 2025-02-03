@@ -19,7 +19,21 @@ Ventajas de utilizar "R"
 - El beneficio final de usar R es el conjunto de paquetes de R. La razón más importante de la creciente popularidad de R es su vasta biblioteca de paquetes llamada Red Integral de Archivos de R, o más comúnmente conocida como CRAN.1 La mayoría de los métodos de análisis estadístico suelen tener una implementación de código abierto en forma de un paquete de R. 
 
 
-1.3 Goal of This Book
+HOY
+---
+
+- Instalación de R
+
+- Herramientas de desarrollo
+
+- Elementos del lenguaje de programación R, como los operadores y los tipos de datos. 
+
+- Sintaxis de diferentes estructuras, como las sentencias condicionales y los bucles, junto con las funciones.
+
+- Carga de paquetes R desde Comprehensive R Archive Network (CRAN).
+
+- Ejecución del código R fuera de la consola R mediante Rscript.
+
 
 
 
