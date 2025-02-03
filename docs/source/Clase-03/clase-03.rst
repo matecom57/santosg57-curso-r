@@ -126,9 +126,69 @@ Tipos de datos Básicos
 
 * Existen dos tipos de datos: los **escalares**, que representan datos de un solo valor, y los **compuestos**, que representan conjuntos de datos escalares. Aquí analizamos los tipos de datos escalares en R; en el capítulo 3 analizaremos los tipos de datos compuestos, como los vectores y los marcos de datos.
 
-*R ofrece múltiples formatos de tipos de datos escalares, como **numéricos**, **enteros**, de **caracteres**, **lógicos** y **complejos*. 
+* R ofrece múltiples formatos de tipos de datos escalares, como **numéricos**, **enteros**, de **caracteres**, **lógicos** y **complejos*. 
 El tipo de datos numéricos se utiliza para representar números de **punto flotante*, mientras que los datos enteros se utilizan para representar únicamente **valores enteros**. 
 Podemos convertir variables de numéricas a enteras utilizando la función ``as.integer()``.
+
+.. code:: Bash
+
+   > as.integer(2.56)
+
+   [1] 2
+
+* Identificamos el tipo de datos de una variable mediante la función ``class()``.
+
+.. code:: Bash
+
+   > x <- 5
+
+   > class(x)
+
+   [1] "numeric"
+
+* También podemos comprobar si una variable es un número entero utilizando la función ``is.integer()``. Estas funciones, ``as.datatype()`` e ``is.datatype()``, existen para todos los tipos de datos mencionados anteriormente.
+
+* El tipo de datos de caracteres se utiliza para representar cadenas. Además, podemos utilizar comillas simples y dobles para encerrar cadenas.
+
+.. code:: Bash
+
+   > s1 = "string"
+
+   > s1
+  
+   [1] "string"
+ 
+   > s2 = ’also a string’
+
+   > s2
+
+   [1] "also a string"
+
+* Realizamos conversiones entre variables de caracteres y numéricas utilizando las funciones ``as.character()`` y ``as.numeric()``.
+
+.. code:: Bash
+
+   > as.character(2.5)
+ 
+   [1] "2.5"
+
+   > as.numeric(’2.5’)
+
+   [1] 2.5
+
+* Al igual que otros lenguajes de programación, R también tiene funciones estándar de procesamiento de cadenas, como calcular la longitud de una cadena, encontrar subcadenas y dividir una cadena en función de un carácter. La biblioteca stringr también proporciona un conjunto de funciones más consistentes y fáciles de usar para el procesamiento de cadenas.
+
+* El tipo de datos lógico representa los valores booleanos: verdadero y falso. R utiliza dos constantes TRUE y FALSE para representar valores booleanos. Estos valores también se representan mediante las constantes abreviadas T y F. En este libro, utilizamos estas constantes abreviadas para representar valores booleanos. R proporciona los operadores booleanos estándar: y (&), o (|), no (!) junto con operadores relacionales como igual a (==), menor que (<) y mayor que (>) que operan sobre variables numéricas y devuelven valores booleanos.
+
+* R también proporciona soporte para representar variables complejas que contienen un componente real e imaginario.
+
+.. code: Bash
+
+   > z = 2 + 3i
+
+
+
+
 
 
 
