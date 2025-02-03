@@ -16,7 +16,10 @@ Ventajas de utilizar "R"
 
 - R se puede utilizar como un entorno interactivo o no interactivo. Podemos utilizar R como una consola interactiva, donde podemos probar sentencias individuales y observar el resultado directamente. 
 
+- El beneficio final de usar R es el conjunto de paquetes de R. La razón más importante de la creciente popularidad de R es su vasta biblioteca de paquetes llamada Red Integral de Archivos de R, o más comúnmente conocida como CRAN.1 La mayoría de los métodos de análisis estadístico suelen tener una implementación de código abierto en forma de un paquete de R. 
 
+
+1.3 Goal of This Book
 
 
 
