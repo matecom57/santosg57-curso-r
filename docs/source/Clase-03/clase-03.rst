@@ -26,13 +26,13 @@ HOY
 
 2. Herramientas de desarrollo
 
-3. Elementos del lenguaje de programación R, como los operadores y los tipos de datos. 
+3. Elementos del lenguaje de programación R, como los **operadores** y los **tipos de datos**. 
 
-4.  Sintaxis de diferentes estructuras, como las sentencias condicionales y los bucles, junto con las funciones.
+4.  Sintaxis de diferentes estructuras, como las **sentencias condicionales** y los **bucles**, junto con las **funciones**.
 
-5.  Carga de paquetes R desde Comprehensive R Archive Network (CRAN).
+5.  Carga de **paquetes** R desde Comprehensive R Archive Network (**CRAN**).
 
-6. Ejecución del código R fuera de la consola R mediante Rscript.
+6. Ejecución del código R fuera de la consola R mediante `Rscript`.
 
 
 
