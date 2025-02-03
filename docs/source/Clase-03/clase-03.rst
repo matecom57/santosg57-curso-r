@@ -49,6 +49,12 @@ HOY
 2.Herramientas de desarrollo
 ****************************
 
+- Alternativamente, podemos escribir el código R en un editor de texto externo e importar o generar el código en la aplicación de línea de comandos. 
+
+- En Windows, R se instala como una aplicación de interfaz gráfica de usuario (GUI) (Fig. 2.2) con un conjunto de herramientas de desarrollo, como un editor integrado. También existe una aplicación GUI similar llamada R.app para Mac OS X. Sin embargo, estas aplicaciones son bastante básicas en comparación con los entornos de desarrollo integrados (IDE) para otros lenguajes de programación.
+
+- Recientemente, hay muchos IDE independientes disponibles para R. Uno de los IDE más potentes es RStudio1.
+
 - https://posit.co/download/rstudio-desktop/
 
 - https://code.visualstudio.com/download
