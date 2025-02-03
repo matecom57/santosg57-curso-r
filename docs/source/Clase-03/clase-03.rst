@@ -203,9 +203,9 @@ Estructuras de Control
 
    > x <- 2
    > if (x > 0) {
-   y = ’positive’
+   y = 'positive'
    } else {
-   y = ’negative or zero’
+   y = 'negative or zero'
    }
    y
 
