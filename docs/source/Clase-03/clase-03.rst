@@ -201,13 +201,14 @@ Estructuras de Control
 
 .. code:: Bash
 
+   > x <- 2
    > if (x > 0) {
-   +
    y = ’positive’
-   + } else {
-   +
+   } else {
    y = ’negative or zero’
-   + }
+   }
+   y
+
 
 
 
