@@ -64,6 +64,13 @@ HOY
 3. Elementos del lenguaje de programación R. Operadores y Tipos de Datos.
 ************************************************
 
+-  R es un lenguaje interpretado; las expresiones especificadas en un programa R se ejecutan línea por línea de manera similar a otros lenguajes interpretados, 
+
+- R tiene tipos dinámicos, lo que significa que infiere los tipos de datos de las variables en función del contexto. No necesitamos declarar las variables por separado.
+
+Operators
++++++++++
+
 
 
 
