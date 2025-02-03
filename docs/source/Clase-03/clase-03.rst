@@ -57,9 +57,9 @@ HOY
 
 - Algunos IDE's:
 
-* https://posit.co/download/rstudio-desktop/
+  * https://posit.co/download/rstudio-desktop/
 
-* https://code.visualstudio.com/download
+  * https://code.visualstudio.com/download
 
 
 
