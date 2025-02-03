@@ -61,6 +61,10 @@ HOY
 
   * https://code.visualstudio.com/download
 
+3. Elementos del lenguaje de programación R. Operadores y Tipos de Datos.
+************************************************
+
+
 
 
 
