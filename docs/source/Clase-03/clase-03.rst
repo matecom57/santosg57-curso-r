@@ -113,6 +113,26 @@ Desplegando Valores de Variables
    [1] "the sum is 7"
 
 
+* Existe una función más simple llamada ``cat()`` que puede imprimir una lista de valores, por lo que no necesitamos llamar a paste(). Como la función cat() no imprime el carácter de nueva línea, debemos especificarlo manualmente.
+
+.. code:: Bash
+
+   > cat(’the sum is’, 3 + 4, ’\n’)
+
+   the sum is 7
+
+Tipos de datos Básicos
+----------------------
+
+* Existen dos tipos de datos: los **escalares**, que representan datos de un solo valor, y los **compuestos**, que representan conjuntos de datos escalares. Aquí analizamos los tipos de datos escalares en R; en el capítulo 3 analizaremos los tipos de datos compuestos, como los vectores y los marcos de datos.
+
+*R ofrece múltiples formatos de tipos de datos escalares, como **numéricos**, **enteros**, de **caracteres**, **lógicos** y **complejos*. 
+El tipo de datos numéricos se utiliza para representar números de **punto flotante*, mientras que los datos enteros se utilizan para representar únicamente **valores enteros**. 
+Podemos convertir variables de numéricas a enteras utilizando la función ``as.integer()``.
+
+
+
+
 
 
 
