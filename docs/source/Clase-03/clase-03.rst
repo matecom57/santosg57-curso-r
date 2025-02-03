@@ -22,11 +22,11 @@ Ventajas de utilizar "R"
 HOY
 ---
 
-- Instalación de R
+1. Instalación de R
 
-- Herramientas de desarrollo
+   Herramientas de desarrollo
 
-- Elementos del lenguaje de programación R, como los operadores y los tipos de datos. 
+   Elementos del lenguaje de programación R, como los operadores y los tipos de datos. 
 
 - Sintaxis de diferentes estructuras, como las sentencias condicionales y los bucles, junto con las funciones.
 
