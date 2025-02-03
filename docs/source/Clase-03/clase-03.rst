@@ -93,6 +93,25 @@ Ingresamos la expresión 3 + 4 en la consola R.
 
    > x^2
 
+Desplegando Valores de Variables
+++++++++++++++++++++++++++++++++
+
+* Al ingresar una **expresión** en la consola R, se evalúa la expresión y luego se imprime su valor. Internamente, R llama a la función ``print()`` con el valor de la expresión. También podemos llamar a print() explícitamente. Esto es útil cuando queremos imprimir valores para variables en un **script**.
+
+.. code:: Bash
+
+   > print(3 + 4)
+   
+   [1] 7
+
+* La función ``print()`` imprime el valor de la expresión y una nueva línea. Sin embargo, no es sencillo imprimir varios valores utilizando print(), por ejemplo, si queremos imprimir el nombre de la variable junto con el valor. Necesitamos imprimir la salida de la función ``paste()`` que concatena dos cadenas con un espacio.
+
+.. code:: Bash
+
+   > print(paste(’the sum is’, 3 + 4))
+
+   [1] "the sum is 7"
+
 
 
 
