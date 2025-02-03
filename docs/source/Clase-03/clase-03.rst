@@ -49,10 +49,8 @@ HOY
 2.Herramientas de desarrollo
 ****************************
 
-- El codigo que se escribe en lenguaje R, se puede ejecutar dentro de un programa que es llamado **Ambente de Desarrollo" o en un terminal como línea de comando.
-
-
-Alternativamente, podemos escribir el código R en un editor de texto externo e importar o generar el código en la aplicación de línea de comandos. 
+- El codigo que se escribe en lenguaje R, se puede ejecutar dentro de un programa que es llamado **Ambente de Desarrollo (IDE)** o escribir el codigo en un editor de texto externo i ejecutar
+el codigo en un terminal en línea de comando.
 
 - En Windows, R se instala como una aplicación de interfaz gráfica de usuario (GUI) (Fig. 2.2) con un conjunto de herramientas de desarrollo, como un editor integrado. También existe una aplicación GUI similar llamada R.app para Mac OS X. Sin embargo, estas aplicaciones son bastante básicas en comparación con los entornos de desarrollo integrados (IDE) para otros lenguajes de programación.
 
