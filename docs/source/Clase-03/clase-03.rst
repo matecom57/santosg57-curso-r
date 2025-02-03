@@ -32,7 +32,7 @@ HOY
 
 5.  Carga de **paquetes** R desde Comprehensive R Archive Network (**CRAN**).
 
-6. Ejecución del código R fuera de la consola R mediante `Rscript`.
+6. Ejecución del código R fuera de la consola R mediante ``Rscript``.
 
 
 
