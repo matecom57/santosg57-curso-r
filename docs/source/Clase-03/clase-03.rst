@@ -89,9 +89,9 @@ Ingresamos la expresión 3 + 4 en la consola R.
 
 .. code:: Bash
 
-   > x = 5
+   > x <- 5
 
-   > xˆ2
+   > x^2
 
 
 
