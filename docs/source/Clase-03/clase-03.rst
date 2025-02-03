@@ -42,9 +42,13 @@ HOY
 
 - https://www.r-project.org/
 
+2.Herramientas de desarrollo
+****************************
+
 - https://posit.co/download/rstudio-desktop/
 
 - https://code.visualstudio.com/download
+
 
 
 
