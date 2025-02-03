@@ -68,8 +68,19 @@ HOY
 
 - R tiene tipos dinámicos, lo que significa que infiere los tipos de datos de las variables en función del contexto. No necesitamos declarar las variables por separado.
 
-Operators
+Operadores
 +++++++++
+
+- R proporciona operadores aritméticos como suma (+), resta (-), multiplicación (*), división (/) y exponenciación (ˆ). 
+
+Ingresamos la expresión 3 + 4 en la consola R. 
+
+.. code:: Bash
+
+   > 3 + 4
+   
+   [1] 7
+
 
 
 
