@@ -81,6 +81,17 @@ Ingresamos la expresión 3 + 4 en la consola R.
    
    [1] 7
 
+* Usamos un operador de asignación para asignar el valor de una expresión a una variable. R tiene dos operadores de asignación: el operador de asignación convencional ``=`` que está presente en la mayoría de los lenguajes de programación, y las flechas ``<-`` y ``->`` que son específicas de R.
+
+* La expresión ``x = 5`` asigna el valor 5 a x; la expresión ``x <- 5`` y ``5 -> x`` tienen exactamente el mismo efecto.
+
+* Podemos crear expresiones utilizando variables. Por ejemplo, asignamos el valor 5 a la variable x y evaluamos el cuadrado de x utilizando el operador de exponenciación (ˆ).
+
+.. code:: Bash
+
+   > x = 5
+
+   > xˆ2
 
 
 
