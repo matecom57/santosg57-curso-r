@@ -35,6 +35,18 @@ HOY
 6. Ejecución del código R fuera de la consola R mediante ``Rscript``.
 
 
+------------------------------------------------------------
+
+1. Instalación de R
+*******************
+
+- https://www.r-project.org/
+
+- https://posit.co/download/rstudio-desktop/
+
+- https://code.visualstudio.com/download
+
+
 
 
 
