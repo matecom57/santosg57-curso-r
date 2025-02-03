@@ -220,7 +220,7 @@ Estructuras de Control
 
 .. code:: Bash
 
-   > y = ifelse(x > 0, ’positive’, ’negative or zero’)
+   > y = ifelse(x > 0, 'positive', 'negative or zero')
 
 * Una extensión de la función ``ifelse()`` a múltiples valores es la función ``switch()``.
 
@@ -236,6 +236,36 @@ Estructuras de Control
      }
    > total
    [1] 385
+
+* Otra construcción de bucle útil es el bucle de repetición, en el que no hay ninguna condición booleana. El bucle continúa hasta que se cumple una condición de interrupción; conceptualmente, el bucle de repetición es similar a while (T). Calculamos la misma suma de cuadrados de 1 a 10 utilizando un bucle de repetición.
+
+.. code:: Bash
+
+   > total = 0
+   > i = 1
+   > repeat {
+       total = total + iˆ2
+       if (i == 10) break
+       i = i + 1
+   }
+   > total
+   [1] 385
+
+* R también tiene un bucle for poderoso que es más similar al bucle for de Python o Javascript que al bucle for de C. En este bucle, iteramos sobre un vector de elementos. Usamos el operador in para acceder a un elemento de este vector a la vez. Hablaremos de vectores con más detalle en el Capítulo 3; por ahora, construimos un vector de elementos del 1 al 10 como 1:10. Calculamos la misma suma de cuadrados del 1 al 10 usando un bucle for a continuación.
+
+.. code:: Bash
+
+   > total = 0
+   > for (i in 1:10) {
+       total = total + iˆ2
+     }
+   > total
+   [1] 38512
+
+Funciones
+---------
+
+
 
 
 
