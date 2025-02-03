@@ -40,9 +40,9 @@ HOY
 1. Instalación de R
 *******************
 
-- Hay dos formas de instalar R: descargar un binario de R y compilar R desde el código fuente. 
+- Hay dos formas de instalar R, descargar un archivo  binario de R o descargar el codigo fuente de R y compilar este codigo. 
 
-- Cada versión tiene un nombre asignado. A excepción de las versiones principales, las versiones de R suelen ser compatibles con versiones anteriores en cuanto a su funcionalidad. En este libro, utilizamos la versión 3.1.0 de R.
+- El lenguaje R se desarolla en versiones y estas se representan en numeros de secuencia y un nombre.
 
 - https://www.r-project.org/
 
