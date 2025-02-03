@@ -186,6 +186,32 @@ Podemos convertir variables de numéricas a enteras utilizando la función ``as.
 
    > z = 2 + 3i
 
+* Podemos realizar operaciones directamente sobre las variables complejas.
+
+.. code: Bash
+
+   > z^2
+
+   [1] -5+12i
+
+Estructuras de Control
+----------------------
+
+* R proporciona estructuras de control como ramificaciones condicionales (``if-else``) y **bucles**. La sintaxis de if-else es similar a la de la mayoría de los demás lenguajes de programación:
+
+.. code:: Bash
+
+   > if (x > 0) {
+   +
+   y = ’positive’
+   + } else {
+   +
+   y = ’negative or zero’
+   + }
+
+
+
+
 
 
 
