@@ -297,7 +297,7 @@ construimos un vector de elementos del 1 al 10 como ``1:10``. Calculamos la mism
 
    > total = 0
    > for (i in 1:10) {
-       total = total + ì^2
+       total = total + i^2
      }
    > total
    [1] 38512
