@@ -50,7 +50,7 @@ HOY
 
 - Hay dos formas de instalar R, descargar un archivo  binario de R o descargar el codigo fuente de R y compilar este codigo. 
 
-- El lenguaje R se desarolla en versiones y estas se representan en números de secuencia y un nombre.
+- El lenguaje R se desarolla en versiones y estas se representancon números de secuencia y un nombre.
 
 - El repositorio de softeare de este lenguaje esta en: https://www.r-project.org/
 
@@ -93,7 +93,8 @@ Ingresamos la expresión 3 + 4 en la consola R.
 
 * La expresión ``x = 5`` asigna el valor 5 a x; la expresión ``x <- 5`` y ``5 -> x`` tienen exactamente el mismo efecto.
 
-* Podemos crear expresiones utilizando variables. Por ejemplo, asignamos el valor 5 a la variable x y evaluamos el cuadrado de x utilizando el operador de exponenciación (ˆ).
+* Podemos crear expresiones utilizando variables. Por ejemplo, asignamos el valor **5** a la variable **x** y evaluamos el cuadrado de **x** utilizando el operador de 
+exponenciación (ˆ).
 
 .. code:: Bash
 
@@ -116,7 +117,7 @@ Desplegando Valores de Variables
 
 .. code:: Bash
 
-   > print(paste(’the sum is’, 3 + 4))
+   > print(paste('the sum is', 3 + 4))
 
    [1] "the sum is 7"
 
@@ -125,7 +126,7 @@ Desplegando Valores de Variables
 
 .. code:: Bash
 
-   > cat(’the sum is’, 3 + 4, ’\n’)
+   > cat('the sum is', 3 + 4, '\n')
 
    the sum is 7
 
