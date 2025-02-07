@@ -133,10 +133,14 @@ Desplegando Valores de Variables
 Tipos de datos Básicos
 ----------------------
 
-* Existen dos tipos de datos: los **escalares**, que representan datos de un solo valor, y los **compuestos**, que representan conjuntos de datos escalares. Aquí analizamos los tipos de datos escalares en R; en el capítulo 3 analizaremos los tipos de datos compuestos, como los vectores y los marcos de datos.
+* Existen dos tipos de datos: los **escalares**, que representan datos de un solo valor, y los **compuestos**, que representan conjuntos de datos escalares. Aquí 
+analizamos los tipos de datos escalares en R.
 
-* R ofrece múltiples formatos de tipos de datos escalares, como **numéricos**, **enteros**, de **caracteres**, **lógicos** y **complejos*. 
-El tipo de datos numéricos se utiliza para representar números de **punto flotante*, mientras que los datos enteros se utilizan para representar únicamente **valores enteros**. 
+* R ofrece múltiples formatos de tipos de datos escalares, como **numéricos**, **enteros**, **caracteres (string's)**, **lógicos** y **complejos**.
+ 
+El tipo de datos numéricos se utiliza para representar números de **punto flotante**, mientras que los datos enteros se utilizan para representar únicamente **valores 
+enteros**. 
+
 Podemos convertir variables de numéricas a enteras utilizando la función ``as.integer()``.
 
 .. code:: Bash
@@ -145,7 +149,7 @@ Podemos convertir variables de numéricas a enteras utilizando la función ``as.
 
    [1] 2
 
-* Identificamos el tipo de datos de una variable mediante la función ``class()``.
+* Identificamos el tipo de dato de una variable mediante la función ``class()``.
 
 .. code:: Bash
 
@@ -167,7 +171,7 @@ Podemos convertir variables de numéricas a enteras utilizando la función ``as.
   
    [1] "string"
  
-   > s2 = ’also a string’
+   > s2 = 'also a string'
 
    > s2
 
@@ -181,23 +185,30 @@ Podemos convertir variables de numéricas a enteras utilizando la función ``as.
  
    [1] "2.5"
 
-   > as.numeric(’2.5’)
+   > as.numeric('2.5')
 
    [1] 2.5
 
-* Al igual que otros lenguajes de programación, R también tiene funciones estándar de procesamiento de cadenas, como calcular la longitud de una cadena, encontrar subcadenas y dividir una cadena en función de un carácter. La biblioteca stringr también proporciona un conjunto de funciones más consistentes y fáciles de usar para el procesamiento de cadenas.
+* Al igual que otros lenguajes de programación, R también tiene funciones estándar de procesamiento de cadenas, como calcular la longitud de una cadena, encontrar 
+subcadenas y dividir una cadena en función de un carácter. La biblioteca ``stringr`` también proporciona un conjunto de funciones más consistentes y fáciles de usar para 
+el procesamiento de cadenas.
 
-* El tipo de datos lógico representa los valores booleanos: verdadero y falso. R utiliza dos constantes TRUE y FALSE para representar valores booleanos. Estos valores también se representan mediante las constantes abreviadas T y F. En este libro, utilizamos estas constantes abreviadas para representar valores booleanos. R proporciona los operadores booleanos estándar: y (&), o (|), no (!) junto con operadores relacionales como igual a (==), menor que (<) y mayor que (>) que operan sobre variables numéricas y devuelven valores booleanos.
+* El tipo de datos lógico representa los valores booleanos: verdadero y falso. R utiliza dos constantes ``TRUE`` y ``FALSE`` para representar valores booleanos. Estos 
+valores 
+también se representan mediante las constantes abreviadas ``T`` y ``F``. En este libro, utilizamos estas constantes abreviadas para representar valores booleanos. R 
+proporciona 
+los operadores booleanos estándar: y (``&``), o (``|``), no (``!``) junto con operadores relacionales como igual a (``==``), menor que (``<``) y mayor que (``>``) que 
+operan sobre variables numéricas y devuelven valores booleanos.
 
 * R también proporciona soporte para representar variables complejas que contienen un componente real e imaginario.
 
-.. code: Bash
+.. code:: Bash
 
    > z = 2 + 3i
 
 * Podemos realizar operaciones directamente sobre las variables complejas.
 
-.. code: Bash
+.. code:: Bash
 
    > z^2
 
@@ -225,7 +236,8 @@ Estructuras de Control
 
    > y = if (x > 0) 'positive' else 'negative or zero'
 
-* También podemos escribir la misma expresión usando la función ifelse(), donde el primer argumento es la condición booleana, y el segundo y tercer argumento son los valores respectivos para que la condición sea verdadera y falsa.
+* También podemos escribir la misma expresión usando la función ``ifelse()``, donde el primer argumento es la condición booleana, y el segundo y tercer argumento son los 
+valores respectivos para que la condición sea verdadera y falsa.
 
 .. code:: Bash
 
@@ -233,40 +245,44 @@ Estructuras de Control
 
 * Una extensión de la función ``ifelse()`` a múltiples valores es la función ``switch()``.
 
-* R también proporciona múltiples estructuras de bucle. El bucle más simple es el bucle while, en el que especificamos la condición booleana junto con un conjunto de pasos que se ejecutan cada vez hasta que se cumple la condición. La sintaxis del bucle while no es diferente de la de C. Usamos el bucle while para calcular la suma de los cuadrados de 1 a 10.
+* R también proporciona múltiples estructuras de bucle. El bucle más simple es el bucle ``while``, en el que especificamos la condición booleana junto con un conjunto de 
+pasos que se ejecutan cada vez hasta que se cumple la condición. La sintaxis del bucle while no es diferente de la de C. Usamos el bucle while para calcular la suma de los cuadrados de 1 a 10.
 
 .. code:: Bash
 
    > total = 0
    > i = 1
    > while (i <= 10) {
-       total = total + iˆ2
+       total = total + i^2
        i = i + 1
      }
    > total
    [1] 385
 
-* Otra construcción de bucle útil es el bucle de repetición, en el que no hay ninguna condición booleana. El bucle continúa hasta que se cumple una condición de interrupción; conceptualmente, el bucle de repetición es similar a while (T). Calculamos la misma suma de cuadrados de 1 a 10 utilizando un bucle de repetición.
+* Otra construcción de bucle útil es el bucle de ``repeat``, en el que no hay ninguna condición booleana. El bucle continúa hasta que se cumple una condición de 
+interrupción; conceptualmente, el bucle de repetición es similar a while (T). Calculamos la misma suma de cuadrados de 1 a 10 utilizando un bucle de repetición.
 
 .. code:: Bash
 
    > total = 0
    > i = 1
    > repeat {
-       total = total + iˆ2
+       total = total + i^2
        if (i == 10) break
        i = i + 1
    }
    > total
    [1] 385
 
-* R también tiene un bucle for poderoso que es más similar al bucle for de Python o Javascript que al bucle for de C. En este bucle, iteramos sobre un vector de elementos. Usamos el operador in para acceder a un elemento de este vector a la vez. Hablaremos de vectores con más detalle en el Capítulo 3; por ahora, construimos un vector de elementos del 1 al 10 como 1:10. Calculamos la misma suma de cuadrados del 1 al 10 usando un bucle for a continuación.
+* R también tiene un bucle for poderoso que es más similar al bucle for de Python o Javascript que al bucle ``for`` de C. En este bucle, iteramos sobre un **vector** de 
+elementos. Usamos el operador ``in`` para acceder a un elemento de este vector a la vez. Hablaremos de vectores con más àdelante; por ahora, 
+construimos un vector de elementos del 1 al 10 como ``1:10``. Calculamos la misma suma de cuadrados del 1 al 10 usando un bucle for a continuación.
 
 .. code:: Bash
 
    > total = 0
    > for (i in 1:10) {
-       total = total + iˆ2
+       total = total + ì^2
      }
    > total
    [1] 38512
