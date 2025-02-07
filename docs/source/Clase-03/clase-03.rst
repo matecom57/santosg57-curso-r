@@ -26,6 +26,13 @@ en forma de un paquete de R.
 
 .. image:: rstudio.png
 
+Agunas funciones vistas
+-----------------------
+
+.. code:: Bash
+
+   ls() - lista las variables definidas que estan en memoria de R
+
 
 HOY
 ---
