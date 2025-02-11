@@ -7,4 +7,6 @@ Clase-04
 
 3. Ejercicios
 
+:doc:`Comenzamos`
+
 
