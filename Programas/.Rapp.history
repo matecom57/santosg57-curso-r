@@ -1,0 +1,281 @@
+a = (.5, .3, sqrt(2), exp(5), 10, 1/2, pi, e)
+a = c(.5, .3, sqrt(2), exp(5), 10, 1/2, pi, e)
+a = c(.5, .3, sqrt(2), exp(5), 10, 1/2, pi, exp(1))
+a[2]
+a[5:7]
+pi
+pi - 3.141593
+x = pi - 3.141593
+x
+?ln
+?log
+((1,2,3),(5,7,8))
+c(c(1,2,3),c(5,7,8))
+y = matrix(1:6, ncol=2)
+y
+x = (y, y)
+x = c(y, y)
+x
+y
+x = array(y,y)
+x
+dim(x)
+dim(y)
+?array
+x = array(y)
+x
+y
+x = array(dim(3,2,4))
+x = array(dim=c(3,2,4))
+x
+x[,,1] = y
+x
+x[,,3] = y
+x
+is.array(x)
+is.array(y)
+is.matrix(y)
+is.matrix(x)
+3 + 4
+x <- 5
+x
+x <- 5
+x^2
+x
+print(3 + 4)
+print(paste(’the sum is’, 3 + 4))
+'the sum is', 3 + 4, '\n'
+cat('the sum is', 3 + 4, '\n')
+x <- 5
+class(x)
+s1 = "string"
+s1
+s2 = ’also a string’
+x <- 2
+if (x > 0) {#
+y = 'positive'#
+} else {#
+y = 'negative or zero'#
+}#
+y
+y = if (x > 0) 'positive' else 'negative or zero'
+y
+y = ifelse(x > 0, 'positive', 'negative or zero')
+total = 0
+i = 1
+while (i <= 10) {#
+    total = total + iˆ2#
+    i = i + 1#
+  }
+repeat {#
+    total = total + iˆ2#
+    if (i == 10) break#
+    i = i + 1#
+}
+total = 0
+for (i in 1:10) {#
+    total = total + ì^2#
+  }
+i = 1
+repeat {#
+    total = total + i^2#
+    if (i == 10) break#
+    i = i + 1#
+}
+total
+ls()
+dir()
+ls()
+rm(x,y)
+ls()
+getwd()
+dir()
+3 + 4
+x=5
+x <- 5
+5 -> x
+x <- 5
+x^2
+y <- x^2
+y
+print(3 + 4)
+3+4
+print(3 + 4)
+print(paste('the sum is', 3 + 4))
+print('the sum is', 3 + 4)
+print(paste('the sum is', 3 + 4))
+x = paste('hola', 6+4, 'holas')
+x
+x = 'hola'
+x = "hola"
+cat('the sum is', 3 + 4, '\n')
+cat('the sum is', 3 + 4)
+as.integer(2.56)
+as.integer(2.9)
+x <- 5
+class(x)
+is.integer(x)
+x <- as.integer(5)
+class(x)
+is.integer(x)
+s1 = "string"
+is.character(s1)
+is.character(5.2)
+is.character('5.2')
+as.character(2.5)
+as.character(1000000)
+as.character(10^6)
+as.character(1e6)
+TRUE
+x= FALSE
+x
+class(x)
+as.logical(x)
+x
+as.logical(3)
+as.logical(0)
+as.logical(.2)
+as.logical(0)
+as.logical(-1)
+as.logical(.00001)
+as.logical(-.00001)
+5>3 | 4 > 6
+5>3 & !(4 > 6)
+z = 2 + 3i
+z
+z^2
+i*i
+sqrt(-1)
+x <- 2
+if (x > 0) {#
+y = 'positive'#
+} else {#
+y = 'negative or zero'#
+}
+y
+x = -2
+if (x > 0) {#
+y = 'positive'#
+} else {#
+y = 'negative or zero'#
+}
+y
+x = 2
+y
+y = if (x > 0) 'positive' else 'negative or zero'
+y
+x = -2
+y = ifelse(x > 0, 'positive', 'negative or zero')
+y
+total = 0
+i = 1
+repeat {#
+    total = total + i^2#
+    if (i == 10) break#
+    i = i + 1#
+}
+total
+repeat {#
+    total = total + i^2
+i = i + 1
+if (i == 10) break
+}
+3:10
+seq(2, 20,2)
+seq(2, 20,3)
+hola <- function(){}
+hola <- function(){
+print('hola mundo')
+}
+hola
+hola()
+cos(0)
+sin(0)
+te = pi/2
+cos(te)
+sin(te)
+te = pi
+cos(te)
+sin(te)
+2*pi
+source('perimetro.R')
+source('perimetro.R')
+source('perimetro.R')
+2*pi*2
+2*pi*2
+source('perimetro.R')
+source('perimetro.R')
+source('perimetro.R')
+source('perimetro.R')
+4*pi
+source('area.R')
+source('area.R')
+ss='10110001'
+class(ss)
+?substr
+substr(ss,2,2)
+substr(ss,3,3)
+x = 43
+y = 4*10+3
+y
+b=10
+x = 1*2^1 + 0*2^0
+x
+b=1011001
+x =1*2^6+0*2^5+1*2^4+1*2^3+0*2^2+0*2^1+1*2^0
+x
+b='1011001'
+x = substr(b,1,1)
+x
+as.numeric(x)
+x = 2
+x%2
+x % 2
+mod(x , 2)
+x %% 2
+x = 2
+r = x %% 2
+r
+int(x/2)
+fix(x/2)
+round(x/2)
+x = 3
+r = x %% 2
+r
+round(x/2)
+fix(x/2)
+?round
+ceiling(x/2)
+trunc(x/2)
+x = 5
+r = x %% 2
+r
+bin=paste(r)
+bin
+x = trunc(5/2)
+x
+r = x %% 2
+r
+bin = paste(r,bin)
+bin
+x = trunc(x/2)
+x
+bin = paste(1,bin)
+bin
+x = 11
+r = x %% 2
+b = paste(r)
+x = trunc(x/2)
+x
+r = x %% 2
+b = paste(r, b, sep='')
+b
+x = trunc(x/2)
+x
+r = x %% 2
+b = paste(r, b, sep='')
+b
+x = trunc(x/2)
+x
+b = paste(1, b, sep='')
+b
