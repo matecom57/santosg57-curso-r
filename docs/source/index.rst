@@ -13,3 +13,4 @@ Clase03
 
 :doc:`Clase-05/clase05`
 
+:doc:`Clase-06/vectores`
