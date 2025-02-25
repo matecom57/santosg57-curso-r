@@ -17,6 +17,16 @@ Ejemplos:
 
    plot(x,y)
 
+2. Sea:
 
+.. code:: Bash
+
+   x <- seq(-2,4,.1)
+  
+   y <- x^2
+
+   plot(x,y)
+
+   points(x, x^3, col='red')
 
 
