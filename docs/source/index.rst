@@ -19,3 +19,4 @@ Clase03
 
 :doc:`Estadistica_Descriptiva`
 
+`:doc:`Ejercicios`
