@@ -57,19 +57,20 @@ Otra manera de graficar lo anterior:
 AYUDA:
 
 .. code:: Bash
-  barplot {graphics}	R Documentation
-  Bar Plots
 
-  Description
+   barplot {graphics}	R Documentation
+   Bar Plots
 
-  Creates a bar plot with vertical or horizontal bars.
+   Description
 
-  Usage
+   Creates a bar plot with vertical or horizontal bars.
 
-  barplot(height, ...)
+   Usage
 
-  ## Default S3 method:
-  barplot(height, width = 1, space = NULL,
+   barplot(height, ...)
+
+   ## Default S3 method:
+   barplot(height, width = 1, space = NULL,
         names.arg = NULL, legend.text = NULL, beside = FALSE,
         horiz = FALSE, density = NULL, angle = 45,
         col = NULL, border = par("fg"),
@@ -80,8 +81,8 @@ AYUDA:
         inside = TRUE, plot = TRUE, axis.lty = 0, offset = 0,
         add = FALSE, ann = !add && par("ann"), args.legend = NULL, ...)
 
-  ## S3 method for class 'formula'
-  barplot(formula, data, subset, na.action,
+   ## S3 method for class 'formula'
+   barplot(formula, data, subset, na.action,
         horiz = FALSE, xlab = NULL, ylab = NULL, ...)
 
 
