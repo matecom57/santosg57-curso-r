@@ -35,6 +35,18 @@ Ejemplos:
 
    boxplot(x,y,z)
 
+Otra manera de graficar lo anterior:
+
+.. code:: Bash
+   
+   x <- c(58, 53, 50, 52, 55, 53, 53)
+   y <- c(58, 59, 53, 55, 64, 55, 56, 64, 57, 62, 60, 59)
+   z <- c(56, 65, 50, 47, 63, 60, 61, 46, 62, 58, 57, 61)
+
+   w <- c(x,y,z)
+   f = factor(rep(1, 7), rep(2,12), rep(3,12))
+   boxplot(w ~ f)
+
 
 
 
