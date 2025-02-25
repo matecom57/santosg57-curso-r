@@ -10,7 +10,7 @@ Distribución de Probabilidad ``Normal``
    x <- seq(-3,3,.1)
    y <- dnorm(x)
 
-   par(mfrow=c(2,2)
+   par(mfrow=c(2,2))
    plot(x,y, type='l', main='Densidad Normal')
    
    r = rnorm(100)
