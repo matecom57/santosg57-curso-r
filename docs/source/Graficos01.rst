@@ -20,11 +20,9 @@ Ejemplos:
 .. code:: Bash
 
    x <- seq(-2,4,.1)
-  
    y <- x^2
+   plot(x,y, type='l')
 
-   plot(x,y)
-
-   points(x, x^3, col='red')
+   points(x, x^3, col='red', type='l')
 
 
