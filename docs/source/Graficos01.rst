@@ -47,6 +47,14 @@ Otra manera de graficar lo anterior:
    f = factor(rep(1, 7), rep(2,12), rep(3,12))
    boxplot(w ~ f)
 
+4. Sea
+
+.. code:: Bash
+   
+   x <- c(58, 53, 50, 52, 55, 53, 53)
+   barplot(x)
+
+
 
 
 
