@@ -17,4 +17,5 @@ Clase03
 
 :doc:`Graficos01`
 
+:doc:`Estadistica_Descriptiva`
 
