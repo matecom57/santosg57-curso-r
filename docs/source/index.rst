@@ -4,19 +4,13 @@ CURSO: Introducción al Lenguaje de Programación "R"
 Clase03
 -------
 
-.. contents::
-   :local:
+.. toctree::
+   :numbered:
 
-:doc:`Clase-03/clase-03`
-
-:doc:`Clase-04/clase04`
-
-:doc:`Clase-05/clase05`
-
-:doc:`Clase-06/vectores`
-
-:doc:`Graficos01`
-
-:doc:`Estadistica_Descriptiva`
-
-:doc:`Ejercicios`
+   Clase-03/clase-03
+   Clase-04/clase04
+   Clase-05/clase05
+   Clase-06/vectores
+   Graficos01
+   Estadistica_Descriptiva
+   Ejercicios
