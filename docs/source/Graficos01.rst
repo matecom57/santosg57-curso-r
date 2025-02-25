@@ -54,7 +54,35 @@ Otra manera de graficar lo anterior:
    x <- c(58, 53, 50, 52, 55, 53, 53)
    barplot(x)
 
+AYUDA:
 
+.. code:: Bash
+  barplot {graphics}	R Documentation
+  Bar Plots
+
+  Description
+
+  Creates a bar plot with vertical or horizontal bars.
+
+  Usage
+
+  barplot(height, ...)
+
+  ## Default S3 method:
+  barplot(height, width = 1, space = NULL,
+        names.arg = NULL, legend.text = NULL, beside = FALSE,
+        horiz = FALSE, density = NULL, angle = 45,
+        col = NULL, border = par("fg"),
+        main = NULL, sub = NULL, xlab = NULL, ylab = NULL,
+        xlim = NULL, ylim = NULL, xpd = TRUE, log = "",
+        axes = TRUE, axisnames = TRUE,
+        cex.axis = par("cex.axis"), cex.names = par("cex.axis"),
+        inside = TRUE, plot = TRUE, axis.lty = 0, offset = 0,
+        add = FALSE, ann = !add && par("ann"), args.legend = NULL, ...)
+
+  ## S3 method for class 'formula'
+  barplot(formula, data, subset, na.action,
+        horiz = FALSE, xlab = NULL, ylab = NULL, ...)
 
 
 
