@@ -44,7 +44,7 @@ Otra manera de graficar lo anterior:
    z <- c(56, 65, 50, 47, 63, 60, 61, 46, 62, 58, 57, 61)
 
    w <- c(x,y,z)
-   f = factor(rep(1, 7), rep(2,12), rep(3,12))
+   f = factor(c(rep(1, 7), rep(2,12), rep(3,12)))
    boxplot(w ~ f)
 
 4. Sea
