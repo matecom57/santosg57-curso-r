@@ -52,7 +52,7 @@ Otra manera de graficar lo anterior:
 .. code:: Bash
    
    x <- c(58, 53, 50, 52, 55, 53, 53)
-   barplot(x)
+   barplot(x, ylim=c(0, 70)
 
 AYUDA:
 
