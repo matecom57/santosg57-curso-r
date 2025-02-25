@@ -18,3 +18,7 @@ Distribución de Probabilidad ``Normal``
 
    p = pnorm(x, , main='Frecuencia Acumulada')
 
+
+Otras Funciones de Probabilidad: ``uniforme-runif, ji al cuadrado-rchisq, t-rt``
+
+ 
