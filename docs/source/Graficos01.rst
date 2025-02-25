@@ -12,9 +12,7 @@ Ejemplos:
 .. code:: Bash
   
    x <- c(1, 1.5, 2, 3, 3.5, 4)
-
    y <- c(3, 5, 3, 6, 2, 1)
-
    plot(x,y)
 
 2. Sea:
