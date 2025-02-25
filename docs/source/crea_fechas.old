@@ -1,0 +1,29 @@
+file = 'fechas.txt'
+
+fil = open(file, 'w')
+
+dias = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo']
+
+i0 = 0
+ini =27
+fin = 31
+mes = 'ene'
+
+for ii in range(ini, fin+1):
+  dd = dias[i0]
+  ss = mes+str(ii)+dd
+  print(ss)
+  i0 = i0+1
+
+mes = 'feb'
+ini = 1
+fin = 28
+
+i0 = 5
+for ii in range(ini, fin+1):
+  dd = dias[i0]
+  ss = mes + str(ii) + dd
+  print(ss)
+  i0 = i0+1
+  i0 = i0%7
+
