@@ -91,28 +91,38 @@ Operaciones en Matrices
 Sacando elementos de una matriz
 -------------------------------
 
-m = matrix(1:12, ncol=3)
+.. code:: Bash
 
-m[2,3]
+   m = matrix(1:12, ncol=3)
 
-> m[2,]
+   m[2,3]
 
-m[,3]
+   m[2,]
 
-m > 4
+   m[,3]
 
-m*(m>4)
+   m > 4
 
-Display Imagenes
+   m*(m>4)
 
-# Datos
-x <- -10:10
-y <- -10:10
-z <- sqrt(outer(x ^ 2, y ^ 2, "+"))
+Mostrando matrices como Imagenes
+--------------------------------
 
-image(x, y, z)
+.. code:: Bash
 
-image(m-1, col= gray.colors(14))
+   # Datos
+   x <- -10:10
+   y <- -10:10
+   z <- sqrt(outer(x ^ 2, y ^ 2, "+"))
+
+   image(x, y, z)
+
+
+.. code:: Bash
+
+   m = matrix(1:12, ncol=3)
+
+   image(m, col= gray.colors(12))
 
 
 
