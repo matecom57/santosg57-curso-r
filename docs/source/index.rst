@@ -14,3 +14,4 @@ Clase03
    Graficos01
    Estadistica_Descriptiva
    Ejercicios
+   matrices
