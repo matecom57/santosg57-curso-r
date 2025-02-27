@@ -3,8 +3,13 @@ Matrices
 
 .. image:: matrices.png
 
+Ejemplos
+--------
 
-matrix(1:12)
+.. code:: Bash
+
+   1:12
+   matrix(1:12)
 
 matrix(1:12, nrow = 3, ncol = 4)
 
