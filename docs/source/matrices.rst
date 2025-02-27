@@ -11,65 +11,85 @@ Ejemplos
    1:12
    matrix(1:12)
 
-matrix(1:12, nrow = 3, ncol = 4)
+.. code:: Bash
 
-matrix(1:12, nrow = 5, ncol = 4)
+   matrix(1:12, nrow = 3, ncol = 4)
 
-Otro procedimiento para crear matrices es la unión vectores con las siguientes funciones:
+.. code:: Bash
+ 
+   matrix(1:12, nrow = 5, ncol = 4)
 
-cbind() para unir vectores, usando cada uno como una columna.
-rbind() para unir vectores, usando cada uno como un renglón.
+Otra manera para crear matrices es utilizando las  funciones:
+-------------------------------------------------------------
 
-vector_1 <- 1:4
-vector_2 <- 5:8
-vector_3 <- 9:12
-vector_4 <- 13:16
+``cbind()`` para unir vectores, usando cada uno como una columna.
 
-matriz <- rbind(vector_1, vector_2, vector_3, vector_4)
+``rbind()`` para unir vectores, usando cada uno como un renglón.
 
-matriz <- cbind(vector_1, vector_2, vector_3, vector_4)
+Ejemplos
+--------
 
-vector_1 <- 1:2
-vector_2 <- 1:3
-vector_3 <- 1:5
+.. code:: Bash
 
-matriz <- cbind(vector_1, vector_2, vector_3)
+   vector_1 <- 1:4
+   vector_2 <- 5:8
+   vector_3 <- 9:12
+   vector_4 <- 13:16
 
-6.2.2 Propiedades de las matrices
-No obstante que las matrices y arrays son estructuras que sólo pueden contener un tipo de datos, no son 
-atómicas. Su clase es igual a matriz (matrix) o array segun corresponda.
+   matriz <- rbind(vector_1, vector_2, vector_3, vector_4)
 
-Verificamos esto usando la función class().
+   matriz <- cbind(vector_1, vector_2, vector_3, vector_4)
 
-mi_matriz <- matrix(1:10)
+.. code:: Bash
 
-class(mi_matriz)
-## [1] "matrix"
+   vector_1 <- 1:2
+   vector_2 <- 1:3
+   vector_3 <- 1:5
 
-mi_matriz <- matrix(1:12, nrow = 4, ncol = 3)
-dim(mi_matriz)
-## [1] 4 3
+   matriz <- cbind(vector_1, vector_2, vector_3)
+
+Propiedades de las matrices
+----------------------------
+
+.. code:: Bash
+
+   mi_matriz <- matrix(1:10)
+
+   class(mi_matriz)
+
+   ## [1] "matrix"
+
+.. code:: Bash
+
+   mi_matriz <- matrix(1:12, nrow = 4, ncol = 3)
+   dim(mi_matriz)
+   ## [1] 4 3
 
 Operaciones en Matrices
+-----------------------
 
-mi_matriz <- matrix(1:9, nrow = 3, ncol = 3)
+.. code:: Bash
 
-# Suma
-mi_matriz + 1
+    mi_matriz <- matrix(1:9, nrow = 3, ncol = 3)
 
-# Multiplicación
-mi_matriz * 2
+    # Suma
+    mi_matriz + 1
 
-# Potenciación
-mi_matriz ^ 3
+    # Multiplicación
+    mi_matriz * 2
 
-matriz <- matrix(1:6, nrow = 3)
+    # Potenciación
+    mi_matriz ^ 3
 
-Usamos t() para transponer.
+.. code:: Bash
 
-matriz_t <- t(matriz)
+   matriz <- matrix(1:6, nrow = 3)
+
+   matriz_t <- t(matriz)
+
 
 Sacando elementos de una matriz
+-------------------------------
 
 m = matrix(1:12, ncol=3)
 
