@@ -210,5 +210,5 @@ Ejemplos de Arreglos
 
 .. code:: Bah
 
-   m = array(1:24, di,(4,3,2))
+   m = array(1:24, dim=c(4,3,2))
    m
