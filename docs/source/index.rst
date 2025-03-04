@@ -16,4 +16,5 @@ Clase03
    Ejercicios
    matrices
    funciones_paralelas
+   listas
 
