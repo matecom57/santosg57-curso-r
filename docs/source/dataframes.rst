@@ -23,3 +23,12 @@ Ejemplos
    # salvando el dataframe
 
    write.csv(data, 'datos.csv')
+
+2)
+
+.. code:: Bash
+
+   dd = read.csv('datos.csv', header=T)
+
+   print(dd)
+
