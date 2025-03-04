@@ -32,3 +32,11 @@ Ejemplos
 
    print(dd)
 
+   # Sacando información del data frame **dd**
+
+   print(dim(dd))
+   print(dd$nombre)
+   peso = dd$peso
+   print(mean(peso))
+
+
