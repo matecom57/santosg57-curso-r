@@ -28,13 +28,28 @@ Ejemplos
 Sacando información del data frame 
 ----------------------------------
 
+1)
+
 .. code:: Bash
 
    dd = read.csv('datos.csv', header=T)
 
    print(dim(dd))
+   print(names(dd))
    print(dd$nombre)
    peso = dd$peso
    print(mean(peso))
+
+2) Haciendo referencia a sus nombres individuales
+
+.. code:: Bash
+
+   dd = read.csv('datos.csv', header=T)
+   
+   attach(dd)
+
+   print(nombre)
+   peso = peso
+   print(sum((peso-mean(peso))^2)/10)
 
 
