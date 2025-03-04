@@ -124,7 +124,7 @@ Mostrando matrices como Imagenes
 
    image(m, col= gray.colors(12))
 
-Ayuda con ``matix``
+Ayuda con ``matrix``
 -------------------
 
 .. code::
@@ -173,4 +173,42 @@ Ayuda con ``matix``
    **rownames.force** logical indicating if the resulting matrix should have character (rather than NULL) rownames. The default, NA, uses NULL rownames if the data frame has ‘automatic’ row.names or for a zero-row data frame.
 
 
+Arreglos - ``array``
+--------
 
+.. code::
+
+   array {base}	R Documentation
+
+   Multi-way Arrays
+
+   Description
+
+   Creates or tests for arrays.
+
+   Usage
+
+   array(data = NA, dim = length(data), dimnames = NULL)
+   as.array(x, ...)
+   is.array(x)
+
+   Arguments
+
+   data		a vector (including a list or expression vector) giving data to fill the array. Non-atomic classed objects are coerced by as.vector.
+
+   dim		the dim attribute for the array to be created, that is an integer vector of length one or more giving the maximal  indices in each dimension.
+
+   dimnames	either NULL or the names for the dimensions. This must be a list (or it will be ignored) with one component for each dimension, either NULL or a character vector of the length given by dim for that dimension. The list can be named, and the list names will be used as names for the dimensions. If the list is shorter than the number of dimensions, it is extended by NULLs to the length required.
+
+   x		an R object.
+
+   ...		additional arguments to be passed to or from methods.
+
+
+Ejemplos de Arreglos
+--------------------
+
+.. code:: Bah
+
+   m = array(1:24, di,(4,3,2))
+   m
