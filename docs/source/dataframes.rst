@@ -49,7 +49,7 @@ Sacando información del data frame
    attach(dd)
 
    print(nombre)
-   peso = peso
+   print(peso)
    print(sum((peso-mean(peso))^2)/10)
 
 
