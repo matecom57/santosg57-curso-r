@@ -50,6 +50,6 @@ Sacando información del data frame
 
    print(nombre)
    print(peso)
-   print(sum((peso-mean(peso))^2)/10)
+   print(sum((peso-mean(peso))^2)/9)
 
 
