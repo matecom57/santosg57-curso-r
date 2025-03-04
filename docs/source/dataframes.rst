@@ -20,4 +20,6 @@ Ejemplos
 
    data
 
+   # salvando el dataframe
 
+   write.csv(data, 'datos.csv')
