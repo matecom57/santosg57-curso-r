@@ -43,14 +43,21 @@ Ayuda ``list``
 
 **Ejemplos**
 
+1)
+
 .. code:: Bash
 
    x1 = 1:10
    x2 = seq(0,1,.1)
-   x3 = matrix(1:12, nolc=3)
+   x3 = matrix(1:12, ncol=3)
    x4 = array(1:24, dim=c(4,3,2))
 
    m = list(x1, x2, x3, x4)
    m
 
+2)
 
+.. code:: Bash
+
+   m = list(y1=x1, y2=x2, y=3x3, y99=x4)
+   m
