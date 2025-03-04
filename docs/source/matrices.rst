@@ -208,7 +208,24 @@ Arreglos - ``array``
 Ejemplos de Arreglos
 --------------------
 
-.. code:: Bah
+1)
+
+.. code:: Bash
 
    m = array(1:24, dim=c(4,3,2))
    m
+
+2)
+
+.. code:: Bash
+
+   library(RNifti)
+
+   x = readNifti('func.nii.gz')
+
+   dim(x)
+
+   im = x[,,10,1]
+
+   image(im)
+
