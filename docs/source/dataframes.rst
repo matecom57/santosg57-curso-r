@@ -53,3 +53,7 @@ Sacando información del data frame
    print(sum((peso-mean(peso))^2)/9)
 
 
+.. raw:: latex
+
+   $x^2$
+
