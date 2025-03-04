@@ -18,7 +18,7 @@ Ejemplos:
 
 .. code:: Bash
 
-   m = matrix(1:24, dim=c(4,3,2))
+   m = array(1:24, dim=c(4,3,2))
 
    s = apply(m,3,sum)
    s
