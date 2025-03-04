@@ -24,15 +24,13 @@ Ejemplos
 
    write.csv(data, 'datos.csv')
 
-2)
+
+Sacando información del data frame 
+----------------------------------
 
 .. code:: Bash
 
    dd = read.csv('datos.csv', header=T)
-
-   print(dd)
-
-   # Sacando información del data frame **dd**
 
    print(dim(dd))
    print(dd$nombre)
