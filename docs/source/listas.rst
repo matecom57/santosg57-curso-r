@@ -59,5 +59,9 @@ Ayuda ``list``
 
 .. code:: Bash
 
-   m = list(y1=x1, y2=x2, y=3x3, y99=x4)
+   m = list(y1=x1, y2=x2, y=x3, y99=x4)
    m
+
+   # salvado el objeto ``m``
+
+   save(m, file = "m.RData")
