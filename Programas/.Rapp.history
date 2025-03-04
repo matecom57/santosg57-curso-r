@@ -1,71 +1,3 @@
-x = c(y, y)
-x
-y
-x = array(y,y)
-x
-dim(x)
-dim(y)
-?array
-x = array(y)
-x
-y
-x = array(dim(3,2,4))
-x = array(dim=c(3,2,4))
-x
-x[,,1] = y
-x
-x[,,3] = y
-x
-is.array(x)
-is.array(y)
-is.matrix(y)
-is.matrix(x)
-3 + 4
-x <- 5
-x
-x <- 5
-x^2
-x
-print(3 + 4)
-print(paste(’the sum is’, 3 + 4))
-'the sum is', 3 + 4, '\n'
-cat('the sum is', 3 + 4, '\n')
-x <- 5
-class(x)
-s1 = "string"
-s1
-s2 = ’also a string’
-x <- 2
-if (x > 0) {#
-y = 'positive'#
-} else {#
-y = 'negative or zero'#
-}#
-y
-y = if (x > 0) 'positive' else 'negative or zero'
-y
-y = ifelse(x > 0, 'positive', 'negative or zero')
-total = 0
-i = 1
-while (i <= 10) {#
-    total = total + iˆ2#
-    i = i + 1#
-  }
-repeat {#
-    total = total + iˆ2#
-    if (i == 10) break#
-    i = i + 1#
-}
-total = 0
-for (i in 1:10) {#
-    total = total + ì^2#
-  }
-i = 1
-repeat {#
-    total = total + i^2#
-    if (i == 10) break#
-    i = i + 1#
-}
 total
 ls()
 dir()
@@ -277,95 +209,119 @@ p = pnorm(x, , main='Frecuencia Acumulada')
 rchisq
 ?rchisq
 ?rt
-x <- c(1, 1.5, 2, 3, 3.5, 4)#
-y <- c(3, 5, 3, 6, 2, 1)#
-plot(x,y)
-x <- c(1, 1.5, 2, 3)
+x=2;y=3
+z='x^2+1/y'
+eval(z)
+z="x^2+1/y"
+eval(z)
 x
 y
-x <- c(1, 1.5, 2, 3, 3.5, 4)#
-y <- c(3, 5, 3, 6, 2, 1)#
-plot(x,y)
-x <- c(1, 1.5, 2)
-plot(x,y)
-plot(x,y)
-x <- seq(-2,4,.1)#
-y <- x^2#
-plot(x,y, type='l')#
-#
-points(x, x^3, col='red', type='l')
-plot(x,y, type='l', ylim=c(-3,17))
-points(x, x^3, col='red', type='l')
-x <- c(58, 53, 50, 52, 55, 53, 53)#
-y <- c(58, 59, 53, 55, 64, 55, 56, 64, 57, 62, 60, 59)#
-z <- c(56, 65, 50, 47, 63, 60, 61, 46, 62, 58, 57, 61)#
-#
-boxplot(x,y,z)
-boxplot(x,y,z, col=c('red', 'blue', 'yellow'))
-?boxplot
-boxplot(x,y,z, col=c('red', 'blue', 'yellow'), names=c('red', 'blue', 'yellow'))
-boxplot(x,y,z, col=c('red', 'blue', 'yellow'), names=c('red', 'blue', 'yellow'), xlab='colores')
-boxplot(x,y,z, col=c('red', 'blue', 'yellow'), names=c('red', 'blue', 'yellow'), xlab='colores', horizontal =TRUE)
-x <- c(58, 53, 50, 52, 55, 53, 53)#
-y <- c(58, 59, 53, 55, 64, 55, 56, 64, 57, 62, 60, 59)#
-z <- c(56, 65, 50, 47, 63, 60, 61, 46, 62, 58, 57, 61)#
-#
-w <- c(x,y,z)#
-f = factor(c(rep(1, 7), rep(2,12), rep(3,12)))#
-boxplot(w ~ f)
-x <- c(58, 53, 50, 52, 55, 53, 53)#
-barplot(x, ylim=c(0, 70)
-)
-x <- c(58, 53, 50, 52, 55, 53, 53)#
-barplot(x, ylim=c(0, 70)
-)
-barplot(x, ylim=c(0, 70), names=1:7)
-barplot(x, ylim=c(0, 70), names=1:7, col=1:7)
-?barplot
-barplot(x, ylim=c(0, 70), names=1:7, col=1:7, axes=TRUE)
-barplot(x, ylim=c(0, 70), names=1:7, col=1:7, horiz =TRUE)
-barplot(x, ylim=c(0, 70), names=1:7, col=1:7)
-barplot(x, ylim=c(0, 70), names=1:7, col=1:7)
-points(c(0,7), c(0,0), type='l', lwd=3)
-points(c(0,8), c(0,0), type='l', lwd=5)
-points(c(0,10), c(0,0), type='l', lwd=5)
-?barplot
+eval(parse(text="5+5"))
+eval(parse("5+5"))
+eval("5+5")
+mat = matrix(round(runif(12, min=2, max=20)))
+mat
+mat = matrix(round(runif(12, min=2, max=20)), ncol=4)
+mat
+ma = max(mat)
+ma
+image(mat, col= gray.colors(20)))
+image(mat, col= gray.colors(ma))
+?matrix
+is.matrix(mat)
+is.matrix(1:3)
+?matrix
+m = array(1:24, dim=c(4,3,2))
+m
+m[,,2]
+m[2,1,2]
+m[,2,1]
+dir()
+library(RNifti)
+x = readNifti('func.nii.gz')
+class(x)
+dim(x)
+im = x[,,10,1]
+image(im)
+im = x[,,15,1]
+image(im)
+image(1:64, 1:64,im)
+dim(x)
+s = x[27,10,15,]
+plot(s)
+x = array(1:32, dim=c(2,4,2,2))
+dim(x)
 x
-quatile(x)
-quantile(x)
-x <- seq(-3,3,.1)#
-y <- dnorm(x)#
-#
-par(mfrow=c(2,2))#
-plot(x,y, type='l', main='Densidad Normal')#
-#
-r = rnorm(100)#
-plot(r, main='Números Aleatorios')#
-#
-p = pnorm(x, , main='Frecuencia Acumulada')
-p = pnorm(x, main='Frecuencia Acumulada')
-p = pnorm(x)
-plot(p)
-?dt
-pwd
-getwd()
-source('den_t.R')
-source('den_t.R')
-source('den_t.R')
-source('den_t.R')
-p
-source('den_t.R')
-source('den_t.R')
-source('e01.R')
-source('e01.R')
-source('e01.R')
-source('e02.R')
-?plot
-source('e04.R')
-source('e04.R')
-c1
-source('e04.R')
-c1
-?plot
-source('e04.R')
-source('e04.R')
+x = array(1:64, dim=c(2,4,2,2,2))
+dim(x)
+x
+m = matrix(1:12, ncol=3)
+m
+s = colSums(m)
+s
+s = rowSums(m)
+s
+m = array(1:24, dim=c(4,3,2))
+m
+s = apply(m,3,sum)
+s
+s = apply(m,3,mean)
+s
+s = apply(m,3,me)
+s = apply(m,1,sum)
+s
+m
+s = apply(m,1,sqrt)
+s
+2.23^2
+m
+m1 <- m[,,2]
+m1
+s = apply(m1,1,sqrt)
+s
+s = apply(m1,1,median)
+s
+s = apply(m1,1,var)
+s
+m1
+s = apply(m1,1,mean)
+s
+x1 = 1:10#
+x2 = seq(0,1,.1)#
+x3 = matrix(1:12, ncol=3)#
+x4 = array(1:24, dim=c(4,3,2))
+m = list(x1, x2, x3, x4)
+class(m)
+m
+m
+m[[3]]
+m[3]
+m[4]
+m[4]
+m[[4]]
+m[1]
+m[1][5]
+m[1][5]
+m[[1]][5]
+m
+m[[3]][3,]
+m[[4]][2,,2]
+mm = list(y1=x1, y2=x2, y=x3, y99=x4)
+mm
+mm$y
+mm$y[2,]
+m
+m
+save(mm, file = "m.RData")
+dir()
+rm(list=ls())
+ls()
+load("m.RData")
+ls()
+mm
+rm(list=ls())
+ls()
+mm
+mm
+load("m.RData")
+mm
