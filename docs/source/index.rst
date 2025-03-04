@@ -15,3 +15,5 @@ Clase03
    Estadistica_Descriptiva
    Ejercicios
    matrices
+   funciones_paralelas
+
