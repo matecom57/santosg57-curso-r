@@ -9,6 +9,6 @@ R es un lenguaje de programación de código abierto y gratuito que se usa para 
    :caption: Introduccion
 
    instalacion
-
+   ventajas-r
 
 
