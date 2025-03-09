@@ -7,7 +7,7 @@ Clase03
 .. toctree::
    :numbered:
 
-   Clase-03/clase-03
+   Introduccion/introduccion
    Clase-04/clase04
    Clase-05/clase05
    Clase-06/vectores
