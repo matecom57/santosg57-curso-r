@@ -1,4 +1,4 @@
-Instalaciion
+Instalacion
 ============
 
 - Hay dos formas de instalar R, descargar un archivo  binario de R o descargar el codigo fuente de R y compilar este codigo. 
