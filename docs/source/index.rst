@@ -8,6 +8,7 @@ Clase03
    :numbered:
 
    Introduccion/introduccion
+   Programando-R/programando-R
    Clase-04/clase04
    Clase-05/clase05
    Clase-06/vectores
