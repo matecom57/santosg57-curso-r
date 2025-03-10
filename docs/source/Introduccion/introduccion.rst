@@ -11,5 +11,5 @@ R es un lenguaje de programación de código abierto y gratuito que se usa para 
    instalacion
    ventajas-r
    herramientas-desarrollo
-
+   funciones-ide
 
