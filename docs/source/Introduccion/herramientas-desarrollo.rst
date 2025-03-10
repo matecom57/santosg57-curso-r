@@ -18,6 +18,6 @@ Imagenes de Interfaces de IDE's
 
 .. image:: rr.png
 
-.. image:: rstudio,png
+.. image:: rstudio.png
 
 
