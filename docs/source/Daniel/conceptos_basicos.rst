@@ -1,34 +1,34 @@
 Conceptos Basicos
 =================
 
-**Estadistica**
+- **Estadistica**
 
-**Variable**
+- **Variable**
 
-**Variables Cuantitativas**
+- **Variables Cuantitativas**
 
-**Variables Cualitativas**
+- **Variables Cualitativas**
 
-**Variables Aleatorias**
+- **Variables Aleatorias**
 
-**Variables Aleatorias Discretas**
+- **Variables Aleatorias Discretas**
 
-**Variables Aleatorias Continuas**
+- **Variables Aleatorias Continuas**
 
-**Poblacion**
+- **Poblacion**
 
-**Muestra**
+- **Muestra**
 
 Medicon y Escalas de Medicion
 -----------------------------
 
-**Escala Nomial**
+- **Escala Nomial**
 
-**Escala Ordinal**
+- **Escala Ordinal**
 
-**Escala Intervalo**
+- **Escala Intervalo**
 
-**Escala de Razon**
+- **Escala de Razon**
 
 Muestreo e Inferencia Estadistica
 ---------------------------------
