@@ -9,7 +9,7 @@ Clase03
 
    Introduccion/introduccion
    Elementos-Lenguaje/elementos-lenguaje
-
+   Estructuras-Datos/estructuras-datos
    Programando-R/programando-R
    
    Clase-04/clase04
