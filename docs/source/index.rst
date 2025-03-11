@@ -14,7 +14,6 @@ Clase03
    
    Clase-04/clase04
    Clase-05/clase05
-   Clase-06/vectores
    Graficos01
    Estadistica_Descriptiva
    Ejercicios
