@@ -42,3 +42,6 @@ Table 1.4.1.
 
  
 
+https://www.dropbox.com/scl/fi/gj28nc9fj78jxs4notbxp/iter01.R?rlkey=vie780c9fj3m1uecefgc0m9aq&st=0ohq5kxd&dl=0
+
+
