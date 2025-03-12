@@ -1,8 +1,8 @@
 Vectores
 ========
 
-Un vector es la minima informacion que lenguaje R puede manejar como una unidad y
-se representa como (x1, x2, ..., xn), donde los xi, i=1,..,n son del mismo tipo de datos.
+Un vector es la mínima información que lenguaje R puede manejar como una unidad de información y
+se representa como :math:(x1, x2, ..., xn), donde los xi, i=1,..,n son del mismo tipo de datos.
 
 Hay varias maneras de crear vectores, algunos ejemplos son:
 
