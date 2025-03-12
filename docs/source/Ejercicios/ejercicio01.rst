@@ -38,4 +38,13 @@ c) :math:`\sum_{n=1}^{100} \frac{1}{2^{n+3}}
 4. Trazar 50 círculos aleatorios en la ventana de dimensiones [-50,50]x[-50,50], cuyo centros son aleatorios y 
 su radios son aleatorios entre 2 a 20 unidades.
 
+5. Calcule el périmetro de un círculo de radio 2 unidades. Utilice las coordenadas polares del círculo que describen la frontera:
+
+.. math::
+
+   x = r \cos \theta
+   y = r \sin \theta
+
+done: r - radio del círculo y :math:`0 \leq \theta \leq 2\pi`
+
 
