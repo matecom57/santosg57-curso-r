@@ -7,17 +7,22 @@ Clacule los siguientes límites:
 
    \lim_{x \to 0} \frac{\sin x}{x}
 
+
    \lim_{x \to 0} \sin (1/x)
 
 
-Sea :math:`{a_n}` una sucesión tal que
+Sea :math:`\{a_n\}` una sucesión tal que
 
 .. math:: 
 
-   a_{n+1} = \sqrt{1 + \sqrt{a_n}}, con a_1 = 1
+   a_{n+1} = \sqrt{1 + \sqrt{a_n}}, \hspace{5mm} \text{ con } a_1 = 1
 
 Demostrar que la sucesión es convergente.
 
+
+Hacer los siguientes calculos:
+
+a) :math:`\sum_{n=1}^{100} 2^n = 2^1 + 2^2 + 2^3 + ... + 2^{100}`
 
 1. Graficar la función :math:`f(x)=x^3` en el intervalo [-3,3] y trazar segmentos que son tangentes a la grafica en x= -2, 0 y 1.
 
