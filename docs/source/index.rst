@@ -1,7 +1,7 @@
 CURSO: Introducción al Lenguaje de Programación "R"
 ===================================
 
-Clase03
+Contenido
 -------
 
 .. toctree::
@@ -11,7 +11,6 @@ Clase03
    Elementos-Lenguaje/elementos-lenguaje
    Estructuras-Datos/estructuras-datos
    Programando-R/programando-R
-   
    Clase-04/clase04
    Clase-05/clase05
    Graficos01
@@ -22,3 +21,4 @@ Clase03
    listas
    dataframes
    Daniel/estadistica
+   Ejercicios/ejercicio01
