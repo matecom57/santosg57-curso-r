@@ -1,7 +1,7 @@
 Ejercicios-01
 =============
 
-1. Graficar la función f(x)=x^3 en el intervalo [-3,3] y trazar segmentos que sean tangentes a la grafica en x= -2, 0 y 1.
+1. Graficar la función .. math:: `f(x)=x^3` en el intervalo [-3,3] y trazar segmentos que sean tangentes a la grafica en x= -2, 0 y 1.
 
 2. Graficar la función f(x)=sen(x) en el intervalo [0, 2pi] y su derivada.
 
