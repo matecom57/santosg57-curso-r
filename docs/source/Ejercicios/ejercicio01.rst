@@ -24,6 +24,11 @@ Hacer los siguientes calculos:
 
 a) :math:`\sum_{n=1}^{100} 2^n = 2^1 + 2^2 + 2^3 + ... + 2^{100}`
 
+b) :math:`\sum_{n=1}^{100} (-1/2)^{n-1}
+
+c) :math:`\sum_{n=1}^{100} \frac{1}{2^{n+3}} 
+
+
 1. Graficar la función :math:`f(x)=x^3` en el intervalo [-3,3] y trazar segmentos que son tangentes a la grafica en x= -2, 0 y 1.
 
 2. Graficar la función :math:`f(x)= \sin(x)` en el intervalo :math:`[0, 2 \pi]` y su derivada.
