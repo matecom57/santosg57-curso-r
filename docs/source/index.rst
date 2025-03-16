@@ -5,7 +5,7 @@ Contenido
 -------
 
 .. toctree::
-   :numbered:
+   :maxdepth: 2
 
    Introduccion/introduccion
    Elementos-Lenguaje/elementos-lenguaje
