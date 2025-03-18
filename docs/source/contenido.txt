@@ -1,0 +1,43 @@
+Introduccion
+	Instalacion
+	Ventajas de utilizar "R"
+   	Herramientas de Desarrollo
+Elementos del Lenguaje
+	Operadores Aritmeticos
+	Desplegando Valores de variables
+	Tipos de datos Basicos
+	Estructuras de Control
+	Funciones
+Estructura de Datos
+	Vectores
+	Matrices
+	Listas
+	DataFrames
+R como Lenguaje de Programación
+	Agunas funciones de R
+	Programando con R
+	Operadores
+	Desplegando Valores de Variables
+	Tipos de datos Básicos
+	Estructuras de Control
+Clase-04
+	Constantes
+	Operadores de asignacion
+	Definir tipos de datos basicos
+	Definir tipos de estructuras de datos
+	Funciones
+	Operadores Aritmeticos
+	Operadores de Comparacion
+	Operadores Logicos
+	Estructuras de Control
+	Ejercicios
+Clase-05
+	Ejercicios
+Graficos en el Plano (R^2)
+Estadística Descriptiva
+Funciones Paralelas
+Estadistica
+Ejercicios-01
+ggplot
+Lectura y Escritura de archivos
+

@@ -11,7 +11,7 @@ Contenido
    Elementos-Lenguaje/elementos-lenguaje
    Estructuras-Datos/estructuras-datos
    Programando-R/programando-R
-   Clase-04/clase04
+   Funciones_Paquetes/funciones-paquetes
    Clase-05/clase05
    Graficos01
    Estadistica_Descriptiva

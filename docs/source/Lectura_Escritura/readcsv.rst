@@ -1,4 +1,4 @@
-Leer archivos de texto de Disco
+Leer archivos de texto de disco
 ===============================
 
 Funciones para leer archivos de disco de algun  formato:
