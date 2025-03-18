@@ -1,7 +1,7 @@
 Algunos ejemplos
 ================
 
-1) --------------------------------------------------
+1) Salvando una matriz con variables no de la misma longitud
 
 .. code:: R
 
@@ -11,16 +11,17 @@ Algunos ejemplos
 
    z <- seq(0,1,.1)
 
-   mat <- cbind(x,y,z)
+   mat <- cbind(x,y,z) 
 
    write.csv(mat,'x.csv')
 
-1) --------------------------------------------------
+2) Leyendo el archivo 'x.csv' y ver su tipo.
    
 .. code:: R
 
    dd =  read.csv('x.csv', header=T)
 
+   print(class(dd))
    print(dd)
 
 
