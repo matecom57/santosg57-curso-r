@@ -23,8 +23,7 @@ IF
 
    > y = if (x > 0) 'positive' else 'negative or zero'
 
-* También podemos escribir la misma expresión usando la función ``ifelse()``, donde el primer argumento es la condición booleana, y el segundo y tercer argumento son los 
-valores respectivos para que la condición sea verdadera y falsa.
+* También podemos escribir la misma expresión usando la función ``ifelse()``, donde el primer argumento es la condición booleana, y el segundo y tercer argumento son los valores respectivos para que la condición sea verdadera y falsa.
 
 .. code:: Bash
 
