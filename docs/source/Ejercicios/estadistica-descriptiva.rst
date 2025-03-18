@@ -1,7 +1,7 @@
 Ejercicios
 ----------
 
-Supongamos que los siguientes datos son medidas de una poblacion de estudio. Calcular los siguiente:
+1. Supongamos que los siguientes datos son medidas de una poblacion de estudio. Calcular los siguiente:
 
 .. code:: R
 
@@ -12,10 +12,25 @@ Supongamos que los siguientes datos son medidas de una poblacion de estudio. Cal
    56, 35, 77, 70, 62, 54, 51, 77, 43, 55, 38, 30, 46, 52, 53, 47, 52, 61, 47, 63, 58, 51, 48, 54, 39,
    54, 51, 41, 76, 46, 52, 48, 53, 77, 62, 61, 67, 38, 54, 50, 37, 59, 77, 46, 28, 55, 64, 26, 60, 58
 
-1. La media y desviacion estandar de la poblacion
+a) La media y desviacion estandar de la poblacion
 
-2. Tomar 20  muestras 20 de tamaño 10 y calcular la media muestral y su desviacion estandar
+b) Tomar 20  muestras 20 de tamaño 10 y calcular la media muestral y su desviacion estandar
 
-3. Graficar el histograma de las medias muestrales.
+c) Graficar el histograma de las medias muestrales.
+
+2. Bajar el archivo que se encuentra en el siguiente link:
+
+https://www.dropbox.com/scl/fi/o4dyeiighkirlf8uwzkq4/ch01_all.zip?rlkey=wa7exwh65t4epqg2v69eflw29&st=4bcvwa43&dl=0
+
+Calcular los sigiente:
+
+a) La media y desviacion estandar de la poblacion
+
+b) Tomar 20  muestras 20 de tamaño 10 y calcular la media muestral y su desviacion estandar
+
+c) Graficar el histograma de las medias muestrales.
+
+
+
 
 
