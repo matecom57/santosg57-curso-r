@@ -1,8 +1,8 @@
 Funciones y Paquetes
 ====================
 
-* Una función es un programa escrito en algún lenguaje de programación que utiliza datos de entrada y realiza algunos calculos
-con ellos y devuelve resultados útiles.
+* Una función es un programa escrito en algún lenguaje de programación que utiliza datos de entrada y realiza algunos calculos con ellos y devuelve resultados 
+útiles.
 
 * Un paquete esta formados de constantes, funciones, ejemplos e información adicional del paquete.
 
@@ -19,6 +19,7 @@ Ejemplos 1:
    rm() 	- borra variables que estan en memoria de R
    getwd()	- en que folder estoy trabajando
    setwd()	- cambiar a folder de trabajo
+   dir()	- lista archivos que estan en el directorio de trabajo
 
 Ejemplos 2:
 
@@ -26,30 +27,30 @@ Ejemplos 2:
 .. code:: R
 
    log(3)	- calcula el logaritmo de 3
-   sin(pi/2)	- calcula el seno de :math:`pi/2`
+   sin(pi/2)	- calcula el seno de :math:`\pi/2`
 
 Ejercicios
 ----------
 
 Verificar:
 
-1. :math:`\lim_{infty} \sqrt[n]{n} = 1`
+1. :math:`\lim_{\infty} \sqrt[n]{n} = 1`
 
-2. :math:`\lim_{infty} \frac{\log n}{n} = 0`
+2. :math:`\lim_{\infty} \frac{\log n}{n} = 0`
 
 Calcular:
 
-3. Sea :math:`\{`a_n \}` una sucesión tal que
+3. Sea :math:`\{ a_n \}` una sucesión tal que
 
 .. math::
 
-   a_{n+1} = \sqrt{1 + \sqrt{a_n}}, con a_1 =1
+   a_{n+1} = \sqrt{1 + \sqrt{a_n}}, \text{ con } a_1 =1
 
 Demostrar que la sucesión es convergente.
 
 4. Sea :math:`a_n = \frac{n^n}{n!}` demostrar:
 
-a) :math:`\lim_{infty} \frac{a_{n+1}}{a_n} = e`
+a) :math:`\lim_{\infty} \frac{a_{n+1}}{a_n} = e`
 
-b) :math:`\lim_{infty} \frac{n}{(n!)^{1/n}} = e`
+b) :math:`\lim_{\infty} \frac{n}{(n!)^{1/n}} = e`
 
