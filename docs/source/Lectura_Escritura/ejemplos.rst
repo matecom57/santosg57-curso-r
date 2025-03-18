@@ -19,7 +19,7 @@ Algunos ejemplos
    
 .. code:: R
 
-   dd =  read.csv(mat,'x.csv', header=T)
+   dd =  read.csv('x.csv', header=T)
 
    print(dd)
 
