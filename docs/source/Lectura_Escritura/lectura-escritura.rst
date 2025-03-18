@@ -1,5 +1,5 @@
-Funciones de R para la lectura y escritura de archivos hacia/desde disco.
-===============================================================
+Lectura y Escritura de archivos
+==============================
 
 .. toctree::
    :maxdepth: 2
