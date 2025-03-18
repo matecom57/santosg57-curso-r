@@ -6,8 +6,6 @@ R es un lenguaje de programación de código abierto y gratuito que se usa para 
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
-   :caption: Introducción
 
    instalacion
    ventajas-r
