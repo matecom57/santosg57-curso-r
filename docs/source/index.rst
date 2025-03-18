@@ -13,7 +13,7 @@ Contenido
    Funciones_Paquetes/funciones-paquetes
    Estructuras-Datos/estructuras-datos
    Graficos/graficos01
-   Estadistica_Descriptiva
+   Estadistica_Descriptiva/estadistica_descriptiva
    Ejercicios
    matrices
    funciones_paralelas
