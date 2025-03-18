@@ -9,11 +9,10 @@ Contenido
 
    Introduccion/introduccion
    Elementos-Lenguaje/elementos-lenguaje
-   Estructuras-Control/estructuras.control
+   Estructuras-Control/estructuras-control
    Funciones_Paquetes/funciones-paquetes
    Estructuras-Datos/estructuras-datos
    Programando-R/programando-R
-   Clase-05/clase05
    Graficos01
    Estadistica_Descriptiva
    Ejercicios
