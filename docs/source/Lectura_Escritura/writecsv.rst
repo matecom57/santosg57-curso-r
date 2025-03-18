@@ -1,4 +1,4 @@
-Escribe datos a disco en algun formato
+Escribe archivo de datos a disco
 ========================================
 
 .. code:: Bash

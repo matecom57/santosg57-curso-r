@@ -1,4 +1,4 @@
-Funciones de lectura y escritura a/desde disco en algun formato
+Funciones de R para la lectura y escritura de archivos hacia/desde disco.
 ===============================================================
 
 .. toctree::

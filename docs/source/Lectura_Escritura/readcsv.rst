@@ -3,7 +3,7 @@ Leer archivos de texto de Disco
 
 Funciones para leer archivos de disco de algun  formato:
 
-.. code:: Bash
+.. code:: R
    
    [1] "read.csv"
    read.table                package:utils                R Documentation
