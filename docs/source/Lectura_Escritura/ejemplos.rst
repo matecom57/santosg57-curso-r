@@ -1,9 +1,9 @@
 Algunos ejemplos
 ================
 
-1)
+1) --------------------------------------------------
 
-.. code:: Bash
+.. code:: R
 
    x <- c(4,3,6,4,8,7)
 
@@ -14,4 +14,13 @@ Algunos ejemplos
    mat <- cbind(x,y,z)
 
    write.csv(mat,'x.csv')
+
+1) --------------------------------------------------
+   
+.. code:: R
+
+   dd =  read.csv(mat,'x.csv', header=T)
+
+   print(dd)
+
 
