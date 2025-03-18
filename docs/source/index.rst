@@ -21,5 +21,4 @@ Contenido
    dataframes
    Daniel/estadistica
    Ejercicios/ejercicio01
-   ggplot/ggplot
    Lectura_Escritura/lectura-escritura
