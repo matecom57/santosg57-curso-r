@@ -1,6 +1,8 @@
 Tipos de Datos Basico 
 ======================
 
+* Algunas constantes en R: ``TRUE`` ó ``T``, ``FALSE`` ó ``F```, ``pi``, ``NA``, ``NaN``
+    
 * Numeros enteros: -100, -5, 0, 300
 
 * Numeros de punto flotante: 3.5, 3.5e5, 3.5*10^5 
@@ -79,21 +81,31 @@ Funciones utiles en el manejo de datos
 Operadores de Asignación
 ------------------------
 
-Los operadores de asignación que se utilizan en R son: `<-`, `->`, `=`  
+Los operadores de asignación que se utilizan en R son: ``<-``, ``->``, ``=``  
 
 Operadores de Comparación
 ------------------------
 
-`<=`, `<`, `>=`, `>`, `==`, `!=`
+``<=``, ``<``, ``>=``, ``>``, ``==``, ``!=``
 
 Ejemplos
 --------
+
+1.
 
 .. code:: R
 
    x <- 5
    5 -> y
    x != y
+
+2.
+
+.. code:: R
+   
+   x <- TRUE
+   x == True
+
 
 
 
