@@ -1,7 +1,13 @@
-Tipos de Datos Basico 
+Tipos de Datos Básico 
 ======================
 
-* Algunas constantes en R: ``TRUE`` ó ``T``, ``FALSE`` ó ``F```, ``pi``, ``NA``, ``NaN``
+Constantes en R
+---------------
+
+Algunas constantes en R: ``TRUE`` ó ``T``, ``FALSE`` ó ``F```, ``pi``, ``NA``, ``NaN``
+
+Tipos de datos Básicos
+----------------------
     
 * Numeros enteros: -100, -5, 0, 300
 
