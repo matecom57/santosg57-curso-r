@@ -14,7 +14,7 @@ Supongamos que los siguientes datos son medidas de una poblacion de estudio. Cal
 
 1. La media y desviacion estandar de la poblacion
 
-2. Tomar muestras 20 muestras de tamaño 10 y malcular la media muestral y su desviacion estandar
+2. Tomar 20  muestras 20 de tamaño 10 y calcular la media muestral y su desviacion estandar
 
 3. Graficar el histograma de las medias muestrales.
 
