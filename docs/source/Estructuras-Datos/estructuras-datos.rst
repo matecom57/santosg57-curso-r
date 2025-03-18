@@ -2,7 +2,7 @@ Estructura de Datos
 ===================
 
 .. toctree::
-   :numbered:
+   :maxdepth: 2
 
    vectores
    matrices
