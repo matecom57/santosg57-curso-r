@@ -1,8 +1,12 @@
 Graficos en el Plano (R^2)
 =========================
 
+plot() y points()
+-----------------
+
 Para hacer una grafica de dispersión de puntos ó curvas en el plano, de la variable ``y vs x`` utilizamos la función de R: ``plot``.
 Entonces para añadir puntos o curvas a la grafica se utiliza la función: ``points``
+
 
 
 Ejemplos:
@@ -25,7 +29,11 @@ Ejemplos:
 
    points(x, x^3, col='red', type='l')
 
-3. Sea
+
+boxplot
+-------
+
+Sea
 
 .. code:: Bash
 
@@ -53,6 +61,9 @@ Otra manera de graficar lo anterior:
    
    x <- c(58, 53, 50, 52, 55, 53, 53)
    barplot(x, ylim=c(0, 70)
+
+barplot
+-------
 
 AYUDA:
 

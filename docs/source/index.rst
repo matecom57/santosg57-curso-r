@@ -13,7 +13,7 @@ Contenido
    Funciones_Paquetes/funciones-paquetes
    Estructuras-Datos/estructuras-datos
    Programando-R/programando-R
-   Graficos01
+   Graficos/graficos01
    Estadistica_Descriptiva
    Ejercicios
    matrices
