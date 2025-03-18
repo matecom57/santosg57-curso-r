@@ -32,6 +32,9 @@ valores respectivos para que la condición sea verdadera y falsa.
 
 * Una extensión de la función ``ifelse()`` a múltiples valores es la función ``switch()``.
 
+while
+-----
+
 * R también proporciona múltiples estructuras de bucle. El bucle más simple es el bucle ``while``, en el que especificamos la condición booleana junto con un conjunto de 
 pasos que se ejecutan cada vez hasta que se cumple la condición. La sintaxis del bucle while no es diferente de la de C. Usamos el bucle while para calcular la suma de los cuadrados de 1 a 10.
 
