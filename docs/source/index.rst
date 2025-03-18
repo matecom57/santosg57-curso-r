@@ -12,7 +12,6 @@ Contenido
    Estructuras-Control/estructuras-control
    Funciones_Paquetes/funciones-paquetes
    Estructuras-Datos/estructuras-datos
-   Programando-R/programando-R
    Graficos/graficos01
    Estadistica_Descriptiva
    Ejercicios
