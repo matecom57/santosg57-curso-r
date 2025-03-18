@@ -11,6 +11,7 @@ Contenido
    Elementos-Lenguaje/elementos-lenguaje
    Estructuras-Datos/estructuras-datos
    Programando-R/programando-R
+   Estructuras-Control/estructuras.control
    Funciones_Paquetes/funciones-paquetes
    Clase-05/clase05
    Graficos01
