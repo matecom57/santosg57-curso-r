@@ -76,6 +76,24 @@ Funciones utiles en el manejo de datos
 
    [1] -5+12i
 
+Operadores de Asignación
+------------------------
+
+Los operadores de asignación que se utilizan en R son: `<-`, `->`, `=`  
+
+Operadores de Comparación
+------------------------
+
+`<=`, `<`, `>=`, `>`, `==`, `!=`
+
+Ejemplos
+--------
+
+.. code:: R
+
+   x <- 5
+   5 -> y
+   x != y
 
 
 
