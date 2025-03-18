@@ -6,6 +6,8 @@ Funciones de R para la lectura y escritura de archivos hacia/desde disco.
 
    readcsv
    writecsv
+   ejemplos
+
 
 
 
