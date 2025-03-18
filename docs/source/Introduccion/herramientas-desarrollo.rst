@@ -14,7 +14,7 @@ Herramienta de Desarrollo
   * https://code.visualstudio.com/download
 
 Imagenes de Interfaces de IDE's
--------------------------------
++++++++++++++++++++++++++++++++
 
 .. image:: rr.png
 

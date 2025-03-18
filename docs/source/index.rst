@@ -22,3 +22,5 @@ Contenido
    Daniel/estadistica
    Ejercicios/ejercicio01
    Lectura_Escritura/lectura-escritura
+   Ejercicios/estadistica-descriptiva
+
