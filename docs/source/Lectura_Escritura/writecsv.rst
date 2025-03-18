@@ -1,7 +1,7 @@
 Escribe datos a disco en algun formato
 ========================================
 
-.. source:: Bash
+.. code:: Bash
 
    [1] "write.csv"
    write.table               package:utils                R Documentation
