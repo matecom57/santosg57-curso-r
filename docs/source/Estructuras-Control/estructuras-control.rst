@@ -4,7 +4,7 @@ Estructuras de Control
 * R proporciona estructuras de control como ramificaciones condicionales (``if-else``) y **bucles**. La sintaxis de if-else es similar a la de la mayoría de los demás lenguajes de programación:
 
 IF
-__
+--
 
 .. code:: Bash
 
@@ -77,8 +77,6 @@ construimos un vector de elementos del 1 al 10 como ``1:10``. Calculamos la mism
    > total
    [1] 38512
 
-Funciones
----------
 
 
 
