@@ -7,8 +7,7 @@ Matrices
 Definir matrices en R
 ---------------------
 
-Ejemplos
-========
+**Ejemplos**
 
 .. code:: R
 
@@ -30,8 +29,7 @@ Utilizando funciones de R
 
 ``rbind()`` para unir vectores, usando cada uno como un renglón.
 
-Ejemplos
-========
+**Ejemplos**
 
 .. code:: R
 
