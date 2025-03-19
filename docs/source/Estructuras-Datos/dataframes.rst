@@ -1,11 +1,12 @@
-DataFrames - 2
+DataFrames 
 ==========
 
 DataFrames es otro tipo de dato estructurado, parecido a una hoja en Excel, cuyos datos
-de cuardan en celdas y estas son arregladas en filas y columnas.
+se guardan en celdas y estas son arregladas en filas y columnas.
 
-Ejemplos
---------
+Creación de DataFrames
+---------------------
+
 
 1) 
 
