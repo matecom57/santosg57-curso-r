@@ -3,7 +3,7 @@ Vectores
 
 
 Un vector es la mínima información que lenguaje R puede manejar como una unidad de información y
-se representa como :math:`(x_1, x_2, ..., x_n)`, donde los `:math:`x_i`, i=1,..,n son del mismo tipo.
+se representa como :math:`(x_1, x_2, ..., x_n)`, donde los :math:`x_i`, i=1,..,n son del mismo tipo.
 
 Creación de vectores
 --------------------
@@ -38,7 +38,7 @@ Podemos hacer la siguientes operaciones:
 
 Sean los vectores: v1 = c(2,3,1,4) y v2=c(4,3,2,2)
 
-Etonces:
+Entonces:
 
 .. code:: Bash
 
