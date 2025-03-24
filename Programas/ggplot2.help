@@ -1,0 +1,407 @@
+Package: ggplot2
+Version: 3.5.1
+Title: Create Elegant Data Visualisations Using the Grammar of Graphics
+Authors@R: c( person("Hadley", "Wickham", , "hadley@posit.co", role =
+        "aut", comment = c(ORCID = "0000-0003-4757-117X")),
+        person("Winston", "Chang", role = "aut", comment = c(ORCID =
+        "0000-0002-1576-2126")), person("Lionel", "Henry", role =
+        "aut"), person("Thomas Lin", "Pedersen", ,
+        "thomas.pedersen@posit.co", role = c("aut", "cre"), comment =
+        c(ORCID = "0000-0002-5147-4711")), person("Kohske",
+        "Takahashi", role = "aut"), person("Claus", "Wilke", role =
+        "aut", comment = c(ORCID = "0000-0002-7470-9261")),
+        person("Kara", "Woo", role = "aut", comment = c(ORCID =
+        "0000-0002-5125-4188")), person("Hiroaki", "Yutani", role =
+        "aut", comment = c(ORCID = "0000-0002-3385-7233")),
+        person("Dewey", "Dunnington", role = "aut", comment = c(ORCID =
+        "0000-0002-9415-4582")), person("Teun", "van den Brand", role =
+        "aut", comment = c(ORCID = "0000-0002-9335-7468")),
+        person("Posit, PBC", role = c("cph", "fnd")) )
+Description: A system for 'declaratively' creating graphics, based on
+        "The Grammar of Graphics". You provide the data, tell 'ggplot2'
+        how to map variables to aesthetics, what graphical primitives
+        to use, and it takes care of the details.
+License: MIT + file LICENSE
+URL: https://ggplot2.tidyverse.org,
+        https://github.com/tidyverse/ggplot2
+BugReports: https://github.com/tidyverse/ggplot2/issues
+Depends: R (>= 3.5)
+Imports: cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband,
+        lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>=
+        1.3.0), stats, tibble, vctrs (>= 0.6.0), withr (>= 2.5.0)
+Suggests: covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, mapproj,
+        maps, multcomp, munsell, nlme, profvis, quantreg, ragg (>=
+        1.2.6), RColorBrewer, rmarkdown, rpart, sf (>= 0.7-3), svglite
+        (>= 2.1.2), testthat (>= 3.1.2), vdiffr (>= 1.0.6), xml2
+Enhances: sp
+VignetteBuilder: knitr
+Config/Needs/website: ggtext, tidyr, forcats, tidyverse/tidytemplate
+Config/testthat/edition: 3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Collate: 'ggproto.R' 'ggplot-global.R' 'aaa-.R'
+        'aes-colour-fill-alpha.R' .....
+NeedsCompilation: no
+Packaged: 2024-04-22 10:39:16 UTC; thomas
+Author: Hadley Wickham [aut] (<https://orcid.org/0000-0003-4757-117X>),
+        Winston Chang [aut] (<https://orcid.org/0000-0002-1576-2126>),
+        Lionel Henry [aut], Thomas Lin Pedersen [aut, cre]
+        (<https://orcid.org/0000-0002-5147-4711>), Kohske Takahashi
+        [aut], Claus Wilke [aut]
+        (<https://orcid.org/0000-0002-7470-9261>), Kara Woo [aut]
+        (<https://orcid.org/0000-0002-5125-4188>), Hiroaki Yutani [aut]
+        (<https://orcid.org/0000-0002-3385-7233>), Dewey Dunnington
+        [aut] (<https://orcid.org/0000-0002-9415-4582>), Teun van den
+        Brand [aut] (<https://orcid.org/0000-0002-9335-7468>), Posit,
+        PBC [cph, fnd]
+Maintainer: Thomas Lin Pedersen <thomas.pedersen@posit.co>
+Repository: CRAN
+Date/Publication: 2024-04-23 08:00:08 UTC
+Built: R 4.1.2; ; 2025-03-24 08:58:45 UTC; unix
+
+-- File: /home/santosg/R/x86_64-pc-linux-gnu-library/4.1/ggplot2/Meta/package.rds 
+
+		Information on package ‘ggplot2’
+
+Description:
+
+Package:                   ggplot2
+Version:                   3.5.1
+Title:                     Create Elegant Data Visualisations Using the
+                           Grammar of Graphics
+Authors@R:                 c( person("Hadley", "Wickham", ,
+                           "hadley@posit.co", role = "aut", comment =
+                           c(ORCID = "0000-0003-4757-117X")),
+                           person("Winston", "Chang", role = "aut",
+                           comment = c(ORCID = "0000-0002-1576-2126")),
+                           person("Lionel", "Henry", role = "aut"),
+                           person("Thomas Lin", "Pedersen", ,
+                           "thomas.pedersen@posit.co", role = c("aut",
+                           "cre"), comment = c(ORCID =
+                           "0000-0002-5147-4711")), person("Kohske",
+                           "Takahashi", role = "aut"), person("Claus",
+                           "Wilke", role = "aut", comment = c(ORCID =
+                           "0000-0002-7470-9261")), person("Kara",
+                           "Woo", role = "aut", comment = c(ORCID =
+                           "0000-0002-5125-4188")), person("Hiroaki",
+                           "Yutani", role = "aut", comment = c(ORCID =
+                           "0000-0002-3385-7233")), person("Dewey",
+                           "Dunnington", role = "aut", comment =
+                           c(ORCID = "0000-0002-9415-4582")),
+                           person("Teun", "van den Brand", role =
+                           "aut", comment = c(ORCID =
+                           "0000-0002-9335-7468")), person("Posit,
+                           PBC", role = c("cph", "fnd")) )
+Description:               A system for 'declaratively' creating
+                           graphics, based on "The Grammar of
+                           Graphics". You provide the data, tell
+                           'ggplot2' how to map variables to
+                           aesthetics, what graphical primitives to
+                           use, and it takes care of the details.
+License:                   MIT + file LICENSE
+URL:                       https://ggplot2.tidyverse.org,
+                           https://github.com/tidyverse/ggplot2
+BugReports:                https://github.com/tidyverse/ggplot2/issues
+Depends:                   R (>= 3.5)
+Imports:                   cli, glue, grDevices, grid, gtable (>=
+                           0.1.1), isoband, lifecycle (> 1.0.1), MASS,
+                           mgcv, rlang (>= 1.1.0), scales (>= 1.3.0),
+                           stats, tibble, vctrs (>= 0.6.0), withr (>=
+                           2.5.0)
+Suggests:                  covr, dplyr, ggplot2movies, hexbin, Hmisc,
+                           knitr, mapproj, maps, multcomp, munsell,
+                           nlme, profvis, quantreg, ragg (>= 1.2.6),
+                           RColorBrewer, rmarkdown, rpart, sf (>=
+                           0.7-3), svglite (>= 2.1.2), testthat (>=
+                           3.1.2), vdiffr (>= 1.0.6), xml2
+Enhances:                  sp
+VignetteBuilder:           knitr
+Config/Needs/website:      ggtext, tidyr, forcats,
+                           tidyverse/tidytemplate
+Config/testthat/edition:   3
+Encoding:                  UTF-8
+LazyData:                  true
+RoxygenNote:               7.3.1
+Collate:                   'ggproto.R' 'ggplot-global.R' 'aaa-.R'
+                           'aes-colour-fill-alpha.R' 'aes-evaluation.R'
+                           'aes-group-order.R'
+                           'aes-linetype-size-shape.R' 'aes-position.R'
+                           'compat-plyr.R' 'utilities.R' 'aes.R'
+                           'utilities-checks.R' 'legend-draw.R'
+                           'geom-.R' 'annotation-custom.R'
+                           'annotation-logticks.R' 'geom-polygon.R'
+                           'geom-map.R' 'annotation-map.R'
+                           'geom-raster.R' 'annotation-raster.R'
+                           'annotation.R' 'autolayer.R' 'autoplot.R'
+                           'axis-secondary.R' 'backports.R' 'bench.R'
+                           'bin.R' 'coord-.R' 'coord-cartesian-.R'
+                           'coord-fixed.R' 'coord-flip.R' 'coord-map.R'
+                           'coord-munch.R' 'coord-polar.R'
+                           'coord-quickmap.R' 'coord-radial.R'
+                           'coord-sf.R' 'coord-transform.R' 'data.R'
+                           'docs_layer.R' 'facet-.R' 'facet-grid-.R'
+                           'facet-null.R' 'facet-wrap.R' 'fortify-lm.R'
+                           'fortify-map.R' 'fortify-multcomp.R'
+                           'fortify-spatial.R' 'fortify.R' 'stat-.R'
+                           'geom-abline.R' 'geom-rect.R' 'geom-bar.R'
+                           'geom-bin2d.R' 'geom-blank.R'
+                           'geom-boxplot.R' 'geom-col.R' 'geom-path.R'
+                           'geom-contour.R' 'geom-count.R'
+                           'geom-crossbar.R' 'geom-segment.R'
+                           'geom-curve.R' 'geom-defaults.R'
+                           'geom-ribbon.R' 'geom-density.R'
+                           'geom-density2d.R' 'geom-dotplot.R'
+                           'geom-errorbar.R' 'geom-errorbarh.R'
+                           'geom-freqpoly.R' 'geom-function.R'
+                           'geom-hex.R' 'geom-histogram.R'
+                           'geom-hline.R' 'geom-jitter.R'
+                           'geom-label.R' 'geom-linerange.R'
+                           'geom-point.R' 'geom-pointrange.R'
+                           'geom-quantile.R' 'geom-rug.R' 'geom-sf.R'
+                           'geom-smooth.R' 'geom-spoke.R' 'geom-text.R'
+                           'geom-tile.R' 'geom-violin.R' 'geom-vline.R'
+                           'ggplot2-package.R' 'grob-absolute.R'
+                           'grob-dotstack.R' 'grob-null.R' 'grouping.R'
+                           'theme-elements.R' 'guide-.R' 'guide-axis.R'
+                           'guide-axis-logticks.R' 'guide-axis-stack.R'
+                           'guide-axis-theta.R' 'guide-legend.R'
+                           'guide-bins.R' 'guide-colorbar.R'
+                           'guide-colorsteps.R' 'guide-custom.R'
+                           'layer.R' 'guide-none.R' 'guide-old.R'
+                           'guides-.R' 'guides-grid.R' 'hexbin.R'
+                           'import-standalone-obj-type.R'
+                           'import-standalone-types-check.R'
+                           'labeller.R' 'labels.R' 'layer-sf.R'
+                           'layout.R' 'limits.R' 'margins.R'
+                           'performance.R' 'plot-build.R'
+                           'plot-construction.R' 'plot-last.R' 'plot.R'
+                           'position-.R' 'position-collide.R'
+                           'position-dodge.R' 'position-dodge2.R'
+                           'position-identity.R' 'position-jitter.R'
+                           'position-jitterdodge.R' 'position-nudge.R'
+                           'position-stack.R' 'quick-plot.R'
+                           'reshape-add-margins.R' 'save.R' 'scale-.R'
+                           'scale-alpha.R' 'scale-binned.R'
+                           'scale-brewer.R' 'scale-colour.R'
+                           'scale-continuous.R' 'scale-date.R'
+                           'scale-discrete-.R' 'scale-expansion.R'
+                           'scale-gradient.R' 'scale-grey.R'
+                           'scale-hue.R' 'scale-identity.R'
+                           'scale-linetype.R' 'scale-linewidth.R'
+                           'scale-manual.R' 'scale-shape.R'
+                           'scale-size.R' 'scale-steps.R'
+                           'scale-type.R' 'scale-view.R'
+                           'scale-viridis.R' 'scales-.R' 'stat-align.R'
+                           'stat-bin.R' 'stat-bin2d.R' 'stat-bindot.R'
+                           'stat-binhex.R' 'stat-boxplot.R'
+                           'stat-contour.R' 'stat-count.R'
+                           'stat-density-2d.R' 'stat-density.R'
+                           'stat-ecdf.R' 'stat-ellipse.R'
+                           'stat-function.R' 'stat-identity.R'
+                           'stat-qq-line.R' 'stat-qq.R'
+                           'stat-quantilemethods.R'
+                           'stat-sf-coordinates.R' 'stat-sf.R'
+                           'stat-smooth-methods.R' 'stat-smooth.R'
+                           'stat-sum.R' 'stat-summary-2d.R'
+                           'stat-summary-bin.R' 'stat-summary-hex.R'
+                           'stat-summary.R' 'stat-unique.R'
+                           'stat-ydensity.R' 'summarise-plot.R'
+                           'summary.R' 'theme.R' 'theme-defaults.R'
+                           'theme-current.R' 'utilities-break.R'
+                           'utilities-grid.R' 'utilities-help.R'
+                           'utilities-matrix.R' 'utilities-patterns.R'
+                           'utilities-resolution.R'
+                           'utilities-tidy-eval.R' 'zxx.R' 'zzz.R'
+NeedsCompilation:          no
+Packaged:                  2024-04-22 10:39:16 UTC; thomas
+Author:                    Hadley Wickham [aut]
+                           (<https://orcid.org/0000-0003-4757-117X>),
+                           Winston Chang [aut]
+                           (<https://orcid.org/0000-0002-1576-2126>),
+                           Lionel Henry [aut], Thomas Lin Pedersen
+                           [aut, cre]
+                           (<https://orcid.org/0000-0002-5147-4711>),
+                           Kohske Takahashi [aut], Claus Wilke [aut]
+                           (<https://orcid.org/0000-0002-7470-9261>),
+                           Kara Woo [aut]
+                           (<https://orcid.org/0000-0002-5125-4188>),
+                           Hiroaki Yutani [aut]
+                           (<https://orcid.org/0000-0002-3385-7233>),
+                           Dewey Dunnington [aut]
+                           (<https://orcid.org/0000-0002-9415-4582>),
+                           Teun van den Brand [aut]
+                           (<https://orcid.org/0000-0002-9335-7468>),
+                           Posit, PBC [cph, fnd]
+Maintainer:                Thomas Lin Pedersen
+                           <thomas.pedersen@posit.co>
+Repository:                CRAN
+Date/Publication:          2024-04-23 08:00:08 UTC
+Built:                     R 4.1.2; ; 2025-03-24 08:58:45 UTC; unix
+
+Index:
+
++.gg                    Add components to a plot
+CoordSf                 Visualise sf objects
+aes                     Construct aesthetic mappings
+aes_colour_fill_alpha   Colour related aesthetics: colour, fill, and
+                        alpha
+aes_eval                Control aesthetic evaluation
+aes_group_order         Aesthetics: grouping
+aes_linetype_size_shape
+                        Differentiation related aesthetics: linetype,
+                        size, shape
+aes_position            Position related aesthetics: x, y, xmin, xmax,
+                        ymin, ymax, xend, yend
+annotate                Create an annotation layer
+annotation_custom       Annotation: Custom grob
+annotation_logticks     Annotation: log tick marks
+annotation_map          Annotation: a map
+annotation_raster       Annotation: high-performance rectangular tiling
+autolayer               Create a ggplot layer appropriate to a
+                        particular data type
+automatic_plotting      Tailoring plots to particular data types
+autoplot                Create a complete ggplot appropriate to a
+                        particular data type
+borders                 Create a layer of map borders
+coord_cartesian         Cartesian coordinates
+coord_fixed             Cartesian coordinates with fixed "aspect ratio"
+coord_flip              Cartesian coordinates with x and y flipped
+coord_map               Map projections
+coord_polar             Polar coordinates
+coord_trans             Transformed Cartesian coordinate system
+cut_interval            Discretise numeric data into categorical
+diamonds                Prices of over 50,000 round cut diamonds
+draw_key                Key glyphs for legends
+economics               US economic time series
+element_blank           Theme elements
+expand_limits           Expand the plot limits, using data
+expansion               Generate expansion vector for scales
+facet_grid              Lay out panels in a grid
+facet_wrap              Wrap a 1d ribbon of panels into 2d
+faithfuld               2d density estimate of Old Faithful data
+fortify                 Fortify a model with data.
+geom_abline             Reference lines: horizontal, vertical, and
+                        diagonal
+geom_bar                Bar charts
+geom_bin_2d             Heatmap of 2d bin counts
+geom_blank              Draw nothing
+geom_boxplot            A box and whiskers plot (in the style of Tukey)
+geom_contour            2D contours of a 3D surface
+geom_count              Count overlapping points
+geom_crossbar           Vertical intervals: lines, crossbars &
+                        errorbars
+geom_density            Smoothed density estimates
+geom_density_2d         Contours of a 2D density estimate
+geom_dotplot            Dot plot
+geom_errorbarh          Horizontal error bars
+geom_freqpoly           Histograms and frequency polygons
+geom_function           Draw a function as a continuous curve
+geom_hex                Hexagonal heatmap of 2d bin counts
+geom_jitter             Jittered points
+geom_label              Text
+geom_map                Polygons from a reference map
+geom_path               Connect observations
+geom_point              Points
+geom_polygon            Polygons
+geom_qq_line            A quantile-quantile plot
+geom_quantile           Quantile regression
+geom_raster             Rectangles
+geom_ribbon             Ribbons and area plots
+geom_rug                Rug plots in the margins
+geom_segment            Line segments and curves
+geom_smooth             Smoothed conditional means
+geom_spoke              Line segments parameterised by location,
+                        direction and distance
+geom_violin             Violin plot
+get_alt_text            Extract alt text from a plot
+ggplot                  Create a new ggplot
+ggproto                 Create a new ggproto object
+ggsave                  Save a ggplot (or other grid object) with
+                        sensible defaults
+guide_axis              Axis guide
+guide_axis_logticks     Axis with logarithmic tick marks
+guide_axis_stack        Stacked axis guides
+guide_axis_theta        Angle axis guide
+guide_bins              A binned version of guide_legend
+guide_colourbar         Continuous colour bar guide
+guide_coloursteps       Discretized colourbar guide
+guide_custom            Custom guides
+guide_legend            Legend guide
+guide_none              Empty guide
+guides                  Set guides for each scale
+hmisc                   A selection of summary functions from Hmisc
+label_bquote            Label with mathematical expressions
+labeller                Construct labelling specification
+labellers               Useful labeller functions
+labs                    Modify axis, legend, and plot labels
+layer_geoms             Layer geometry display
+layer_positions         Layer position adjustments
+layer_stats             Layer statistical transformations
+lims                    Set scale limits
+luv_colours             'colors()' in Luv space
+mean_se                 Calculate mean and standard error of the mean
+midwest                 Midwest demographics
+mpg                     Fuel economy data from 1999 to 2008 for 38
+                        popular models of cars
+msleep                  An updated and expanded version of the mammals
+                        sleep dataset
+position_dodge          Dodge overlapping objects side-to-side
+position_identity       Don't adjust position
+position_jitter         Jitter points to avoid overplotting
+position_jitterdodge    Simultaneously dodge and jitter
+position_nudge          Nudge points a fixed distance
+position_stack          Stack overlapping objects on top of each
+                        another
+presidential            Terms of 12 presidents from Eisenhower to Trump
+print.ggplot            Explicitly draw plot
+print.ggproto           Format or print a ggproto object
+qplot                   Quick plot
+resolution              Compute the "resolution" of a numeric vector
+scale_alpha             Alpha transparency scales
+scale_colour_brewer     Sequential, diverging and qualitative colour
+                        scales from ColorBrewer
+scale_colour_continuous
+                        Continuous and binned colour scales
+scale_colour_discrete   Discrete colour scales
+scale_colour_gradient   Gradient colour scales
+scale_colour_grey       Sequential grey colour scales
+scale_colour_hue        Evenly spaced colours for discrete data
+scale_colour_identity   Use values without scaling
+scale_colour_manual     Create your own discrete scale
+scale_colour_steps      Binned gradient colour scales
+scale_colour_viridis_d
+                        Viridis colour scales from viridisLite
+scale_linetype          Scale for line patterns
+scale_linewidth         Scales for line width
+scale_shape             Scales for shapes, aka glyphs
+scale_size              Scales for area or radius
+scale_x_binned          Positional scales for binning continuous data
+                        (x & y)
+scale_x_continuous      Position scales for continuous data (x & y)
+scale_x_date            Position scales for date/time data
+scale_x_discrete        Position scales for discrete data
+seals                   Vector field of seal movements
+sec_axis                Specify a secondary axis
+stat_ecdf               Compute empirical cumulative distribution
+stat_ellipse            Compute normal data ellipses
+stat_identity           Leave data as is
+stat_sf_coordinates     Extract coordinates from 'sf' objects
+stat_summary_2d         Bin and summarise in 2d (rectangle & hexagons)
+stat_summary_bin        Summarise y values at unique/binned x
+stat_unique             Remove duplicates
+theme                   Modify components of a theme
+theme_get               Get, set, and modify the active theme
+theme_grey              Complete themes
+txhousing               Housing sales in TX
+vars                    Quote faceting variables
+
+Further information is available in the following vignettes in
+directory
+‘/home/santosg/R/x86_64-pc-linux-gnu-library/4.1/ggplot2/doc’:
+
+extending-ggplot2: Extending ggplot2 (source, pdf)
+ggplot2-in-packages: Using ggplot2 in packages (source, pdf)
+ggplot2-specs: Aesthetic specifications (source, pdf)
+ggplot2: Introduction to ggplot2 (source, pdf)
+
