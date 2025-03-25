@@ -25,4 +25,5 @@ Contenido
    Ejercicios/estadistica-descriptiva
    factores
    ggplot_doc02
-
+   distribuciones-probabilidad
+  
