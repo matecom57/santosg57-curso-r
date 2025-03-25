@@ -23,4 +23,6 @@ Contenido
    Ejercicios/ejercicio01
    Lectura_Escritura/lectura-escritura
    Ejercicios/estadistica-descriptiva
+   factores
+   ggplot_doc02
 
