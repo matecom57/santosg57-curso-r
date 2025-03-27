@@ -1,7 +1,8 @@
 Factores
 ========
 
-En estadística se maneja un **factor** como una variable categorica. Algunos ejemplos de variables categoricas serian:
+En estadística se define un **factor** como una variable categorica. Algunos ejemplos de variables categoricas 
+serian:
 **sexo** ("F", "M"), **estado civil** ("casado", "soltero", "divorsiado"), **nivel socio-economico** ("bajo", "medio", "alto")
 
 Como se generan factores en R

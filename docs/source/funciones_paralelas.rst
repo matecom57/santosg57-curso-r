@@ -6,7 +6,7 @@ cada una de las dimensiones que lo forman.
 
 Ejemplos:
 
-``colSums``
+``colSums()``
 
 .. code:: Bash
 
@@ -14,7 +14,7 @@ Ejemplos:
    s = colSums(m)
    s
 
-``apply``
+``apply()``
 
 .. code:: Bash
 
