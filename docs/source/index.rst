@@ -26,4 +26,4 @@ Contenido
    factores
    ggplot_doc02
    distribuciones-probabilidad
-  
+   Vectores-Logicos  
