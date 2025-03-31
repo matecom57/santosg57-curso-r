@@ -1,14 +1,15 @@
 Vectores lógicos
 ================
 
-Se tiene los valores lógicos TRUE (T) y FALSE (F) en R. Con estos valores lógicos
-se puede construir el vector :math:`v <- c(TRUE, T, FALSE, FALSE, F, T)`. Además se
+Se tiene los valores lógicos ``TRUE (T)`` y ``FALSE (F)`` en R. Con estos valores 
+lógicos
+se puede construir el vector ``v <- c(TRUE, T, FALSE, FALSE, F, T)``. Además se
 pueden generar los siguientes vectores lógicos como se muestra en los siguientes 
 ejemplos.
 
 Ejemplo 1.
 
-.. source:: R
+.. code:: R
 
    x <- c(4,3,1,5,6)
    b <- x>3
@@ -19,7 +20,7 @@ Ejemplo 1.
 
 Ejemplo 2.
 
- .. source:: R 
+ .. code:: R 
 
     m <- matrix(round(rnorm(12, mean=55, sd=19)), ncol=3)
     m
