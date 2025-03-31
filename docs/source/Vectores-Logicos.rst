@@ -17,4 +17,15 @@ Ejemplo 1.
    # ahora saco los valores de `x` donde hay valor `T`en `b`
    x[b]
 
+Ejemplo 2.
+
+ .. source:: R 
+
+    m <- matrix(round(rnorm(12, mean=55, sd=19)), ncol=3)
+    m
+    # cuales son los elementos de la matriz que sean mayores a 55
+    b <- m> 55
+    y = m*b
+    y
+
 
