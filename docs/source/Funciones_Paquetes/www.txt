@@ -1,0 +1,8 @@
+https://www.udemy.com/course/molecular-dynamic-simulations-for-drug-discovery/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Search_DSA_GammaCatchall_NonP_la.EN_cc.ROW-English&campaigntype=Search&portfolio=ROW-English&language=EN&product=Course&test=&audience=DSA&topic=&priority=Gamma&utm_content=deal4584&utm_term=_._ag_169801645584_._ad_700876640599_._kw__._de_c_._dm__._pl__._ti_dsa-1456167871416_._li_9073988_._pd__._&matchtype=&gad_source=1&gclid=Cj0KCQjwhYS_BhD2ARIsAJTMMQahRmw-ZJBZlYn_VA0vY7tfzoQFZHRoW_-4CTRQFPhx61deg4e-57QaAojsEALw_wcB&couponCode=PMNVD30A
+https://info.jove.com/chem-ga?utm_source=google&utm_medium=search&utm_campaign=google+latam&utm_adgroup={adgroup}&utm_source=google&utm_medium=search&utm_term=chemistry%20simulation&utm_campaign={campaign}&hsa_acc=4202901662&hsa_cam=21827673534&hsa_grp=170792458523&hsa_ad=723018746573&hsa_src=g&hsa_tgt=aud-1933027298777:kwd-298601353873&hsa_kw=chemistry%20simulation&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwhYS_BhD2ARIsAJTMMQb015u4KPsX3PPPQY9ZVUaFDJvTW1P-D7ytOxXjWkJDaVjttjMa4xYaAgZwEALw_wcB
+https://www3.mpibpc.mpg.de/groups/de_groot/compbio/p2/index.html
+https://bionano.physics.illinois.edu/tutorials/introduction-md-simulation-dna-protein-systems
+https://gromacs.bioexcel.eu/t/protein-protein-simulation/882
+https://ademos.people.uic.edu/Chapter4.html
+https://www.geeksforgeeks.org/apply-lapply-sapply-and-tapply-in-r/
+
