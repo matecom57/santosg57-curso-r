@@ -1,3 +1,4 @@
+https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
 https://rpubs.com/joser/RegresionSimple
 https://www.datacamp.com/es/tutorial/linear-regression-R
 
