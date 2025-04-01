@@ -15,14 +15,14 @@ estándar.
 
 Hacer lo siguiente:
 
-a) Graficar las parejas de puntos :mat:`(x_i, y_i)`
+a) Graficar las parejas de puntos :math:`(x_i, y_i)`
 
 b) Aplicar el método de mínimos cuadrados para encontrar la mejor recta y graficarla.
 
 3. Tomar tres distribuciones de la tabla de Distribuciones de Probabilidad Estándar y graficar los 
 cuatros tipos de funcion que se tiene en cada una de ellas.
 
-4. Utilizar los datos ``ìris```y hacer los siguiente.
+4. Utilizar los datos ``ìris`` y hacer los siguiente.
 
 a) Hacer un grafica de dispersión  para cada variable numérica y poner un color de acuerdo al tipo de 
 flor.
