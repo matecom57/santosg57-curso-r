@@ -5,6 +5,7 @@ La regresión lineal permite definir la recta que mejor se ajusta a una nube de 
 
 .. image:: Rplots-1.png
    :scale: 50 %
+   :align: left
 
 Este método de regresión por mínimos cuadrados es una estrategia adicional para ajustar adecuadamente el comportamiento o la tendencia general de los datos a través de una recta que minimice la suma de los cuadrados de las distancias verticales de los puntos a la recta.
 
