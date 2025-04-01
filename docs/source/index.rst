@@ -28,4 +28,5 @@ Contenido
    distribuciones-probabilidad
    Vectores-Logicos  
    minimos-cuadrados/minimos-cuadrados
+   distribuciones_estandar
 
