@@ -27,3 +27,5 @@ Contenido
    ggplot_doc02
    distribuciones-probabilidad
    Vectores-Logicos  
+   minimos-cuadrados/minimos-cuadrados
+
