@@ -13,6 +13,7 @@ Algunas funciones
    var()	- da la varianza
    sd()		- da la desviación estándar
    quantile()	- da los curtiles
+   sum()	- suma todos los elementos
 
 Ejemplos
 --------
