@@ -29,7 +29,7 @@ flor.
 
 b) Graficar todas las parejas de variables continuas y poner un color de acuerdo al tipo de flor.
 
-5. Dado :math:`\frac{1}{2}`. Calcular
+5. Dado :math:`q=\frac{1}{2}`. Calcular
 
 a) :math:`\sum_{i=0}^{50} q^{ì}`
 
