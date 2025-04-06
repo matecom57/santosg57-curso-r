@@ -1,0 +1,221 @@
+Nonlinear Regression with R
+
+- 1 Introduction
+
++ 1.1 A stock-recruitment model
++ 1.2 Competition between plant biotypes
++ 1.3 Grouped dose-response data
+
+Advances in Social Science Research Using R
+
+- Chapter 1 Econometric Computing with “R”
+
++ 1.1 Introduction
++ 1.2 The Economics Profession Needs Econometric Computing
+
+file 3
+
+Introducing Monte Carlo Methods with R
+
+- 1.1 Introduction
+
++ 1.2 Getting started
++ 1.3 R objects
++ 1.3.1 The vector class
++ 1.3.2 The matrix, array, and factor classes
+
+file 4
+
+Beginning Data Science with R
+
+- Chapter 1 Introduction
+
++ 1.1 What Is Data Science?
++ 1.2 Why R?
++ 1.3 Goal of This Book
++ 1.4 Book Overview
+
+- Chapter 2 Overview of the R Programming Language
+
++ 2.1 Installing R
++ 2.1.1 Development Tools
++ 2.2 R Programming Language
++ 2.2.1 Operators
++ 2.2.2 Printing Values
++ 2.2.3 Basic Data Types
+
+File 5
+
+R for Cloud Computing
+
+- Chapter 1 Introduction to R for Cloud Computing
+
++ 1.1 What Is R Really?
++ 1.2 What Is Cloud Computing?
++ 1.2.1 What Is SaaS, PaaS, and IaaS?
++ 4 1 Introduction to R for Cloud Computing
++ 1.3 Why Should Cloud Users Learn More About R?
++ 1.4 Big Data and R
++ 1.5 Why Should R Users Learn More About the Cloud?
++ 1.6 How Can You Use R on the Cloud Infrastructure?
++ 1.7 How Long Does It Take to Learn and Apply R on a Cloud?
++ 1.8 Commercial and Enterprise Versions of R
++ 1.9 Other Versions of R
++ 1.10 Cloud Specific Packages of R
++ 1.11 Examples of R and Cloud Computing
++ 1.12 How Acceptable Is R and the Cloud to Enterprises?
++ 1.12.1 SAP Hana with R Interview 1 (7 June 2012)
++ 1.12.2 SAP Hana with R Interview 2–14 June 2012
++ 
+
+File 6
+
+R Recipes
+
+- Chapter 1 Migrating to R: As Easy As 1, 2, 3
+
++ Getting R Up and Running on Your System
++ Okay, So I Have R. What’s Next?
++ Understanding the Data Types in R
++ Handling Missing Data in R
++ Working with Vectors in R
++ Working with Matrices in R
+
+File 7
+
+Statistical Analysis
+of Financial Data in R
+Second Edition
+Ren´e Carmona
+
+- 1 UNIVARIATE DATA DISTRIBUTIONS
+
++ 1.1 P ROBABILITY D ISTRIBUTIONS AND T HEIR PARAMETERS
++ 1.1.1 Standard Probability Distribution Families
++ 1.1.1.1 The Uniform Distribution
+
+File 8
+
+Meta-Analysis with R
+Guido Schwarzer 
+
+File 9
+
+Applied Survival Analysis
+Using R
+Dirk
+
+
+file10
+
+Beginning SQL
+Server R Services
+Bradley
+
+file11
+
+Data Visualisation with R
+Thomas
+
+file12
+
+Machine Learning with R
+Abhijit
+
+- Chapter 1 Linear Algebra, Numerical Optimization, and Its Applications in Machine Learning
+
++ 1.1 Scalars, Vectors, and Linear Functions
++ 1.1.1 Scalars
++ 1.1.2 Vectors
++ 
+
+
+
+
+
+
+
+
+
+
+
+file13
+
+file14
+
+file15
+
+file16
+
+file17
+
+file18
+
+file19
+
+file20
+
+file21
+
+file22
+
+file23
+
+file24
+
+file25
+
+file26 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
