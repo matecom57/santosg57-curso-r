@@ -5,7 +5,7 @@ R esta formado de paquetes y cada uno de ellos resuelve un problema en particula
 constantes, datos,  funciones e informacion relacionada con el paquete.
 
 
-** Una funcion es **
+**Una funcion es**
 
 .. image:: cc2.png
    :scale: 50 %
