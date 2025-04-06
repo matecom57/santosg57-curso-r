@@ -1,17 +1,17 @@
 Funciones y Paquetes
 ====================
 
-* Una función es un programa escrito en algún lenguaje de programación que utiliza datos de entrada y realiza algunos calculos con ellos y devuelve resultados 
-útiles.
+R esta formado de paquetes y cada uno de ellos resuelve un problema en particular. Los paquetes estan formados de 
+constantes, datos,  funciones e informacion relacionada con el paquete.
 
-* Un paquete esta formados de constantes, funciones, ejemplos e información adicional del paquete.
 
-Funciones
----------
+** Una funcion es **
 
 .. image:: cc2.png
+   :scale: 50 %
 
-Ejemplos 1:
+Funciones que manejan el ambiente:
+----------------------------------
 
 .. code:: R
 
@@ -21,13 +21,15 @@ Ejemplos 1:
    setwd()	- cambiar a folder de trabajo
    dir()	- lista archivos que estan en el directorio de trabajo
 
-Ejemplos 2:
-
+Algunas funciones matematicas:
+------------------------------
 
 .. code:: R
 
    log(3)	- calcula el logaritmo de 3
    sin(pi/2)	- calcula el seno de :math:`\pi/2`
+   mean()       - calcula la media aritmetica
+   sd()         - calcula la desviacion estandar
 
 Ejercicios
 ----------
