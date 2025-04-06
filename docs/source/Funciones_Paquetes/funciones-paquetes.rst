@@ -1,7 +1,7 @@
 Funciones y Paquetes
 ====================
 
-R esta formado de paquetes y cada uno de ellos resuelve un problema en particular. Los paquetes estan formados de 
+R esta formado de paquetes y cada uno resuelve un problema particular. Los paquetes estan formados de 
 constantes, datos,  funciones e informacion relacionada con el paquete.
 
 
