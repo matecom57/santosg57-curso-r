@@ -6,13 +6,12 @@ Arreglo ordenado
 
 EXAMPLE 2.2.1
 
-Table 1.4.1 contains a list of the ages of subjects who participated in the study on smok-
-ing cessation discussed in Example 1.4.1. As can be seen, this unordered table requires
+Table 1.4.1 contains a list of the ages of subjects who participated in the study on smoking cessation discussed in Example 1.4.1. As can be seen, this unordered table requires
 considerable searching for us to ascertain such elementary information as the age of the
 youngest and oldest subjects.
 
 
-2.3 GROUPED DATA: THE FREQUENCY DISTRIBUTION
+**2.3 GROUPED DATA: THE FREQUENCY DISTRIBUTION**
 
 EXAMPLE 2.3.1
 We wish to know how many class intervals to have in the frequency distribution of the
