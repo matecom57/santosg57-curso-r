@@ -51,5 +51,8 @@ apply Sturges’s rule to obtain: k = 9
 
 .. image:: im04.png
 
+**Stem-and-Leaf Displays**
+
+.. image:: im05.png
 
 
