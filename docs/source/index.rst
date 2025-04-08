@@ -30,3 +30,4 @@ Contenido
    minimos-cuadrados/minimos-cuadrados
    distribuciones_estandar
    Ejercicios/ejercicios_abr0125
+   Pruebas_estadisticas
