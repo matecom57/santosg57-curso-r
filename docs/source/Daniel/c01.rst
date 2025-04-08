@@ -15,7 +15,7 @@ Conceptos Basicos
 
 - ``Variables Aleatorias Continuas``
 
-- ``Población**
+- ``Población``
 
 - ``Muestra``
 
