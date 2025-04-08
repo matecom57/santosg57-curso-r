@@ -7,6 +7,6 @@ Estadistica
 .. toctree::
    :numbered:
 
-   conceptos_basicos
+   c01
 
 
