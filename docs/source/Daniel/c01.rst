@@ -1,42 +1,43 @@
 Conceptos Basicos
 =================
 
-- **Estadistica**
+- ``Estadística``
 
-- **Variable**
+- ``Variable``
 
-- **Variables Cuantitativas**
+- ``Variables Cuantitativas``
 
-- **Variables Cualitativas**
+- ``Variables Cualitativas``
 
-- **Variables Aleatorias**
+- ``Variables Aleatorias``
 
-- **Variables Aleatorias Discretas**
+- ``Variables Aleatorias Discretas``
 
-- **Variables Aleatorias Continuas**
+- ``Variables Aleatorias Continuas``
 
-- **Poblacion**
+- ``Población**
 
-- **Muestra**
+- ``Muestra``
 
-Medicon y Escalas de Medicion
+
+Medición y Escalas de Medición
 -----------------------------
 
-- **Escala Nomial**
+- ``Escala Nomial``
 
-- **Escala Ordinal**
+- ``Escala Ordinal``
 
-- **Escala Intervalo**
+- ``Escala Intervalo``
 
-- **Escala de Razon**
+- ``Escala de Razon``
 
-Muestreo e Inferencia Estadistica
+Muestreo e Inferencia Estadística
 ---------------------------------
 
 **Ejemplo**. Gold et al. (A-1) studied the effectiveness on smoking cessation of bupropion SR, 
 a nicotine patch, or both, when co-administered with cognitive-behavioral therapy. Consecutive
 consenting patients assigned themselves to one of the three treatments. For illustrative purposes, 
-let us consider all these subjects to be a population of size N " 189. We wish to
+let us consider all these subjects to be a population of size N = 189. We wish to
 select a simple random sample of size 10 from this population whose ages are shown in
 Table 1.4.1.
 
