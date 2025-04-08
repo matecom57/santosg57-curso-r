@@ -47,3 +47,16 @@ https://www.dropbox.com/scl/fi/7a64yon1053t7dq2desps/Rplots.pdf?rlkey=eqqd9allkc
 .. image:: im01.png
 
 
+**Ejercicios**
+
+1. Using the table of random numbers, select a new random starting point, and draw another simple
+random sample of size 10 from the data in Table 1.4.1. Record the ages of the subjects in this new
+sample. Save your data for future use. What is the variable of interest in this exercise? What meas-
+urement scale was used to obtain the measurements?
+
+2. Select another simple random sample of size 10 from the population represented in Table 1.4.1.
+Compare the subjects in this sample with those in the sample drawn in Exercise 1.4.1. Are there
+any subjects who showed up in both samples? How many? Compare the ages of the subjects in
+the two samples. How many ages in the first sample were duplicated in the second sample?
+
+
