@@ -99,3 +99,65 @@ urements increase in size), skewed to the right (the frequencies tend to decreas
 ments increase in size), or U-shaped (the frequencies are high at each end of the distribution and
 small in the center). How would you describe the present distribution?
 
+2.4 DESCRIPTIVE STATISTICS:
+MEASURES OF CENTRAL TENDENCY
+
+**General Formula for the Mean**
+
+.. math::
+
+   \mu = \frac{\sum_{i=1}^N x_i}{N}
+
+**The Sample Mean**
+
+.. math::
+
+   \bar{x} = \frac{\sum_{i=1}^n x_i}{n}
+
+**Median**
+
+**Skewness**
+
+.. math::
+
+   \bar{x} = \frac{\sqrt{n}\sum_{i=1}^n (x_i-\bar{x})^3}{(n-1)\sqrt{n-1}s^3}
+
+EXAMPLE 2.4.6
+
+Consider the three distributions shown in Figure 2.4.1. Given that the histograms repre-
+sent frequency counts, the data can be easily re-created and entered into a statistical pack-
+age. For example, observation of the “No Skew” distribution would yield the following
+data: 5, 5, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 9, 9, 10, 10, 10, 11, 11. Values can be
+
+2.5 DESCRIPTIVE STATISTICS:
+MEASURES OF DISPERSION
+
+**The Range**
+
+.. math::
+
+   R = x_L - x_S
+
+**The Variance**
+
+.. math::
+
+   s^2 = \frac{\sum_{i=1}^n (x_i - \bar{x})^2}{n-1}
+
+
+**Standard Deviation**
+
+**The Coefficient of Variation**
+
+**Percentiles and Quartiles**
+
+**Interquartile Range**
+
+**Kurtosis**
+
+.. math::
+
+   \bar{x} = \frac{n \sum_{i=1}^n (x_i-\bar{x})^4}{(n-1)^2 s^4} -3
+
+
+
