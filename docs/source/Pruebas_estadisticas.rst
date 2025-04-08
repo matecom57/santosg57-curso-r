@@ -29,3 +29,12 @@ wilcox.test
    ## S3 method for class 'formula'
    wilcox.test(formula, data, subset, na.action = na.pass, ...)
 
+aov
+---
+
+.. code:: R
+
+   aov(formula, data = NULL, projections = FALSE, qr = TRUE,
+    contrasts = NULL, ...)
+
+
