@@ -47,6 +47,9 @@ apply Sturges’s rule to obtain: k = 9
 
 .. image:: im03.png
 
+**The Frequency Polygon**
+
+.. image:: im04.png
 
 
 
