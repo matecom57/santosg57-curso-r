@@ -43,5 +43,10 @@ apply Sturges’s rule to obtain: k = 9
 
 .. image:: im02.png
 
+**The Histogram**
+
+.. image:: im03.png
+
+
 
 
