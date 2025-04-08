@@ -159,5 +159,7 @@ MEASURES OF DISPERSION
 
    \bar{x} = \frac{n \sum_{i=1}^n (x_i-\bar{x})^4}{(n-1)^2 s^4} -3
 
+**Box-and-Whisker Plots**
+
 
 
