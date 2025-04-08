@@ -55,4 +55,47 @@ apply Sturges’s rule to obtain: k = 9
 
 .. image:: im05.png
 
+EXERCISES
+
+2.3.1
+
+In a study of the oral home care practice and reasons for seeking dental care among individuals
+on renal dialysis, Atassi (A-1) studied 90 subjects on renal dialysis. The oral hygiene status of all
+subjects was examined using a plaque index with a range of 0 to 3 (0 = no soft plaque deposits,
+3 = an abundance of soft plaque deposits). The following table shows the plaque index scores for
+all 90 subjects.
+
+(a) Use these data to prepare:
+
+A frequency distribution
+
+A relative frequency distribution
+
+A cumulative frequency distribution
+
+A cumulative relative frequency distribution
+
+A histogram
+
+A frequency polygon
+
+(b) What percentage of the measurements are less than 2.00?
+
+(c) What proportion of the subjects have measurements greater than or equal to 1.50?
+
+(d) What percentage of the measurements are between 1.50 and 1.99 inclusive?
+
+(e) How many of the measurements are greater than 2.49?
+
+(f) What proportion of the measurements are either less than 1.0 or greater than 2.49?
+
+(g) Someone picks a measurement at random from this data set and asks you to guess the value.
+What would be your answer? Why?
+
+(h) Frequency distributions and their histograms may be described in a number of ways depend-
+ing on their shape. For example, they may be symmetric (the left half is at least approximately a
+mirror image of the right half), skewed to the left (the frequencies tend to increase as the meas-
+urements increase in size), skewed to the right (the frequencies tend to decrease as the measure-
+ments increase in size), or U-shaped (the frequencies are high at each end of the distribution and
+small in the center). How would you describe the present distribution?
 
