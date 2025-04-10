@@ -131,7 +131,7 @@ Entonces aplica`ndo la funcion ``t.test()`` se obtiene:
 
 Aplicando la teoría matemática se obtiene:
 
-.. math::
+.. source:: R
 
    x <- c(61, 57, 49, 55, 57, 58, 49, 52, 54, 59, 61, 61) 
    y <- c(63, 53, 63, 71, 67, 55, 60, 58, 60, 58, 74, 64)
