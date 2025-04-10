@@ -133,8 +133,11 @@ Aplicando la teoría matemática se obtiene:
 
 .. math::
 
-   x <- c(61, 57, 49, 55, 57, 58, 49, 52, 54, 59, 61, 61) y 
-   y <- c(63, 53, 63, 71, 67, 55, 60, 58, 60, 58, 74, 64).
+   x <- c(61, 57, 49, 55, 57, 58, 49, 52, 54, 59, 61, 61) 
+   y <- c(63, 53, 63, 71, 67, 55, 60, 58, 60, 58, 74, 64)
+
+   mx = mean(x)
+   my = mean(y)
 
    n1 = 12
    n2 = 12
@@ -146,4 +149,11 @@ Aplicando la teoría matemática se obtiene:
    w2 <- v2/n2
 
    alfa = 0.05
-   t1 = qt(1
+   t1 = qt(1-alfa/2, n1-1)
+   t2 = qt(1-alfa/2, n2-1)
+
+   ss = sqrt(v1/n1 + v2/n2)
+
+   t = (mx-my) / ss
+
+
