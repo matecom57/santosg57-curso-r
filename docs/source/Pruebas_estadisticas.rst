@@ -95,4 +95,5 @@ Varianza poblacionales iguales:
 
    t = \frac{(\bar{x}_1 - \bar{x}_2) - (\mu_1 - \mu_2)_0}{\sqrt{\frac{s_p^2}{n_1} + \frac{s_p^2}{n_2} }
 
+which, when is true, is distributed as Student’s H0 t with :math:`n_1+n_2-2` degrees of freedom.
 
