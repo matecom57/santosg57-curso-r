@@ -155,5 +155,3 @@ Aplicando la teoría matemática se obtiene:
    ss = sqrt(v1/n1 + v2/n2)
 
    t = (mx-my) / ss
-
-
