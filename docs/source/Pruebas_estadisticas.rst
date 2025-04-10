@@ -73,6 +73,10 @@ Ahora utilizando la teoría matemática de estadistica se tiene:
    t=  -2.133065 
 
    pvalue= 2*pt(t, 11) =  0.05627924
+
+   q = qt(\alpha/2,11)
  
-   Intervalo de confianza: [\bar{x} - qt(\alpha/2)*\sigma_{\bar{x}}, \bar{x} + qt(\alpha/2)*\sigma_{\bar{x}}] = [ 49.53399  ,  58.13267 ]
+   Intervalo de confianza: [\bar{x} - q * \sigma_{\bar{x}}, \bar{x} + q * \sigma_{\bar{x}}] = 
+
+   [ 49.53399  ,  58.13267 ]
 
