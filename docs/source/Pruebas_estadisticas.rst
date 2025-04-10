@@ -74,7 +74,7 @@ Ahora utilizando la teoría matemática de estadistica se tiene:
 
    pvalue= 2*pt(t, 11) =  0.05627924
 
-   q = qt(\alpha/2,11)
+   q = qt(1-\alpha/2,11)
  
 Intervalo de confianza esta dado por:
 
