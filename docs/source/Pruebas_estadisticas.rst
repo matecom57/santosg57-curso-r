@@ -116,16 +116,14 @@ para :math:`n_2-1` grados de libertad.
 Consideremos las muestras: x=c(61, 57, 49, 55, 57, 58, 49, 52, 54, 59, 61, 61) y y=c(63, 53, 63, 71, 67, 55, 60, 58, 60, 58, 74, 64). 
 Entonces aplica`ndo la funcion ``t.test()`` se obtiene:
 
-los resultados son los siguientes:
-
-
 .. source:: R
 
    Welch Two Sample t-test
 
    data:  x and y
    t = -2.7745, df = 19.702, p-value = 0.01181
-   alternative hypothesis: true difference in means is not equal to 0
+   
+alternative hypothesis: true difference in means is not equal to 0
    95 percent confidence interval:
       -10.661441  -1.505225
    sample estimates:
