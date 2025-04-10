@@ -91,12 +91,12 @@ Varianza poblacionales iguales:
 
 .. math::
 
-   s_p^2 = \frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1 + n_2}
+   s_p^2 = \frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1 + n_2-2}
 
    t = \frac{(\bar{x}_1 - \bar{x}_2) - (\mu_1 - \mu_2)_0}{\sqrt{\frac{s_p^2}{n_1} + \frac{s_p^2}{n_2} }}
 
 
-el cual, cuando es verdadero, es distribuido como una t-Student's H0 con :math:`n_1+n_2-2` degrees of freedom.
+el cual, cuando :math:`H_o` es verdadero, es distribuido como una t-Student's con :math:`n_1+n_2-2` grados de libertad.
 
 
 **Varianza Poblaciones No iguales**
@@ -109,3 +109,41 @@ el cual, cuando es verdadero, es distribuido como una t-Student's H0 con :math:`
 
 donde :math:`w_1=s_1^2/n_1, w_2=s_2^2/n_2, t_1 = t_{1-(\alpha/2)}`, para :math:`n_1-1` grados de libertad, y :math:`t_2=t_{1-(\alpha/2)}`
 para :math:`n_2-1` grados de libertad.
+
+
+Ejemplo:
+
+Consideremos las muestras: x=c(61, 57, 49, 55, 57, 58, 49, 52, 54, 59, 61, 61) y y=c(63, 53, 63, 71, 67, 55, 60, 58, 60, 58, 74, 64). 
+Entonces aplica`ndo la funcion ``t.test()`` se obtiene:
+
+
+.. code:: R
+	Welch Two Sample t-test
+
+   data:  x and y
+   t = -2.7745, df = 19.702, p-value = 0.01181
+   alternative hypothesis: true difference in means is not equal to 0
+   95 percent confidence interval:
+      -10.661441  -1.505225
+   sample estimates:
+   mean of x mean of y 
+     56.08333  62.16667 
+
+Aplicando la teoría matemática se obtiene:
+
+.. math::
+
+   x <- c(61, 57, 49, 55, 57, 58, 49, 52, 54, 59, 61, 61) y 
+   y <- c(63, 53, 63, 71, 67, 55, 60, 58, 60, 58, 74, 64).
+
+   n1 = 12
+   n2 = 12
+
+   v1 <- var(x)
+   v2 <- var(y)
+
+   w1 <- v1/n1
+   w2 <- v2/n2
+
+   alfa = 0.05
+   t1 = qt(1
