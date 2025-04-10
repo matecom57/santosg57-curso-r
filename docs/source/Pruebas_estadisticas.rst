@@ -118,7 +118,7 @@ Entonces aplica`ndo la funcion ``t.test()`` se obtiene:
 
 
 .. source:: R
- 
+
    Welch Two Sample t-test
 
    data:  x and y
