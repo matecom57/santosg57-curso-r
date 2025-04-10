@@ -82,5 +82,6 @@ Intervalo de confianza esta dado por:
 
    [ \bar{x} - q * \sigma_{\bar{x}}, \bar{x} + q * \sigma_{\bar{x}} ]  
 
-   \[ 49.53399  ,  58.13267 \]
+
+[ 49.53399  ,  58.13267 ]
 
