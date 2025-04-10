@@ -120,7 +120,9 @@ Entonces aplica`ndo la funcion ``t.test()`` se obtiene:
 
    Welch Two Sample t-test
 
-   data:  x and y
+   
+
+data:  x and y
    t = -2.7745, df = 19.702, p-value = 0.01181
    
 alternative hypothesis: true difference in means is not equal to 0
