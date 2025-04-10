@@ -40,7 +40,7 @@ aov
 
 **Ejemplo 1.** 
 
-Consideremos la muestra y chequemos las prueba estadística: :math: `H_o: \mu = 58` con `H_a: \mu \neq 58`
+Consideremos la muestra y chequemos las prueba estadística: :math:`H_o: \mu = 58` con :math:`H_a: \mu \neq 58`
 
 58 51 58 56 61 58 47 44 57 64 48 44
 
@@ -66,7 +66,9 @@ Ahora utilizando la teoría matemática de estadistica se tiene:
 
    \sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}
 
-   t = \frac{\bar{x} - \mu_o}{\sigma_{\bar{x}}}
+
+
+t = \frac{\bar{x} - \mu_o}{\sigma_{\bar{x}}}
 
    \alpha = 0.05
 
