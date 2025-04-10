@@ -76,7 +76,8 @@ Ahora utilizando la teoría matemática de estadistica se tiene:
 
    q = qt(\alpha/2,11)
  
-   Intervalo de confianza: [\bar{x} - q * \sigma_{\bar{x}}, \bar{x} + q * \sigma_{\bar{x}}] = 
+
+Intervalo de confianza: [\bar{x} - q * \sigma_{\bar{x}}, \bar{x} + q * \sigma_{\bar{x}}] = 
 
    [ 49.53399  ,  58.13267 ]
 
