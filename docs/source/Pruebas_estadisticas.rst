@@ -120,7 +120,6 @@ Entonces aplica`ndo la funcion ``t.test()`` se obtiene:
 
    Welch Two Sample t-test
 
-   
 
 data:  x and y
    t = -2.7745, df = 19.702, p-value = 0.01181
