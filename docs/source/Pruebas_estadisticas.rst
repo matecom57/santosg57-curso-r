@@ -66,9 +66,7 @@ Ahora utilizando la teoría matemática de estadistica se tiene:
 
    \sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}
 
-
-
-t = \frac{\bar{x} - \mu_o}{\sigma_{\bar{x}}}
+   t = \frac{\bar{x} - \mu_o}{\sigma_{\bar{x}}}
 
    \alpha = 0.05
 
