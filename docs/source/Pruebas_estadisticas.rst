@@ -85,3 +85,14 @@ Intervalo de confianza esta dado por:
 
 [ 49.53399  ,  58.13267 ]
 
+**Ejemplo: Prueba de Hipotesis de la diferencia entre dos medias poblacionales:**
+
+Varianza poblacionales iguales:
+
+.. math::
+
+   s_p^2 = \frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1 + n_2 -2}
+
+   t = \frac{(\bar{x}_1 - \bar{x}_2) - (\mu_1 - \mu_2)_0}{\sqrt{\frac{s_p^2}{n_1} +s_p^2}{n_2} }}
+
+
