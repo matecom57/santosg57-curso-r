@@ -62,7 +62,7 @@ Utilizando la funcion ``t.test()`` obtenemos:
 
 Ahora utilizando la teoría matemática de estadistica se tiene:
 
-.. math:
+.. math::
 
    \sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}
 
