@@ -117,7 +117,7 @@ Consideremos las muestras: x=c(61, 57, 49, 55, 57, 58, 49, 52, 54, 59, 61, 61) y
 Entonces aplica`ndo la funcion ``t.test()`` se obtiene:
 
 
-.. code:: R
+.. math:: 
 	Welch Two Sample t-test
 
    data:  x and y
