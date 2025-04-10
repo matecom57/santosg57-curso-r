@@ -97,3 +97,14 @@ Varianza poblacionales iguales:
 
 which, when is true, is distributed as Student’s H0 t with :math:`n_1+n_2-2` degrees of freedom.
 
+
+**Varianza Poblaciones No iguales**
+
+.. math::
+
+   t' = \frac{(\bar{x}_1 - \bar{x}_2) - (\mu_1 - \mu_2)_0}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2} }
+
+   t'_{1-(\alpha/2} = \frac{w_1t_1 + w_2t_2}{w_1 + w_2}
+
+donde :math:`w_1=s_1^2/n_1, w_2=s_2^2/n_2, t_1 = t_{1-(\alpha/2}`, para :math:`n_1-1` grados de libertad, y :math:`t_2=t_{1-(\alpha/2)}`
+para `n_2-1` grados de libertad.
