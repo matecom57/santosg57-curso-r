@@ -1,4 +1,6 @@
 BIOSTATISTICS_Daniel
+====================
+
 
 CHAPTER 1. INTRODUCTION TO BIOSTATISTICS
 
