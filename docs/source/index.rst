@@ -31,3 +31,4 @@ Contenido
    distribuciones_estandar
    Ejercicios/ejercicios_abr0125
    Pruebas_estadisticas
+   BIOSTATISTICS_Daniel/libro
