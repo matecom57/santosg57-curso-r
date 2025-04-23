@@ -31,10 +31,10 @@ CHAPTER 1. INTRODUCTION TO BIOSTATISTICS
    :scale: 50%
 
 .. image:: tabla_2-3-2.png
-   :scale: 90%
+   :scale: 60%
 
 .. image:: tabla_2-3-3.png
-   :scale: 90%
+   :scale: 60%
 
 .. image:: fig_2-3-4.png
 
@@ -43,10 +43,12 @@ CHAPTER 1. INTRODUCTION TO BIOSTATISTICS
 2.4 DESCRIPTIVE STATISTICS: MEASURES OF CENTRAL TENDENCY
 
 .. image:: fig_2-4-3.png
+   :scale: 60%
 
 2.5 DESCRIPTIVE STATISTICS: MEASURES OF DISPERSION
 
 .. image:: fig_2-5-8.png
+   :scale: 60%
 
 **CHAPTER 3 SOME BASIC PROBABILITY CONCEPTS**
 
@@ -78,12 +80,13 @@ CHAPTER 1. INTRODUCTION TO BIOSTATISTICS
 4.6 THE NORMAL DISTRIBUTION
 
 .. image:: fig_4-6-2.png
-   :scale: 60 %
+   :scale: 50 %
 
 .. image:: fig_4-6-6.png
    :scale: 60 %
 
 .. image:: fig_4-6-1_E.png
+   :scale: 50 %
 
 4.7 NORMAL DISTRIBUTION APPLICATIONS
 
@@ -120,8 +123,16 @@ CHAPTER 1. INTRODUCTION TO BIOSTATISTICS
 6.2 CONFIDENCE INTERVAL FOR A POPULATION MEAN
 
 .. image:: fig_6-2-1.png
+   :scale: 50 %
 
 **Interval Estimate Components**
 
 estimator :math:`\om` 
 
+**6.3 THE t DISTRIBUTION**
+
+**Confidence Intervals Using t**
+
+.. math::
+
+   \bar{x} \pm t_{(1- \alpha/2}
