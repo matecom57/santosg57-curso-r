@@ -78,8 +78,10 @@ CHAPTER 1. INTRODUCTION TO BIOSTATISTICS
 4.6 THE NORMAL DISTRIBUTION
 
 .. image:: fig_4-6-2.png
+   :scale: 60 %
 
 .. image:: fig_4-6-6.png
+   :scale: 60 %
 
 .. image:: fig_4-6-1_E.png
 
