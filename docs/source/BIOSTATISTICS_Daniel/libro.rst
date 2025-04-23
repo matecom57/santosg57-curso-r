@@ -28,6 +28,7 @@ CHAPTER 1. INTRODUCTION TO BIOSTATISTICS
 2.3 GROUPED DATA: THE FREQUENCY DISTRIBUTION
 
 .. image:: tabla_2_3_1.png
+   :scale: 50%
 
 .. image:: tabla_2-3-2.png
 
