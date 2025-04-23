@@ -77,6 +77,12 @@ CHAPTER 1. INTRODUCTION TO BIOSTATISTICS
 
 4.6 THE NORMAL DISTRIBUTION
 
+.. image:: fig_4-6-2.png
+
+.. image:: fig_4-6-6.png
+
+.. image:: fig_4-6-1_E.png
+
 4.7 NORMAL DISTRIBUTION APPLICATIONS
 
 **CHAPTER 5 SOME IMPORTANT SAMPLING DISTRIBUTIONS**
@@ -87,5 +93,13 @@ CHAPTER 1. INTRODUCTION TO BIOSTATISTICS
 
 5.3 DISTRIBUTION OF THE SAMPLE MEAN
 
+.. image:: c501.png
 
+.. image:: c502.png
+
+5.4 DISTRIBUTION OF THE DIFFERENCE BETWEEN TWO SAMPLE MEANS
+
+.. math::
+
+   z = \frac{(\bar{x}_1 - \bar{x}_2) - (\mu_1 - \mu_2)}{\sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}}}
 
