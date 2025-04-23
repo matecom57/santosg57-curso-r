@@ -31,8 +31,10 @@ CHAPTER 1. INTRODUCTION TO BIOSTATISTICS
    :scale: 50%
 
 .. image:: tabla_2-3-2.png
+   :scale: 90%
 
 .. image:: tabla_2-3-3.png
+   :scale: 90%
 
 2.4 DESCRIPTIVE STATISTICS: MEASURES OF CENTRAL TENDENCY
 
