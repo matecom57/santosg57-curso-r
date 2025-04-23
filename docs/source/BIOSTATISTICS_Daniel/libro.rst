@@ -103,3 +103,23 @@ CHAPTER 1. INTRODUCTION TO BIOSTATISTICS
 
    z = \frac{(\bar{x}_1 - \bar{x}_2) - (\mu_1 - \mu_2)}{\sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}}}
 
+5.5 DISTRIBUTION OF THE SAMPLE PROPORTION
+
+.. mat::
+
+   z = \frac{\hat{p} - p}{\sqrt{\frac{p(1-p)}{n}}}
+
+5.6 DISTRIBUTION OF THE DIFFERENCE BETWEEN TWO SAMPLE PROPORTIONS
+
+**CHAPTER 6 ESTIMATION**
+
+6.1 INTRODUCTION
+
+6.2 CONFIDENCE INTERVAL FOR A POPULATION MEAN
+
+.. image:: fig_6-2-1.png
+
+**Interval Estimate Components**
+
+estimator :math:`\om` 
+
