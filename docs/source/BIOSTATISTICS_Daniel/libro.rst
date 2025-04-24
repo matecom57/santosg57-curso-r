@@ -112,6 +112,13 @@ BIOSTATISTICS_Daniel
 
 5.3 DISTRIBUTION OF THE SAMPLE MEAN
 
+**The Central Limit Theorem**
+
+Given a population of any nonnormal functional form with a mean :math:`\mean` and finite
+variance :math:`\sigma^2`, the sampling distribution of :math:`\bar{x}`, computed from samples of size n from
+this population, will have mean :math:`\mean` and variance :math:`\sigma^2/n` and will be approximately
+normally distributed when the sample size is large.
+
 .. image:: c501.png
 
 .. image:: c502.png
