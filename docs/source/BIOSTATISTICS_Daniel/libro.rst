@@ -114,14 +114,16 @@ BIOSTATISTICS_Daniel
 
 **The Central Limit Theorem**
 
-Given a population of any nonnormal functional form with a mean :math:`\mean` and finite
+Given a population of any nonnormal functional form with a mean :math:`\mu` and finite
 variance :math:`\sigma^2`, the sampling distribution of :math:`\bar{x}`, computed from samples of size n from
-this population, will have mean :math:`\mean` and variance :math:`\sigma^2/n` and will be approximately
+this population, will have mean :math:`\mu` and variance :math:`\sigma^2/n` and will be approximately
 normally distributed when the sample size is large.
 
 .. image:: c501.png
+   :scale: 80 %
 
 .. image:: c502.png
+   :scale: 80 %
 
 5.4 DISTRIBUTION OF THE DIFFERENCE BETWEEN TWO SAMPLE MEANS
 
@@ -141,6 +143,26 @@ normally distributed when the sample size is large.
 
 6.1 INTRODUCTION
 
+**DEFINITION**
+
+Statistical inference is the procedure by which we reach a conclusion
+about a population on the basis of the information contained in a
+sample drawn from that population.
+
+
+**DEFINITION**
+
+A point estimate is a single numerical value used to estimate the
+corresponding population parameter.
+
+
+**DEFINITION**
+
+An interval estimate consists of two numerical values defining a range
+of values that, with a specified degree of confidence, most likely
+includes the parameter being estimated.
+
+
 6.2 CONFIDENCE INTERVAL FOR A POPULATION MEAN
 
 .. image:: fig_6-2-1.png
@@ -148,7 +170,20 @@ normally distributed when the sample size is large.
 
 **Interval Estimate Components**
 
-estimator :math:`\om` 
+In general, then, an interval estimate may be expressed as follows:
+
+estimator :math:`\pm` (reliability coefficient) :math:`\times` (standard error)   (6.2.1)
+
+In particular, when sampling is from a normal distribution with known variance,
+an interval estimate for :math:`\mu` may be expressed as
+
+.. math::
+
+   \bar{x} \pm z_{(1-\alpha/2) \sigma_{\bar{x}}}
+
+where :math:`z_{(1-\alpha/2)}` is the value of z to the left of which lies :math:`1-\alpha/2` and to the right of
+which lies `:math:`\alpha/2` of the area under its curve.
+
 
 **6.3 THE t DISTRIBUTION**
 
