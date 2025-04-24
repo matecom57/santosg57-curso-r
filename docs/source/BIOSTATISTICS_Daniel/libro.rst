@@ -296,7 +296,8 @@ of rejecting a true null hypothesis.
 .. image:: fig_8-2-1.png
    :scale: 70 %
 
-.. umage:: fig_8-2-1B.png
+.. image:: fig_8-2-1B.png
+   :scale: 70 % 
 
 **The F Test**
 
