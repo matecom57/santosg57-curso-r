@@ -81,7 +81,7 @@ BIOSTATISTICS_Daniel
 
 .. math:
 
-   f(x) = \frac{1}{\sqrt{2\pi \sigma}} e^{-(x-\mu)^^2/2\sigma^2}, -\infty < x < \infty
+   f(x) = \frac{1}{\sqrt{2\pi \sigma}} e^{-(x-\mu)^2/2\sigma^2}, -\infty < x < \infty
 
 
 .. image:: fig_4-6-2.png
