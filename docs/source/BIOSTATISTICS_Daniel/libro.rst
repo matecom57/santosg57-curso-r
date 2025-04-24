@@ -172,23 +172,55 @@ includes the parameter being estimated.
 
 In general, then, an interval estimate may be expressed as follows:
 
-estimator :math:`\pm` (reliability coefficient) :math:`\times` (standard error)   (6.2.1)
+estimator :math:`\pm` (reliability coefficient) :math:`\times` (standard error)       (6.2.1)
 
 In particular, when sampling is from a normal distribution with known variance,
 an interval estimate for :math:`\mu` may be expressed as
 
 .. math::
 
-   \bar{x} \pm z_{(1-\alpha/2) \sigma_{\bar{x}}}
+   \bar{x} \pm z_{(1-\alpha/2)} \sigma_{\bar{x}}
 
 where :math:`z_{(1-\alpha/2)}` is the value of z to the left of which lies :math:`1-\alpha/2` and to the right of
-which lies `:math:`\alpha/2` of the area under its curve.
+which lies :math:`\alpha/2` of the area under its curve.
+
+
+**Sampling from Nonnormal Populations**
 
 
 **6.3 THE t DISTRIBUTION**
+
 
 **Confidence Intervals Using t**
 
 .. math::
 
-   \bar{x} \pm t_{(1- \alpha/2}
+   \bar{x} \pm t_{(1- \alpha/2)} \frac{s}{\sqrt{n}}
+
+
+6.4 CONFIDENCE INTERVAL FOR THE DIFFERENCE BETWEEN TWO POPULATION MEANS
+
+**Population Variances Equal**
+
+.. math::
+
+   s_p^2 = \frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1 + n_2 -2}
+
+The standard error of the estimate, then, is given by
+
+.. math::
+
+   s_{\bar{x}_1 - \bar{x}_2} = \sqrt{\frac{s_p^2}{n_1} + \frac{s_p^2}{n_2}}
+
+
+and the :math:`100(1-\alpha)` percent confidence interval for is given by 
+
+.. math::
+
+   (\bar{x}_1 - \bar{x}_2) \pm t_{(1-\alpha/2)} \sqrt{\frac{s_p^2}{n_1} + \frac{s_p^2}{n_2}}
+
+The number of degrees of freedom used in determining the value of t to use in constructing the interval is
+:math:`n_1 + n_2 - 2`
+
+
+
