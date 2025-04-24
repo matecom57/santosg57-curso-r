@@ -294,14 +294,16 @@ of rejecting a true null hypothesis.
 **One-Way ANOVA**
 
 .. image:: fig_8-2-1.png
-   :scale: 70 %
+   :scale: 50 %
 
 .. image:: fig_8-2-1B.png
-   :scale: 70 % 
+   :scale: 50 % 
 
 **The F Test**
 
-.. image::fig_8-2-2.png
+.. image:: fig_8-2-2.png
+   :scale: 50 % 
+
 
 **Tukey’s HSD Test**
 
@@ -309,9 +311,11 @@ of rejecting a true null hypothesis.
 
 8.3 THE RANDOMIZED COMPLETE BLOCK DESIGN
 
-.. image::fig_8-3-1.png
+.. image:: fig_8-3-1.png
+   :scale: 50 %
 
 .. image::fig_8-3-2.png
+   :scale: 50 %
 
 8.4 THE REPEATED MEASURES DESIGN
 
