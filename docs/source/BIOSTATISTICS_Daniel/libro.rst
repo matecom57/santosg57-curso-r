@@ -293,7 +293,7 @@ of rejecting a true null hypothesis.
 
 **One-Way ANOVA**
 
-.. image::fig_8-2-1.png
+.. image:: fig_8-2-1.png
 
 
 .. umage::fig_8-2-1B.png
