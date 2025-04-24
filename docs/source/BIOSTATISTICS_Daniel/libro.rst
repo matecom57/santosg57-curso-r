@@ -222,5 +222,18 @@ and the :math:`100(1-\alpha)` percent confidence interval for is given by
 The number of degrees of freedom used in determining the value of t to use in constructing the interval is
 :math:`n_1 + n_2 - 2`
 
+**Population Variances Not Equal**
 
+The solution proposed by Cochran consists of computing the reliability factor, :math:`t'_{1-\alpha/2}` by the following formula:
 
+.. math::
+
+   t'_{1-\alpha/2} = \frac{w_1t_1 + w_2 t_2}{w_1 + w_2}
+
+where :math:`w_1=s_1^2/n_1, w_2=s_2^2/n_2,  t_1=t_{1-\alpha/2}` for :math:`n_1-1` degrees of freedom, and :math:`t_2=t_{1-\alpha/2}`
+for :math:`n_2-1`  degrees of freedom. An approximate :math:`100(1-\alpha)` percent confidence
+interval for`:math:`\mu_1 - \mu_2` is given by
+
+.. math::
+
+   (\bar{x}_1  - \bar{x}_2) \pm t'_{(1-\alpha/2)} \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}
