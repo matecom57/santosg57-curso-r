@@ -314,7 +314,7 @@ of rejecting a true null hypothesis.
 .. image:: fig_8-3-1.png
    :scale: 50 %
 
-.. image::fig_8-3-2.png
+.. image:: fig_8-3-2.png
    :scale: 50 %
 
 8.4 THE REPEATED MEASURES DESIGN
@@ -332,15 +332,16 @@ of rejecting a true null hypothesis.
    y = \beta_0 + \beta_1 x + \varepsilon
 
 
-.. image::fig_9-2-1.png
+.. image:: fig_9-2-1.png
+   :scale: 50 %
 
 9.3 THE SAMPLE REGRESSION EQUATION
 
 9.4 EVALUATING THE REGRESSION EQUATION
 
-**When :math:`H_o: \beta_1 = 0` Is Not Rejected**
+When :math:`H_0: \beta_1 = 0` Is Not Rejected
 
-**When :math:`H_o: \beta_1 = 0` Is Rejected** 
+When :math:`H_0: \beta_1 = 0` Is Rejected
 
 **The Coefficient of Determination** One way to evaluate the strength of
 the regression equation is to compare the scatter of the points about the regression line
