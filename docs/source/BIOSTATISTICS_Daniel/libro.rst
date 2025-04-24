@@ -79,7 +79,7 @@ BIOSTATISTICS_Daniel
 
 4.6 THE NORMAL DISTRIBUTION
 
-.. math:
+.. math::
 
    f(x) = \frac{1}{\sqrt{2\pi \sigma}} e^{-(x-\mu)^2/2\sigma^2}, -\infty < x < \infty
 
