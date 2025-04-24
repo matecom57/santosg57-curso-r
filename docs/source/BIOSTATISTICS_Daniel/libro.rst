@@ -2,7 +2,7 @@ BIOSTATISTICS_Daniel
 ====================
 
 
-CHAPTER 1. INTRODUCTION TO BIOSTATISTICS
+**CHAPTER 1. INTRODUCTION TO BIOSTATISTICS**
 
 
 1.1 INTRODUCTION
@@ -31,10 +31,10 @@ CHAPTER 1. INTRODUCTION TO BIOSTATISTICS
    :scale: 50%
 
 .. image:: tabla_2-3-2.png
-   :scale: 60%
+   :scale: 50%
 
 .. image:: tabla_2-3-3.png
-   :scale: 60%
+   :scale: 50%
 
 .. image:: fig_2-3-4.png
 
@@ -43,12 +43,12 @@ CHAPTER 1. INTRODUCTION TO BIOSTATISTICS
 2.4 DESCRIPTIVE STATISTICS: MEASURES OF CENTRAL TENDENCY
 
 .. image:: fig_2-4-3.png
-   :scale: 60%
+   :scale: 50%
 
 2.5 DESCRIPTIVE STATISTICS: MEASURES OF DISPERSION
 
 .. image:: fig_2-5-8.png
-   :scale: 60%
+   :scale: 50%
 
 **CHAPTER 3 SOME BASIC PROBABILITY CONCEPTS**
 
@@ -78,6 +78,11 @@ CHAPTER 1. INTRODUCTION TO BIOSTATISTICS
 
 
 4.6 THE NORMAL DISTRIBUTION
+
+.. math:
+
+   f(x) = \frac{1}{\sqrt{2\pi \sigma}} e^{-(x-\mu)^^2/2\sigma^2}, -\infty < x < \infty
+
 
 .. image:: fig_4-6-2.png
    :scale: 50 %
