@@ -294,9 +294,9 @@ of rejecting a true null hypothesis.
 **One-Way ANOVA**
 
 .. image:: fig_8-2-1.png
+   :scale: 70 %
 
-
-.. umage::fig_8-2-1B.png
+.. umage:: fig_8-2-1B.png
 
 **The F Test**
 
