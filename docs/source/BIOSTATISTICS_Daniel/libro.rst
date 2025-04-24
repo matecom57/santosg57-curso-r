@@ -89,14 +89,14 @@ BIOSTATISTICS_Daniel
 .. image:: fig_4-6-2.png
    :scale: 50 %
 
-.. image:: fig_4-6-6.png
-   :scale: 60 %
-
 **The Standard Normal Distribution**
 
 .. math::
 
    f(z) = \frac{1}{\sqrt{2\pi}} e^{-z^2/2}, -\infty < z < \infty
+
+.. image:: fig_4-6-6.png
+   :scale: 60 %
 
 
 .. image:: fig_4-6-1_E.png
