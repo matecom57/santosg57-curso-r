@@ -232,8 +232,128 @@ The solution proposed by Cochran consists of computing the reliability factor, :
 
 where :math:`w_1=s_1^2/n_1, w_2=s_2^2/n_2,  t_1=t_{1-\alpha/2}` for :math:`n_1-1` degrees of freedom, and :math:`t_2=t_{1-\alpha/2}`
 for :math:`n_2-1`  degrees of freedom. An approximate :math:`100(1-\alpha)` percent confidence
-interval for`:math:`\mu_1 - \mu_2` is given by
+interval for :math:`\mu_1 - \mu_2` is given by
 
 .. math::
 
    (\bar{x}_1  - \bar{x}_2) \pm t'_{(1-\alpha/2)} \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}
+
+
+6.5 CONFIDENCE INTERVAL FOR A POPULATION PROPORTION
+
+
+6.6 CONFIDENCE INTERVAL FOR THE DIFFERENCE BETWEEN TWO POPULATION PROPORTIONS
+
+6.7 DETERMINATION OF SAMPLE SIZE FOR ESTIMATING MEANS
+
+
+6.8 DETERMINATION OF SAMPLE SIZE FOR ESTIMATING PROPORTIONS
+
+6.9 CONFIDENCE INTERVAL FOR THE VARIANCE OF A NORMALLY DISTRIBUTED POPULATION
+
+6.10 CONFIDENCE INTERVAL FOR THE RATIO OF THE VARIANCES OF TWO NORMALLY DISTRIBUTED POPULATIONS
+
+
+**CHAPTER 7 HYPOTHESIS TESTING**
+
+7.1 INTRODUCTION
+
+**DEFINITION**
+
+A hypothesis may be defined simply as a statement about one or more populations.
+
+**DEFINITION**
+
+The level of significance is a probability and, in fact, is the probability
+of rejecting a true null hypothesis.
+
+7.2 HYPOTHESIS TESTING: A SINGLE POPULATION MEAN
+
+7.3 HYPOTHESIS TESTING: THE DIFFERENCE BETWEEN TWO POPULATION MEANS
+
+7.4 PAIRED COMPARISONS
+
+7.5 HYPOTHESIS TESTING: A SINGLE POPULATION PROPORTION
+
+7.6 HYPOTHESIS TESTING: THE DIFFERENCE BETWEEN TWO POPULATION PROPORTIONS
+
+7.7 HYPOTHESIS TESTING: A SINGLE POPULATION VARIANCE
+
+7.8 HYPOTHESIS TESTING: THE RATIO OF TWO POPULATION VARIANCES
+
+7.9 THE TYPE II ERROR AND THE POWER OF A TEST
+
+7.10 DETERMINING SAMPLE SIZE TO CONTROL TYPE II ERRORS
+
+**CHAPTER 8 ANALYSIS OF VARIANCE**
+
+8.1 INTRODUCTION
+
+8.2 THE COMPLETELY RANDOMIZED DESIGN
+
+**One-Way ANOVA**
+
+.. image::fig_8-2-1.png
+
+
+.. umage::fig_8-2-1B.png
+
+**The F Test**
+
+.. image::fig_8-2-2.png
+
+**Tukey’s HSD Test**
+
+**Bonferroni’s Method**
+
+8.3 THE RANDOMIZED COMPLETE BLOCK DESIGN
+
+.. image::fig_8-3-1.png
+
+.. image::fig_8-3-2.png
+
+8.4 THE REPEATED MEASURES DESIGN
+
+8.5 THE FACTORIAL EXPERIMENT
+
+**CHAPTER 9 SIMPLE LINEAR REGRESSION AND CORRELATION**
+
+9.1 INTRODUCTION
+
+9.2 THE REGRESSION MODEL
+
+.. math::
+
+   y = \beta_0 + \beta_1 x + \varepsilon
+
+
+.. image::fig_9-2-1.png
+
+9.3 THE SAMPLE REGRESSION EQUATION
+
+9.4 EVALUATING THE REGRESSION EQUATION
+
+**When :math:`H_o: \beta_1 = 0` Is Not Rejected**
+
+**When :math:`H_o: \beta_1 = 0` Is Rejected** 
+
+**The Coefficient of Determination** One way to evaluate the strength of
+the regression equation is to compare the scatter of the points about the regression line
+with the scatter about :math:`\bar{y}` the mean of the sample values of Y.
+
+9.5 USING THE REGRESSION EQUATION
+
+9.6 THE CORRELATION MODEL
+
+9.7 THE CORRELATION COEFFICIENT
+
+9.8 SOME PRECAUTIONS
+
+**CHAPTER10 MULTIPLE REGRESSION AND CORRELATION**
+
+
+
+
+
+
+
