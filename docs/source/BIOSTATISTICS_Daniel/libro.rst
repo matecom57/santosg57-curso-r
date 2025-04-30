@@ -227,6 +227,10 @@ which lies :math:`\alpha/2` of the area under its curve.
 
 **6.3 THE t DISTRIBUTION**
 
+.. code:: R
+
+   t.tes(), var.test(), wilcox.test()
+
 
 **Confidence Intervals Using t**
 
