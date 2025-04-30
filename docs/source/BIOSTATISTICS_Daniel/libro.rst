@@ -130,6 +130,23 @@ BIOSTATISTICS_Daniel
 
 5.2 SAMPLING DISTRIBUTIONS
 
+.. code:: R
+
+   Poblacion <- round(rnorm(1000, mean=55, sd=3))
+   #Poblacion <- round(runif(1000, min=45, max=65))
+
+   print(shapiro.test(Poblacion))
+
+   muestras <- c()
+
+   nm = 20
+   for (i in 1:nm){
+      mm = sample(Poblacion, 12, replace=F)
+      muestras <- c(muestras, mean(mm))
+   }
+
+   print(shapiro.test(muestras))
+
 5.3 DISTRIBUTION OF THE SAMPLE MEAN
 
 **The Central Limit Theorem**
