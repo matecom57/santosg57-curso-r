@@ -25,6 +25,13 @@ BIOSTATISTICS_Daniel
 
 2.2 THE ORDERED ARRAY
 
+.. code:: R
+
+   sort(), min(), max(), length(), dim(), acos(), cos(), list(), apply(), array(),
+   asin(), sin(), tan(), atan(), cat(), round(), cbind, rbind(), cumsum(), cujmmin(),
+   attach(), detach(), exp(), library(), log(), rep(), save(), sample(), table(),
+   
+
 2.3 GROUPED DATA: THE FREQUENCY DISTRIBUTION
 
 .. image:: tabla_2_3_1.png
