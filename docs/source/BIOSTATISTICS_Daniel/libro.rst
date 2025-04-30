@@ -28,7 +28,7 @@ BIOSTATISTICS_Daniel
 .. code:: R
 
    sort(), min(), max(), length(), dim(), acos(), cos(), list(), apply(), array(),
-   asin(), sin(), tan(), atan(), cat(), round(), cbind, rbind(), cumsum(), cujmmin(),
+   asin(), sin(), tan(), atan(), cat(), round(), cbind, rbind(), cumsum(), cummin(),
    attach(), detach(), exp(), library(), log(), rep(), save(), sample(), table(),
    
 
@@ -48,6 +48,12 @@ BIOSTATISTICS_Daniel
 .. image:: fig_2-3-6.png
 
 2.4 DESCRIPTIVE STATISTICS: MEASURES OF CENTRAL TENDENCY
+
+.. code:: R
+
+   mean(), median(), sd(), var(), IQR(), quantile()
+   plot(), points(), barplot(), boxplot(), stem()
+
 
 .. image:: fig_2-4-3.png
    :scale: 50%
@@ -83,6 +89,13 @@ BIOSTATISTICS_Daniel
 
 4.5 CONTINUOUS PROBABILITY DISTRIBUTIONS
 
+.. code::
+
+   dnorm(), pnorm(), qnorm(), rnorm()
+   dt(), pt(), qt(), rt()
+   dchisq(), pchisq, qchisq, rchisq()
+   dunif(), punif, qunif, runif()
+   df(), pf(), qf(), rf()
 
 4.6 THE NORMAL DISTRIBUTION
 
