@@ -332,6 +332,10 @@ of rejecting a true null hypothesis.
 
 8.2 THE COMPLETELY RANDOMIZED DESIGN
 
+.. code:: R
+
+   aov(), kruskal.test(), TukeyHSD()
+
 **One-Way ANOVA**
 
 .. image:: fig_8-2-1.png
@@ -347,6 +351,7 @@ of rejecting a true null hypothesis.
 
 
 **Tukey’s HSD Test**
+
 
 **Bonferroni’s Method**
 
@@ -367,6 +372,10 @@ of rejecting a true null hypothesis.
 9.1 INTRODUCTION
 
 9.2 THE REGRESSION MODEL
+
+.. code:: R
+
+   lm()
 
 .. math::
 
