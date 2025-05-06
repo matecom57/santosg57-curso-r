@@ -33,4 +33,5 @@ Contenido
    Pruebas_estadisticas
    BIOSTATISTICS_Daniel/libro
    analisis_varianza
+   regresion_lineal_simple
 
