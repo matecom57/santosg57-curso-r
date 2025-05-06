@@ -1,7 +1,7 @@
 Análisis de Varianza
 ====================
 
-DISEÑO COMPLETAMENTE ALEATORIO
+**DISEÑO COMPLETAMENTE ALEATORIO**
 
 Tabla de valores muestrales para un Diseño Completamenta Aleatorio
 
@@ -22,26 +22,23 @@ Tabla de valores muestrales para un Diseño Completamenta Aleatorio
    \hline
    \end{matrix}
 
-El modelo de análisis de varianza unidireccional puede escribirse de la siguiente manera:
+Este diseño se puede escribir matemáticamente como:
 
 .. math::
 
-   x_{ij} = 𝜇+ \tau_𝑗+ \varepsilon_{ij} \text{j = 1,2,...,k}
+   x_{ij} = 𝜇+ \tau_𝑗+ \varepsilon_{ij\hspace{2cm} \\texext{j = 1,2,...,k}
 
 
 Los terminos en este modelo son definidos como sigue:
 
-𝜇
- representa la media de todas las k medias poblacionales y se denomina media general.
-𝜏
-𝑗
- representa la diferencia entre la media de la j-ésima población y la media general y se denomina efecto del 
-tratamiento.
-𝜀
-𝑖
-𝑗
- representa la cantidad en la que una medición individual difiere de la media de la población a la que pertenece y 
-se denomina término de error.
+1. :math:`\mu` representa la media de todas las k medias poblacionales y se denomina media general.
+
+2. :math:`\tau_j` representa la diferencia entre la media de la j-ésima población y la media general y se denomina 
+efecto del tratamiento.
+
+3. :math:`\varepsilon_{ij}` representa la cantidad en la que una medición individual difiere de la media de la 
+población a la que pertenece y se denomina término de error.
+
 
 
 
