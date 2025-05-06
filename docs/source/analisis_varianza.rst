@@ -97,10 +97,41 @@ i = 1, 2,..., n; j = 1, 2, ... , k
 En este modelo:
 
 :math:`x_{ij}` es un valor típico de la población general.
+
 :math:`\mu` es una constante desconocida
+
 :math:`\beta_i` representa un efecto de bloque que refleja el hecho de que la unidad experimental cayó en el 
 i-ésimo bloque.
+
 :math:`\tau_j` representa un efecto del tratamiento, que refleja el hecho de que la unidad experimental recibió el 
 j-ésimo tratamiento.
+
 :math:`\varepsilon_{ij}` es un componente residual que representa todas las fuentes de variación excepto los 
 tratamientos y bloques.
+
+.. image:: tabla_8_3_2.png
+
+**EXAMPLE 8.3.1**
+
+A physical therapist wished to compare three methods for teaching patients to use a certain prosthetic device. He 
+felt that the rate of learning would be different for patients of different ages and wished to design an 
+experiment in which the inﬂuence of age could be taken into account.
+
+.. image:: tabla_8_3_4.png
+
+**EL DISEÑO DE MEDIDAS REPETIDAS**
+
+**EXAMPLE 8.4.1**
+
+Licciardone et al. (A-15) examined subjects with chronic, nonspecific low back pain. In this study, 18 of the 
+subjects completed a survey questionnaire assessing physical functioning at baseline, and after 1, 3, and 6 
+months. Table 8.4.1 shows the data for these subjects who received a sham treatment that appeared to be genuine 
+osteopathic manipulation. Higher values indicate better physical functioning. The goal of the experiment was to 
+determine if subjects would report improvement over time even though the treatment they received would provide 
+minimal improvement. We wish to know if there is a difference in the mean survey values among the four points in 
+time.
+
+
+
+
+
