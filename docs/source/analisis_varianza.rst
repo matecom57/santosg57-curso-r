@@ -64,4 +64,43 @@ groups.
 
 .. image:: tabla_8_2_3.png
 
+**Tukey’s HSD Test**
 
+**EL DISEÑO DE BLOQUES COMPLETOS ALEATORIZADOS**
+
+
+.. math::
+   
+   \begin{matrix}
+   Blocks   & 1 & 2 & 3 & ... & k \\
+   \hline
+   1  & x_{11} & x_{12} & x_{13} & ... & x_{1k} \\
+   2  & x_{21} & x_{22} & x_{23} & ... & x_{2k} \\
+   3  & x_{31} & x_{32} & x_{33} & ... & x_{3k} \\
+   \vdots  & \vdots & \vdots  & \vdots & \vdots & \vdots \\
+   n  & x_{n1} & x_{n2} & x_{n3} & ... & x_{nk} \\
+   \hline
+   Total & T_{.1} & T_{.2} & T_{.3} & ... & T_{.k} & T_{..} \\
+   \hline
+   Media & \bar{x}_{.1} & \bar{x}_{.2} & \bar{x}_{.3} & ... & \bar{x}_{.k} & \bar{x}_{..} \\
+   \hline
+   \end{matrix}
+
+El modelo en terminos matemáticos:
+
+.. math::
+
+   x_{ij} = \mu + \beta_i + \tau_j + \varepsilon_{ij}
+
+i = 1, 2,..., n; j = 1, 2, ... , k
+
+En este modelo:
+
+:math:`x_{ij}` es un valor típico de la población general.
+:math:`\mu` es una constante desconocida
+:math:`\beta_i` representa un efecto de bloque que refleja el hecho de que la unidad experimental cayó en el 
+i-ésimo bloque.
+:math:`\tau_j` representa un efecto del tratamiento, que refleja el hecho de que la unidad experimental recibió el 
+j-ésimo tratamiento.
+:math:`\varepsilon_{ij}` es un componente residual que representa todas las fuentes de variación excepto los 
+tratamientos y bloques.
