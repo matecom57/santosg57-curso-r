@@ -34,4 +34,5 @@ Contenido
    BIOSTATISTICS_Daniel/libro
    analisis_varianza
    regresion_lineal_simple
+   regresion_multiple
 
