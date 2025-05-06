@@ -32,3 +32,5 @@ Contenido
    Ejercicios/ejercicios_abr0125
    Pruebas_estadisticas
    BIOSTATISTICS_Daniel/libro
+   analisis_varianza
+
