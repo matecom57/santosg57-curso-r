@@ -40,5 +40,13 @@ efecto del tratamiento.
 población a la que pertenece y se denomina término de error.
 
 
+**Hipotesis:**
+
+.. math::
+
+   H_0 : \mu_1 =  \mu_2 = ... =  \mu_k
+
+   H_A : \text{ no todos los } \mu_j \text{ son iguales.}
+
 
 
