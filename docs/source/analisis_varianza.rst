@@ -48,5 +48,20 @@ población a la que pertenece y se denomina término de error.
 
    H_A : \text{ no todos los } \mu_j \text{ son iguales.}
 
+.. image:: fig_8_2_3.png
+
+.. image:: tabla_8_2_2.png
+
+
+EXAMPLE 8.2.1
+
+Game meats, including those from white-tailed deer and eastern gray squirrels, are used as food by families, 
+hunters, and other individuals for health, cultural, or personal reasons. A study by David Holben (A-1) assessed 
+the selenium content of meat from free-roaming white-tailed deer (venison) and gray squirrel (squirrel) obtained 
+from a low selenium region of the United States. These selenium content values were also compared to those of beef 
+produced within and outside the same region. We want to know if the selenium levels are different in the four meat 
+groups.
+
+.. image:: tabla_8_2_3.png
 
 
