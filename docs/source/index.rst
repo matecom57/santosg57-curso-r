@@ -36,5 +36,5 @@ Contenido
    regresion_lineal_simple
    regresion_multiple
    paginas_interesantes
-
+   clase_may0825
 
