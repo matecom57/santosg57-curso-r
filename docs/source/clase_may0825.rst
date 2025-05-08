@@ -19,8 +19,7 @@ hacer los siguientes cálculos:
      c) Hacer boxplot's de las columnas
 
 * 8. Checar si las tres variables vienen de la misma distribución normal.    
-* 9. Dados las variables x=c(1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12) y y=c(-0.09,  0.20,  2.36,  5.53,  6.13, 4.79,  
-7.00,  8.85,  8.30,  9.42, 9.26, 13.15). Hacer lo siguiente:
+* 9. Dados las variables x=c(1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12) y y=c(-0.09,  0.20,  2.36,  5.53,  6.13, 4.79, 7.00,  8.85,  8.30,  9.42, 9.26, 13.15). Hacer lo siguiente:
 
      a) Graficar los puntos en el plano y trazar la regresión lineal.
   
