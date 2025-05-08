@@ -52,27 +52,22 @@ específica para la distribución de la población.
 ``correct`` - una indicación lógica si se debe aplicar la corrección de continuidad en la aproximación normal para el 
 valor p.
 
-``conf.int```una indicación lógica si se debe calcular un intervalo de confianza.
+``conf.int`` - una indicación lógica si se debe calcular un intervalo de confianza.
 
-```conf.level`` nivel de confianza del intervalo.
+``conf.level`` - nivel de confianza del intervalo.
 
-fórmula
-una fórmula de la forma lhs ~ rhsdonde lhs es una variable numérica que da los valores de los datos y rhsun factor con 
-dos niveles que da los grupos correspondientes.
+``fórmula`` - una fórmula de la forma lhs ~ rhsdonde lhs es una variable numérica que da los valores de los datos y 
+rhsun factor con dos niveles que da los grupos correspondientes.
 
-datos
-Una matriz o marco de datos opcional (o similar: ver model.frame) que contiene las variables de la fórmula formula. 
-Por defecto, las variables se toman de environment(formula).
+``datos`` - Una matriz o marco de datos opcional (o similar: ver model.frame) que contiene las variables de la fórmula 
+formula.  Por defecto, las variables se toman de environment(formula).
 
-subconjunto
-un vector opcional que especifica un subconjunto de observaciones que se utilizarán.
+``subconjunto`` -  un vector opcional que especifica un subconjunto de observaciones que se utilizarán.
 
-na.acción
-una función que indica qué debe suceder cuando los datos contienen NAs. El valor predeterminado es 
+``na.acción`` - una función que indica qué debe suceder cuando los datos contienen NAs. El valor predeterminado es 
 getOption("na.action").
 
-…
-Más argumentos que se pasarán hacia o desde los métodos.
+``…`` - Más argumentos que se pasarán hacia o desde los métodos.
 
 
 
