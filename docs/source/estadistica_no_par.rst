@@ -36,9 +36,9 @@ específica para la distribución de la población.
 
 **Argumentos**
 
-``x`` - Vector numérico de valores de datos. Se omitirán los valores no finitos (p. ej., infinitos o faltantes).
-``y`` - un vector numérico opcional de valores de datos: al igual que con x los valores no finitos, se omitirán.
-``alternative`` - Una cadena de caracteres que especifica la hipótesis alternativa. Debe ser una de las siguientes: 
+* ``x`` - Vector numérico de valores de datos. Se omitirán los valores no finitos (p. ej., infinitos o faltantes).
+* ``y`` - un vector numérico opcional de valores de datos: al igual que con x los valores no finitos, se omitirán.
+* ``alternative`` - Una cadena de caracteres que especifica la hipótesis alternativa. Debe ser una de las siguientes: 
 "two.sided"(predeterminada) "greater"o "less". Puede especificar solo la letra inicial.
 
 ``mu`` - Un número que especifica un parámetro opcional utilizado para formar la hipótesis nula. Ver "Detalles".
