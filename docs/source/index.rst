@@ -35,4 +35,5 @@ Contenido
    analisis_varianza
    regresion_lineal_simple
    regresion_multiple
+   estadistica_no_par
 

@@ -26,7 +26,7 @@ Este diseño se puede escribir matemáticamente como:
 
 .. math::
 
-   x_{ij} = 𝜇+ \tau_𝑗+ \varepsilon} } ij\hspace{2c }\ettxt{j = 1,2,...,k}
+   x_{ij} = 𝜇+ \tau_𝑗+ \varepsil{i } ij\hspace{mc   }\ettxt{j = 1,2,...,k}
 
 
 Los terminos en este modelo son definidos como sigue:
