@@ -1,0 +1,45 @@
+Friedman Rank Sum Test
+======================
+
+Realiza una prueba de suma de rangos de Friedman con datos bloqueados no replicados.
+
+.. code:: R
+
+   friedman.test(y, ...)
+
+   ## Default S3 method:
+   friedman.test(y, groups, blocks, ...)
+
+   ## S3 method for class 'formula'
+   friedman.test(formula, data, subset, na.action, ...)
+
+**Argumentos**
+
+* ``y`` - un vector numerico o una matriz de datos	
+
+* ``groups`` - Un vector que proporciona el grupo de los elementos correspondientes de ``y`` si es un vector; se 
+ignora si ``y`` es una matriz. 
+ 	
+* ``blocks`` - Un vector que proporciona el grupo de los elementos correspondientes de ``y`` si es un vector; se
+ignora si ``y`` es una matriz.
+
+* ``formula`` - 
+a formula of the form a ~ b | c, where a, b and c give the data values and corresponding groups and blocks, 
+respectively.
+
+data	
+an optional matrix or data frame (or similar: see model.frame) containing the variables in the formula formula. By 
+default the variables are taken from environment(formula).
+
+subset	
+an optional vector specifying a subset of observations to be used.
+
+na.action	
+a function which indicates what should happen when the data contain NAs. Defaults to getOption("na.action").
+
+...	
+further arguments to be passed to or from methods.
+
+
+
+
