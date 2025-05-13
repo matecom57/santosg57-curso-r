@@ -64,3 +64,55 @@ regression equation.
 
 
 
+Antes de analizar los datos utilizando técnicas de regresión múltiple, es útil construir gráficos de las relaciones entre las variables. Esto se logra haciendo gráficos separados de cada par de variables, (X1, X2), (X1, Y) y (X2, Y). 
+
+**Solucion.**
+
+.. math::
+
+   \hat{y}_i = 5.49 - .184 x_{1j} + .611 x_{2j}
+
+Evaluando ka Ecuacion de Regresion Multiple
+-------------------------------------------
+
+Antes de utilizar una ecuación de regresión múltiple para predecir y estimar, es deseable determinar primero si, de hecho, vale la pena usarla. 
+
+l evaluar una ecuación de regresión múltiple centramos nuestra atención en el coeficiente de determinación múltiple y los coeficientes de regresión parcial.
+
+
+El coeficiente de determinacion multiple
+----------------------------------------
+
+La variación total presente en los valores de Y se puede dividir en dos componentes: la variación explicada, que mide la cantidad de variación total que se explica por la superficie de regresión ajustada, y la variación no explicada, que es la parte de la variación total que no se explica. explicado ajustando la superficie de regresión.
+
+
+El coeficiente de determinacion multiple, 
+
+.. math::
+   
+   R_{y.12...k}^2 = \frac{\hat{y}_j - \bar{y})^2}{\sum (y_j - \bar{y})^2} = \frac{SSR}{SST}
+
+
+El valor de :math:`R_{y.12...k}^2`  indica qué proporción de la variación total en los valores de Y observados se explica por la regresión de Y en :math:`X_1, X_2, ... , X_k`. En otras palabras, podemos decir que :math:`R_{y.12...k}^2` es una medida de la bondad de ajuste de la superficie de regresión. 
+
+**EJEMPLO 10.4.1**
+
+Refer to Example 10.3.1. Compute R 2y .12.
+
+Referirse al Ejemplo 10.3.1 calcular :math:`R_{y.12}^2`
+
+.. math::
+
+   R_{y.12}^2 = .3706
+
+Testing the Regression Hypothesis 
+---------------------------------
+
+Para determinar si la regresión general es significativa (es decir, para determinar si :math:`R_{y.12}^2`  es significativa), podemos realizar una prueba de hipótesis de la siguiente manera.
+
+**EJEMPLO 10.4.2**
+
+
+
+
+
