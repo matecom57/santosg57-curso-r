@@ -63,7 +63,7 @@ level (years of schooling) for 71 subjects are shown in Table 10.3.1. We wish to
 regression equation.
 
 
-Antes de analizar los datos utilizando técnicas de regresión múltiple, es útil construir gráficos de las relaciones entre las variables. Esto se logra haciendo gráficos separados de cada par de variables, (X1, X2), (X1, Y) y (X2, Y). 
+Antes de analizar los datos utilizando técnicas de regresión múltiple, es útil construir gráficos de las relaciones entre las variables. Esto se logra haciendo gráficos separados de cada par de variables, :math:`(X_1, X_2), (X_1, Y)` y :math:`(X2, Y)`. 
 
 **Solucion.**
 
