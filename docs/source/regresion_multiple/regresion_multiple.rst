@@ -109,6 +109,17 @@ Para determinar si la regresión general es significativa (es decir, para determ
 
 **EJEMPLO 10.4.2**
 
+Deseamos probar la hipótesis nula de que no existe una relación lineal entre las tres variables analizadas en el ejemplo 10.3.1: puntuación CDA, edad y nivel educativo.
+
+**3. Hipotesis**
+
+.. math::
+
+   H_0: \beta_1 = \beta_2 = 0
+
+   H_A: no todos \beta_i = 0
+
+
 
 
 
