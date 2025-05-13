@@ -18,11 +18,13 @@ En general, deberíamos poder mejorar nuestra capacidad de predicción incluyend
 
  * Un investigador puede descubrir que las puntuaciones de inteligencia de los individuos pueden predecirse a partir de factores físicos como el orden de nacimiento, el peso al nacer y la duración de la gestación, junto con ciertos factores ambientales hereditarios y externos.
 
-* La respuesta de un animal de experimentación a algún fármaco puede depender del tamaño de la dosis y de la edad y peso del animal.
+ * La respuesta de un animal de experimentación a algún fármaco puede depender del tamaño de la dosis y de la 
+edad y peso del animal.
 
-* Un supervisor de enfermería puede estar interesado en la solidez de la relación entre el desempeño de una enfermera en el trabajo, la puntuación en el examen de la junta estatal, el historial académico y la puntuación en alguna prueba de rendimiento o aptitud.
+ * Un supervisor de enfermería puede estar interesado en la solidez de la relación entre el desempeño de una 
+enfermera en el trabajo, la puntuación en el examen de la junta estatal, el historial académico y la puntuación en alguna prueba de rendimiento o aptitud.
 
-El modelo de regresion lineal multiple
+El modelo de regresión lineal múltiple
 --------------------------------------
 
 En el modelo de regresión múltiple suponemos que existe una relación lineal entre alguna variable Y, a la que llamamos variable dependiente, y k variables independientes, :math:`X_1, X_2,. . . , X_k`. A las variables independientes a veces se les llama variables explicativas, debido a su uso para explicar la variación en Y. También se les llama variables predictoras, debido a su uso para predecir Y.
@@ -38,7 +40,7 @@ Modelo Matemático
    y_j = \beta_0 + \beta_1 x_{1j} +  \beta_2 x_{2j} + ... +  \beta_k x_{kj} + \varepsilon_j
 
 
-Obtencion de la ecuacion de regresion multiple
+Obtencion de la ecuacion de regresion múltiple
 ----------------------------------------------
 
 .. math::
