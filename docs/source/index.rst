@@ -6,7 +6,7 @@ Contenido
 
 .. toctree::
     :maxdepth: 1
-    :caption: Regresión Lineal Multiple y Correlación
+    :caption: Regresión Múltiple y Correlación
 
     regresion_multiple/regresion_multiple
 
