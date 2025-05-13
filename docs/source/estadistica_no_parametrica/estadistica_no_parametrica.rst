@@ -77,4 +77,25 @@ puntuaciones de 5 y 6. Las puntuaciones se muestran en la Tabla 13.3.1. Deseamos
 la puntuación mediana de la población de la que suponemos que se extrajo esta muestra es diferente de 5.
 
 
+Prueba del Signo: datos Pareados
+--------------------------------
+
+Cuando los datos a analizar consisten en observaciones en pares coincidentes y no se cumplen los supuestos 
+subyacentes a la prueba t, o la escala de medición es débil, se puede emplear la prueba de signos para probar 
+la hipótesis nula de que la diferencia mediana es 0. Una forma alternativa de enunciar la hipótesis nula es
+
+.. math::
+
+   P(X_i >  Y_i) = P(X_i < Y_i) = .5
+
+Por ejemplo, una de las puntuaciones coincidentes se resta de la otra. Si es menor que el signo de la 
+diferencia y si es mayor que el signo de la diferencia. Si la diferencia mediana es 0, esperaríamos que un par 
+elegido al azar tuviera la misma probabilidad de producir un valor de como de cuando se realiza la resta. 
+Podemos enunciar la hipótesis nula, entonces, como
+
+.. math::
+
+   H_0: P(+)  = P(-) = .5
+
+
 
