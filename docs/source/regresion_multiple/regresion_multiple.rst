@@ -4,19 +4,19 @@ REGRESIÓN MÚLTIPLE Y CORRELACIÓN
 Esta tema  proporciona extensiones de los modelos de **regresión lineal simple** y **correlación bivariada**.
 
 
-* comprender cómo incluir más de una variable independiente en una ecuación de regresión.
+* Comprender cómo incluir más de una variable independiente en una ecuación de regresión.
 * Ser capaz de obtener un modelo de regresión múltiple y utilizarlo para hacer predicciones.
 * Ser capaz de evaluar los coeficientes de regresión múltiple y la idoneidad del modelo de regresión.
-* comprender cómo calcular e interpretar coeficientes de correlación múltiples, bivariados y parciales.
+* Comprender cómo calcular e interpretar coeficientes de correlación múltiple.
 
 Introducción
 ------------
 
-* exploramos los conceptos y técnicas para analizar y hacer uso de la relación lineal entre dos variables. Vimos que este 
-análisis puede conducir a una ecuación que puede usarse para predecir el valor de alguna variable dependiente dado el valor de una variable independiente asociada.
+En general, deberíamos poder mejorar nuestra capacidad de predicción incluyendo más variables independientes en dicha ecuación. 
 
+**Por ejemplo**
 
-en general, deberíamos poder mejorar nuestra capacidad de predicción incluyendo más variables independientes en dicha ecuación. Por ejemplo, un investigador puede descubrir que las puntuaciones de inteligencia de los individuos pueden predecirse a partir de factores físicos como el orden de nacimiento, el peso al nacer y la duración de la gestación, junto con ciertos factores ambientales hereditarios y externos.
+ * Un investigador puede descubrir que las puntuaciones de inteligencia de los individuos pueden predecirse a partir de factores físicos como el orden de nacimiento, el peso al nacer y la duración de la gestación, junto con ciertos factores ambientales hereditarios y externos.
 
 La respuesta de un animal de experimentación a algún fármaco puede depender del tamaño de la dosis y de la edad y peso del animal.
 
