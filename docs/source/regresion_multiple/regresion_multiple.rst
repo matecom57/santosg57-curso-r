@@ -1,17 +1,19 @@
 REGRESIÓN MÚLTIPLE Y CORRELACIÓN
 ================================
 
-Este capítulo proporciona extensiones de los modelos de regresión lineal simple y correlación bivariada discutidos en el Capítulo 9. Los conceptos y técnicas aquí discutidos son útiles cuando el investigador desea considerar simultáneamente las relaciones entre más de dos variables. Aunque los conceptos, cálculos e interpretaciones asociados con el análisis de datos de múltiples variables pueden parecer complejos, son extensiones naturales del material explorado en capítulos anteriores.
+Esta tema  proporciona extensiones de los modelos de **regresión lineal simple** y **correlación bivariada**.
+
 
 * comprender cómo incluir más de una variable independiente en una ecuación de regresión.
 * Ser capaz de obtener un modelo de regresión múltiple y utilizarlo para hacer predicciones.
 * Ser capaz de evaluar los coeficientes de regresión múltiple y la idoneidad del modelo de regresión.
 * comprender cómo calcular e interpretar coeficientes de correlación múltiples, bivariados y parciales.
 
-INT
-___
+Introducción
+------------
 
-exploramos los conceptos y técnicas para analizar y hacer uso de la relación lineal entre dos variables. Vimos que este análisis puede conducir a una ecuación que puede usarse para predecir el valor de alguna variable dependiente dado el valor de una variable independiente asociada.
+* exploramos los conceptos y técnicas para analizar y hacer uso de la relación lineal entre dos variables. Vimos que este 
+análisis puede conducir a una ecuación que puede usarse para predecir el valor de alguna variable dependiente dado el valor de una variable independiente asociada.
 
 
 en general, deberíamos poder mejorar nuestra capacidad de predicción incluyendo más variables independientes en dicha ecuación. Por ejemplo, un investigador puede descubrir que las puntuaciones de inteligencia de los individuos pueden predecirse a partir de factores físicos como el orden de nacimiento, el peso al nacer y la duración de la gestación, junto con ciertos factores ambientales hereditarios y externos.
@@ -27,7 +29,6 @@ En el modelo de regresión múltiple suponemos que existe una relación lineal e
 
 Suposiciones
 ------------
-
 
 Modelo Matemático
 -----------------
@@ -62,8 +63,6 @@ level (years of schooling) for 71 subjects are shown in Table 10.3.1. We wish to
 regression equation.
 
 
-
-
 Antes de analizar los datos utilizando técnicas de regresión múltiple, es útil construir gráficos de las relaciones entre las variables. Esto se logra haciendo gráficos separados de cada par de variables, (X1, X2), (X1, Y) y (X2, Y). 
 
 **Solucion.**
@@ -72,7 +71,7 @@ Antes de analizar los datos utilizando técnicas de regresión múltiple, es út
 
    \hat{y}_i = 5.49 - .184 x_{1j} + .611 x_{2j}
 
-Evaluando ka Ecuacion de Regresion Multiple
+Evaluando la Ecuacion de Regresion Multiple
 -------------------------------------------
 
 Antes de utilizar una ecuación de regresión múltiple para predecir y estimar, es deseable determinar primero si, de hecho, vale la pena usarla. 
