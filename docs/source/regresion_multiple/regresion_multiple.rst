@@ -96,8 +96,6 @@ El valor de :math:`R_{y.12...k}^2`  indica qué proporción de la variación tot
 
 **EJEMPLO 10.4.1**
 
-Refer to Example 10.3.1. Compute R 2y .12.
-
 Referirse al Ejemplo 10.3.1 calcular :math:`R_{y.12}^2`
 
 .. math::
