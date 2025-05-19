@@ -12,3 +12,5 @@ Contenido
     Pruebas_Estadisticas/prop_test
     Pruebas_Estadisticas/binom_test
     Pruebas_Estadisticas/chisq_test
+    Pruebas_Estadisticas/cor_test
+
