@@ -11,4 +11,4 @@ Contenido
     regresion_multiple/regresion_multiple
     Pruebas_Estadisticas/prop_test
     Pruebas_Estadisticas/binom_test
-
+    Pruebas_Estadisticas/chisq_test
