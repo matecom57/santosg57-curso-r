@@ -9,8 +9,4 @@ Contenido
     :caption: Regresión Múltiple y Correlación
 
     regresion_multiple/regresion_multiple
-    Pruebas_Estadisticas/prop_test
-    Pruebas_Estadisticas/binom_test
-    Pruebas_Estadisticas/chisq_test
-    Pruebas_Estadisticas/cor_test
-
+    Pruebas_Estadisticas/pruebas_estadisticas
