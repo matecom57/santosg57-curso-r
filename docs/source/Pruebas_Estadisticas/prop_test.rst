@@ -4,7 +4,7 @@ prop.test
 Esta prueba se puede utilizar para probar la hipótesis nula de que las proporciones (probabilidades de éxito) en varios grupos son las 
 mismas, o que son iguales a ciertos valores dados.
 
-.. code: R
+.. code:R
 
    heads <- rbinom(1, size = 100, prob = .5)
    prop.test(heads, 100)          
