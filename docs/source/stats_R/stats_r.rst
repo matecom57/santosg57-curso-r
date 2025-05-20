@@ -24,6 +24,5 @@ Contenido
     t_test
     shapiro_test
     wilcox_test
-    multiple_testing_corrections
 
 
