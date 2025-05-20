@@ -9,4 +9,4 @@ Contenido
     :caption: Regresión Múltiple y Correlación
 
     regresion_multiple/regresion_multiple
-    Pruebas_Estadisticas/pruebas_estadisticas
+    stats_R/stats_r
