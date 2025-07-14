@@ -1,0 +1,15 @@
+analisis_varianza.rst		      	- analisis de varianza
+clase_may0825.rst                     	- ejercicios
+distribuciones_estandar.rst	     	- distribuciones de probabilidad
+distribuciones-probabilidad.rst		- distribucion normal
+estadistica_no_par.rst			- pruebas no parametricas
+factores.rst				- factores
+funciones_paralelas.rst			- funciones paralelas
+ggplot_doc02.rst			- ggplot
+paginas_interesantes.rst		- paginas interesantes
+Pruebas_estadisticas.rst		- intervalos de confianza para pruebas parametricas
+regresion_lineal_simple.rst		- regresion lineal simple
+regresion_multiple.rst			- regresion lineal multiple
+subset-transform-within.rst		- otros datos
+temario.rst				- temario
+Vectores-Logicos.rst			- vectores
