@@ -39,5 +39,5 @@ Contenido
    matrices
    funciones
    script
-   imagenes_ambiente/ambiente_programacion
+   estadistica_descriptiva
 

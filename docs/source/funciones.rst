@@ -20,13 +20,15 @@ Estas funciones aceptan parametros de entrada para realizar sus calculos.
 +--------------+------------------------------------------------------------------------+
 | **min()**    | encuentra el mínimo                                                    |
 +--------------+------------------------------------------------------------------------+
-| **median()** | calcula la mediana                                                   |
+| **median()** | calcula la mediana                                                     |
 +--------------+------------------------------------------------------------------------+
 | **log()**    | calula el logaritmo de base e                                          |
 +--------------+------------------------------------------------------------------------+
 | **plot()**   | crea nueva ventana y grafica pares ordenados en el plano               |
 +--------------+------------------------------------------------------------------------+
 | **points()** | grafica pares ordenados en el plano en la ventana previamente definida |
++--------------+------------------------------------------------------------------------+
+| **rep()      | repite un vector tantas veces como uno quiere                          |
 +--------------+------------------------------------------------------------------------+
 
 **Ejemplos**
