@@ -1,5 +1,5 @@
-Vectores en R
-=============
+Vectores
+========
 
 **Variables**
 
@@ -46,7 +46,7 @@ Sea x = (3,2,1,4,5,6,3)
 
 Entonces:
 
-.. source:: R
+.. code:: R
 
    x[3]
    x[c(3,1,4)]
