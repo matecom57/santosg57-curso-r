@@ -36,6 +36,7 @@ Contenido
    imagenes_ambiente/ambiente_programacion
    r_comoc_calculadora
    vectores_R
+   matrices
    funciones
    script
    imagenes_ambiente/ambiente_programacion
