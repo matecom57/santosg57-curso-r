@@ -39,5 +39,6 @@ Contenido
    matrices
    funciones
    script
+   caracter
    estadistica_descriptiva
 
