@@ -40,4 +40,17 @@ e) x*y
 
 f) x/y
 
+**Sacando elementos de un vector**
+
+Sea x = (3,2,1,4,5,6,3)
+
+Entonces:
+
+.. source:: R
+
+   x[3]
+   x[c(3,1,4)]
+   x[x >= 2]
+
+
  
