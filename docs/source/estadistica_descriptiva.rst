@@ -18,7 +18,7 @@ Calcule o grafique lo siguiente:
 
 4. Hacer un histograma de **x**
 
-6 Hacer un histograma de las medias de 10 muestras de tamaño 10.
+5. Hacer un histograma de las medias de 20 muestras de tamaño 10.
 
 
 
