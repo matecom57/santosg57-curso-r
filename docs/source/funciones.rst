@@ -7,7 +7,10 @@ Estas funciones aceptan parametros de entrada para realizar sus calculos.
 
 **Ejemplos**
 
-* sum() - calcula la suma de los elementos de un vector o matriz
++-------+--------------------------------------------------------+
+| sum() | calcula la suma de los elementos de un vector o matriz |
++-------+--------------------------------------------------------+
+
 
 * mean() - calcula la media aritmética de los elementos de un vector o matriz
 
