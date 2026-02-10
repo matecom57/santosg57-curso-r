@@ -32,9 +32,8 @@ Contenido
    :caption: Contents:
 
    conjuntos_de_numeracion
-   vectores_matrices
-   introduccion
    instalacion_ayuda
+   imagenes_ambiente/ambiente_programacion
    r_comoc_calculadora
    vectores_R
    funciones
