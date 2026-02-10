@@ -7,9 +7,9 @@ Ir al URL: https://www.r-project.org/
 
 **Funciones Utiles de R**
 
-* citation() - Cómo citar paquetes R en las publicaciones.
+* `citation()` - Cómo citar paquetes R en las publicaciones.
 
-* demo(graphics) - Demostración grafica
+* `demo(graphics)` - Demostración grafica
 
 * help(package = base) - Muestra las funciones que contiene el paquete **base**.
 
