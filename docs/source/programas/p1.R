@@ -1,0 +1,10 @@
+cat('|||||||||||||\n')
+cat('|||OOOOOO||||\n')
+cat('||OOOOOOOO|||\n')
+cat('||OO|||||||||\n')
+cat('||OO|||||||||\n')
+cat('||OO|||||||||\n')
+cat('||OOOOOOOO|||\n')
+cat('|||OOOOOO||||\n')
+cat('|||||||||||||\n')
+
