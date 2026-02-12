@@ -41,4 +41,6 @@ Contenido
    script
    caracter
    estadistica_descriptiva
+   Regresion_lineal
+   funciones_rep_sample
 
