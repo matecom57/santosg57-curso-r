@@ -1,6 +1,9 @@
 Regresión Lineal
 ================
 
+regresión lineal: https://es.wikipedia.org/wiki/Regresi%C3%B3n_lineal
+
+
 Consideremos dos variables **X** y **Y** que desan explicar una variable **W** por una ecuación lineal:
 
 .. math::
