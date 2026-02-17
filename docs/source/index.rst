@@ -45,3 +45,16 @@ Contenido
    funciones_rep_sample
    funciones_probabilidad
 
+
+Clase: 17 de febrero de 2026
+----------------------------
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   clase_feb1726/ejercicios_series
+   clase_feb1726/funciones_rep_sample
+   clase_feb1726/Estructuras_Control
+   clase_feb1726/ejemplo_string   
+   clase_feb1726/algebra
