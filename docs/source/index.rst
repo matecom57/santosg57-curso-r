@@ -51,7 +51,7 @@ Clase: 17 de febrero de 2026
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Contenido:
 
    clase_feb1726/ejercicios_series
    clase_feb1726/funciones_rep_sample
