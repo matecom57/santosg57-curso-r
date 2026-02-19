@@ -13,13 +13,13 @@ Realizar los siguientes ejercicios:
 
 .. math::
    
-   \frac{1}{\sum_{i=1}{100} i}
+   \frac{1}{\sum_{i=1}^{100} i}
 
 3.
 
 .. math::
 
-   1 + \sum_{i=1}^10 \frac{i}{i+1}
+   1 + \sum_{i=1}^{10} \frac{i}{i+1}
 
 
    
