@@ -62,11 +62,12 @@ Clase: 17 de febrero de 2026
 Clase: 19 de febrero de 2026
 ----------------------------
 
-**Repaso**
+* **Repaso**
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contenido:
+
+..   :caption: Contenido:
 
    listas_dadaframes/listas-dataframe
 
