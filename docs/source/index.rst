@@ -66,9 +66,9 @@ Clase: 19 de febrero de 2026
 
 .. toctree::
    :maxdepth: 2
-
-..   :caption: Contenido:
+   :caption: Contenido:
 
    listas_dadaframes/listas-dataframe
+   Imagenes/imagenes
 
 
