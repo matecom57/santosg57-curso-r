@@ -58,3 +58,16 @@ Clase: 17 de febrero de 2026
    clase_feb1726/Estructuras_Control
    clase_feb1726/ejemplo_string   
    clase_feb1726/algebra
+
+Clase: 19 de febrero de 2026
+----------------------------
+
+**Repaso**
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contenido:
+
+   listas_dadaframes/listas-dataframe
+
+
