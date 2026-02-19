@@ -68,6 +68,7 @@ Clase: 19 de febrero de 2026
    :maxdepth: 2
    :caption: Contenido:
 
+   Ejercicios/ejercicios_feb1927
    listas_dadaframes/listas-dataframe
    Imagenes/imagenes
 
