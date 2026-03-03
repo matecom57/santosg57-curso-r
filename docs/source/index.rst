@@ -81,4 +81,13 @@ Clase: 26 de febrero de 2026
 
    clase_feb2626/clase-feb2626
 
+BIOSTATISTICS
+-------------
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contenido:
+   
+   BIOSTATISTICS_Daniel/c02
+
 

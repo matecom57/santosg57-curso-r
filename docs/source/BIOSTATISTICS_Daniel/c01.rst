@@ -1,0 +1,17 @@
+CHAPTER 1. INTRODUCTION TO BIOSTATISTICS
+=========================================
+
+**EXAMPLE 1.4.1**
+
+Gold et al. (A-1) studied the effectiveness on smoking cessation of bupropion SR, a nicotine patch, or both, when co-administered with 
+cognitive-behavioral therapy. Consecutive consenting patients assigned themselves to one of the three treatments. For illustrative 
+purposes, let us consider all these subjects to be a population of size N " 189. We wish to select a simple random sample of size 10 from 
+this population whose ages are shown in Table 1.4.1.
+
+**EXAMPLE 1.4.2**
+
+Continuing with the study of Gold et al. (A-1) illustrated in the previous example, imagine that we wanted a systematic sample of 10 
+subjects from those listed in Table 1.4.1.
+
+
+

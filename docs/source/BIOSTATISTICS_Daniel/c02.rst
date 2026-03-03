@@ -1,0 +1,56 @@
+CHAPTER 2. DESCRIPTIVE STATISTICS
+================================
+
+.. image:: tabla_2_3_2.png
+
+.. image:: tabla_2_3_3.png
+
+.. image:: tabla_2_3_4.png
+
+.. image:: tabla_2_3_6.png
+
+.. image:: skewness.png
+
+.. image:: kurtosis.png
+
+:text-blue:`EXAMPLE 2.5.5`
+
+Evans et al. (A-7) examined the effect of velocity on ground reaction forces (GRF) in dogs with lameness from a torn cranial cruciate 
+ligament. The dogs were walked and trotted over a force platform, and the GRF was recorded during a certain phase of their performance. 
+Table 2.5.1 contains 20 measurements of force where each value shown is the mean of ﬁve force measurements per dog when trotting.
+
+Evans et al. (A-7) examinaron el efecto de la velocidad sobre las fuerzas de reacción sobre el suelo (GRF) en perros con cojera por rotura 
+del ligamento cruzado craneal. Los perros caminaron y trotaron sobre una plataforma de fuerza, y se registró la GRF durante una fase 
+específica de su rendimiento. La Tabla 2.5.1 contiene 20 mediciones de fuerza, donde cada valor mostrado es la media de cinco mediciones 
+de fuerza por perro al trote.
+
+.. code:: R
+
+   14.6, 31.5, 24.3, 31.6, 24.9, 32.3, 27.0, 32.8, 27.2, 33.3, 27.4, 33.6, 28.2, 34.3, 28.8, 36.9, 29.9, 38.3, 30.7, 44.0
+
+.. image:: example_2_5_5.png
+
+**DEFINITION** An outlier is an observation whose value, x, either exceeds the value of the third quartile by a magnitude greater than 
+1.5(IQR) or is less than the value of the ﬁrst quartile by a magnitude greater than 1.5(IQR). That is, an observation of
+:math:`x>Q_3 + 1.5(IQR)` or an observation of :math:`x < Q_1 - 1.5(IQR)` is called an outlier.
+
+For the data in Table 2.5.1 we may use the previously computed values of :math:`Q_1` , :math:`Q_3`, and IQR to determine how large or how 
+small a value 
+would have to be in order to be considered an outlier. The calculations are as follows:
+
+.. math::
+
+   x > 27.25 - 1.5(6.275) = 17.8375 \text{ and } x > 33.525 + 1.5(6.275) = 42.9375
+
+For the data in Table 2.5.1, then, an observed value smaller than 17.8375 or larger than 42.9375 would be considered an outlier.
+
+.. image:: figure_2_5_6.png
+
+
+.. math::
+
+   \textcolor{blue}{\huge **TAREA \ para \ el \ jueves \ 5 \ de \ marzo**}
+
+   \textcolor{red}{\huge 2.3.1, \ 2.3.2,\ 2.3.3, \ 2.5.1, \ 2.5.2,\ 2.5.3}
+
+
