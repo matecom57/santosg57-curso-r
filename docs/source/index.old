@@ -1,40 +1,96 @@
-CURSO: Introducción al Lenguaje de Programación "R"
-===================================
+Introducción al Lenguaje de Programación "R"
+============================================
+
+
+**Horario del Curso:**
+
+Martes y Jueves de 16 a 17:30 hrs
+
+**Requisitos.**
+
+* Mucho entusiasmo para aprender un Lenguaje Programación.
+
+* Tener conocimiento de Matemáticas de Secundaria y Prepa.
+
+**EVALUACIÓN:**
+
+* 60 % tareas
+* 30 % examenes
+* 10 % participación
+
+**TEMARIO**
+
+**REFERENCIAS**
+
+**Las tareas se deben de guardar en la plataforma github:** https://github.com/
 
 Contenido
--------
+--------
 
 .. toctree::
    :maxdepth: 2
+   :caption: Contents:
 
-   Introduccion/introduccion
-   Elementos-Lenguaje/elementos-lenguaje
-   Estructuras-Control/estructuras-control
-   Funciones_Paquetes/funciones-paquetes
-   Estructuras-Datos/estructuras-datos
-   Graficos/graficos01
-   Estadistica_Descriptiva/estadistica_descriptiva
-   Ejercicios
+   conjuntos_de_numeracion
+   instalacion_ayuda
+   imagenes_ambiente/ambiente_programacion
+   r_comoc_calculadora
+   vectores_R
    matrices
-   funciones_paralelas
-   listas
-   dataframes
-   Daniel/estadistica
-   Ejercicios/ejercicio01
-   Lectura_Escritura/lectura-escritura
-   Ejercicios/estadistica-descriptiva
-   factores
-   ggplot_doc02
-   distribuciones-probabilidad
-   Vectores-Logicos  
-   minimos-cuadrados/minimos-cuadrados
-   distribuciones_estandar
-   Ejercicios/ejercicios_abr0125
-   Pruebas_estadisticas
-   BIOSTATISTICS_Daniel/libro
-   analisis_varianza
-   regresion_lineal_simple
-   regresion_multiple
-   paginas_interesantes
-   clase_may0825
+   funciones
+   script
+   caracter
+   estadistica_descriptiva
+   Regresion_lineal
+   funciones_rep_sample
+   funciones_probabilidad
+
+
+Clase: 17 de febrero de 2026
+----------------------------
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contenido:
+
+   clase_feb1726/ejercicios_series
+   clase_feb1726/funciones_rep_sample
+   clase_feb1726/Estructuras_Control
+   clase_feb1726/ejemplo_string   
+   clase_feb1726/algebra
+
+Clase: 19 de febrero de 2026
+----------------------------
+
+* **Repaso**
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contenido:
+
+   Ejercicios/ejercicios_feb1927
+   listas_dadaframes/listas-dataframe
+   Imagenes/imagenes
+
+Clase: 26 de febrero de 2026
+----------------------------
+
+.. toctree::   
+   :maxdepth: 2
+   :caption: Contenido:
+
+   R_NIFTI/RNifti
+   DANIEL/BIOSTATISTICS
+   graficacion/graf
+
+
+BIOSTATISTICS
+-------------
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contenido:
+   
+   BIOSTATISTICS_Daniel/c02
+
 
