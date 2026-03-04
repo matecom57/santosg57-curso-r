@@ -72,13 +72,3 @@ Clase: 19 de febrero de 2026
    listas_dadaframes/listas-dataframe
    Imagenes/imagenes
 
-Clase: 26 de febrero de 2026
-----------------------------
-
-.. toctree::   
-   :maxdepth: 2
-   :caption: Contenido:
-
-   R_NIFTI/RNifti
-
-

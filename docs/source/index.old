@@ -80,17 +80,5 @@ Clase: 26 de febrero de 2026
    :caption: Contenido:
 
    R_NIFTI/RNifti
-   DANIEL/BIOSTATISTICS
-   graficacion/graf
-
-
-BIOSTATISTICS
--------------
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contenido:
-   
-   BIOSTATISTICS_Daniel/c02
 
 
