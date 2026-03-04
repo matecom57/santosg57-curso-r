@@ -52,4 +52,5 @@ Contenido
    Ejercicios/ejercicios_feb1927
    listas_dadaframes/listas-dataframe
    Imagenes/imagenes
+   BIOSTATISTICS_Daniel/c02
 

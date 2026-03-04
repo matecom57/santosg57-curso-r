@@ -1,5 +1,5 @@
-CHAPTER 2. DESCRIPTIVE STATISTICS
-================================
+CHAPTER 2. DESCRIPTIVE STATISTICS - Biostatistic-Daniel
+=======================================================
 
 .. image:: tabla_2_3_2.png
 
