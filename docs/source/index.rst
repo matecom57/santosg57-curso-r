@@ -53,4 +53,7 @@ Contenido
    listas_dadaframes/listas-dataframe
    Imagenes/imagenes
    BIOSTATISTICS_Daniel/c02
+   Observaciones/observaciones
+   Tareas/tarea_mar0526
+   Daniel_Ejercicios_jun0417/ch01/table_2_3_3
 
