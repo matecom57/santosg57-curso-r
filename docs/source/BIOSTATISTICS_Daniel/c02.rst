@@ -19,11 +19,6 @@ Evans et al. (A-7) examined the effect of velocity on ground reaction forces (GR
 ligament. The dogs were walked and trotted over a force platform, and the GRF was recorded during a certain phase of their performance. 
 Table 2.5.1 contains 20 measurements of force where each value shown is the mean of ﬁve force measurements per dog when trotting.
 
-Evans et al. (A-7) examinaron el efecto de la velocidad sobre las fuerzas de reacción sobre el suelo (GRF) en perros con cojera por rotura 
-del ligamento cruzado craneal. Los perros caminaron y trotaron sobre una plataforma de fuerza, y se registró la GRF durante una fase 
-específica de su rendimiento. La Tabla 2.5.1 contiene 20 mediciones de fuerza, donde cada valor mostrado es la media de cinco mediciones 
-de fuerza por perro al trote.
-
 .. code:: R
 
    14.6, 31.5, 24.3, 31.6, 24.9, 32.3, 27.0, 32.8, 27.2, 33.3, 27.4, 33.6, 28.2, 34.3, 28.8, 36.9, 29.9, 38.3, 30.7, 44.0
