@@ -56,4 +56,11 @@ Contenido
    Observaciones/observaciones
    Tareas/tarea_mar0526
    Daniel_Ejercicios_jun0417/ch01/table_2_3_3
+   Imagenes/analisis_imagenes
+   REGRESION_Lineal/Regresion_lineal
+   REGRESION_Lineal/ejemplo
+   Probabilidad/un_dado
+   Probabilidad/simu_uniforme
+   Probabilidad/dis_probabilidad
+
 
