@@ -65,11 +65,19 @@ Contenido
 
 **Clase - mar1226**
 
-1. Leer archivos "CSV" como "dataFrames"
-2. Algunas funciones del paquete "Graphics"
-3. Viendo el archivo "iris"
+1. Lee imagenes Nifti.
+2. Leer archivos "CSV" como "dataFrames"
+3. Algunas funciones del paquete "Graphics"
+4. Viendo el archivo "iris"
 
-:doc:`programas_mar1225/clase_mar1226`
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   R_NIFTI/lee_probabilidad
+   programas_mar1225/clase_mar1226
+
+
 
 
 
