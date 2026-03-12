@@ -63,4 +63,11 @@ Contenido
    Probabilidad/simu_uniforme
    Probabilidad/dis_probabilidad
 
+**Clase - mar1226**
+
+1. Leer archivos "CSV" como "dataFrames"
+2. Algunas funciones del paquete "Graphics"
+3. Viendo el archivo "iris"
+
+
 
