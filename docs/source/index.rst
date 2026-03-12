@@ -69,5 +69,7 @@ Contenido
 2. Algunas funciones del paquete "Graphics"
 3. Viendo el archivo "iris"
 
+:doc:`programas_mar1225/clase_mar1226`
+
 
 
