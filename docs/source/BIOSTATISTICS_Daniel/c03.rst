@@ -1,0 +1,30 @@
+C03 SOME BASIC PROBABILITY CONCEPTS
+===============================
+
+
+**Relative Frequency Probability**
+
+DEFINITION. If some process is repeated a large number of times, n, and if some resulting event with the 
+characteristic E occurs m times, the relative frequency of occurrence of E, m>n, will be approximately equal 
+to the probability of E.
+
+To express this deﬁnition in compact form, we write
+
+.. math::
+
+   P(E) = \frac{m}{n}
+
+We must keep in mind, however, that, strictly speaking, m ! n is only an estimate of P(E).
+
+**3.3 ELEMENTARY PROPERTIES OF PROBABILITY**
+
+In 1933 the axiomatic approach to probability was formalized by the Russian mathematician A. N. Kolmogorov 
+(5). The basis of this approach is embodied in three properties from which a whole system of probability 
+theory is constructed through the use of mathematical logic. The three properties are as follows.
+
+1. Given some process (or experiment) with n mutually exclusive outcomes (called events), 
+:math:`E_1, E_2,..., E_n`, the probability of any event :math:`E_i` is assigned a nonnegative number. That 
+is,
+
+.. math:
+
