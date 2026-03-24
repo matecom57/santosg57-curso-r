@@ -7,11 +7,11 @@ Imagina que estás pintando un cuadro: primero preparas el lienzo, luego dibujas
 
 La estructura básica siempre sigue este patrón:
 
-**Data:** El dataset que vas a usar.
+1. **Data:** El dataset que vas a usar.
 
-**Aesthetics (aes):** Qué variables van en el eje x, en el eje y, y si quieres usar colores o formas según los datos.
+2. **Aesthetics (aes):** Qué variables van en el eje x, en el eje y, y si quieres usar colores o formas según los datos.
 
-**Geoms:** El tipo de gráfico (puntos, barras, líneas).
+3. **Geoms:** El tipo de gráfico (puntos, barras, líneas).
 
 Para empezar, instala el paquete ``tidyverse`` (que incluye ggplot2)
 

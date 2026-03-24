@@ -35,26 +35,3 @@ condicional apropiada.
 Deseamos utilizar la ecuación 3.4.2 y los datos de la tabla 3.4.1 para hallar la probabilidad condicional, P(A|E).
 
 
-**EJEMPLO 3.4.6**
-
-If we select a person at random from the 318 subjects represented in Table 3.4.1, what is the probability that this 
-person will be an Early age of onset subject (E) or will have no family history of mood disorders (A) or both?
-
-**EJEMPLO 3.4.7**
-
-In a certain high school class, consisting of 60 girls and 40 boys, it is observed that 24 girls and 16 boys wear 
-eyeglasses. If a student is picked at random from this class, the probability that the student wears eyeglasses, P(E), is 
-40/100, or .4.
-
-(a) What is the probability that a student picked at random wears eyeglasses, given that the student is a boy?
-
-(b) What is the probability of the joint occurrence of the events of wearing eyeglasses and being a boy?
-
-
-**EJEMPLO 3.4.9**
-
-We wish to use Equation 3.4.6 and the data in Table 3.4.1 to compute the marginal probability P(E).
-
-
-
-
