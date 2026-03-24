@@ -87,7 +87,7 @@ Contenido
    :maxdepth: 2
    :caption: Contents:
 
-   Probabilidad/index2
+   Probabilidad/c01
 
 
 
