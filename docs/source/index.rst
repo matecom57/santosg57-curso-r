@@ -88,6 +88,7 @@ Contenido
    :caption: Contents:
 
    Probabilidad/c01
+   Distribuciones_Probabilidad/c01
    BIOSTATISTICS_Daniel/c03B
    ggplot2/c01
 

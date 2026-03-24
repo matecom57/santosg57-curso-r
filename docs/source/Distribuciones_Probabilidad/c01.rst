@@ -1,0 +1,34 @@
+Distribuciones de Probabilidad
+==============================
+
+**Distribución Normal**
+
+Definida como:
+
+.. math::
+
+   f(x) = \frac{1}{\sqrt{2 \pi \sigma^2}} e^{- \frac{(x - \mu)^2}{2 \sigma^2}}
+
+
+R tiene cuatro funciones que definen formas distintas de la distribución normal: ``dnorm(), rnorm(), pnorm(), qnorm()``
+
+**Distribución t de Student**
+
+Definida como:
+
+.. math::
+
+   f_X(x) = \frac{\Gamma (\frac{v+1}{2})}{\sqrt{v \pi}\Gamma(\frac{v}{2})} (1 + \frac{x^2}{v})^{- \frac{v+1}{2}}
+
+R tiene cuatro funciones que definen formas distintas de la distribución normal: ``dt(), rt(), pt(), qt()``
+
+**Distribución chi-cuadrado** (:math:`\chi^2`)
+
+R tiene cuatro funciones que definen formas distintas de la distribución normal: ``dchisq(), rchisq(), pchisq(), 
+qchisq()``
+ 
+**Distribución F**
+
+R tiene cuatro funciones que definen formas distintas de la distribución normal: ``df(), rf(), pf(), qf()``
+
+
