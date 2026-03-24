@@ -88,6 +88,7 @@ Contenido
    :caption: Contents:
 
    Probabilidad/c01
+   ggplot2/c01
 
 
 
