@@ -1,0 +1,69 @@
+Probabilidad
+============
+
+**Definición 2.** Una `medidad de probabilidad P` en un :math:`\sigma`-campo de subconjuntos :math:`\mathscr{A}`
+de un conjunto :math:`\Omega` es una función de valores reales teniendo dominio :math:`\mathscr{A}` satisfaciendo las
+siguientes propiedades:
+
+i) :math:`P(\Omega) = 1` 
+
+ii) :math:`P(A) \geq 0` para todo :math:`A \in \mathscr{A}`.
+
+iii) Si :math:`A_n`, n=1,2,3,... son `conjuntos mutuamente disjuntos` en :math:`\mathscr{A}`, entonces
+
+.. math::
+
+   P(\cup_{n=1}^{\infty} A_n) = \sum_{n=1}^{\infty} P(A_n)
+
+Un `espacio de probabilidad`, denotado por :math:`(\Omega, \mathscr{A}, P)`, es un conjunto :math:`\Omega`,
+un :math:`\sigma`-campo de subconjuntos :math:`\mathscr{A}`, y una medida de probabilidad P definida en 
+:math:`\mathscr{A}`.
+
+**Propiedades de Probabilidad**
+
+1. Para cualquier conjunto A, :math:`A \cup A^c = \Omega` y asi, para cualesquier dos conjuntos A y B tenemos la 
+descomposición de B como:
+
+.. math::
+
+   B = \Omega \cap B = (A \cup A^c) \cap B = (A \cap B) \cup (A^c \cap B)
+
+Etonces se tiene:
+
+.. math::
+  
+   P(B) = P(A \cap B) + P(A^c \cap B)
+
+2. Si :math:`B = \Omega` entonces :math:`P(A^c) = 1 - P(A)`
+
+3. En particular :math:`P(\emptyset) = 0`
+
+4. Supongamos que :math:`A \subset B`. Entonces :math:`A \cap B = A` y de aquí
+
+.. math::
+
+   P(B) = P(A) + P(A^c \cap B)
+
+y se sigue: :math:`P(B) \geq P(A)`
+
+
+**Probabilidad Condicional**
+
+Supongamos una caja contiene r bolas rojas etiquetadas de 1, 2, ..., r y b bolas negras etiquetadas 1,2,...,b.
+Asumamos que la probabilidad de sacar cualquier bola es :math:`(b+r)^{-1}`. Si la bola sacada de la caja es roja,
+cual es la probabilidad que esta fue la bola roja etiquetada por 1?
+
+Otro modo de establecer este problema es como sigue, Sea A el evento que la bola seleccionada es roja, y sea B el evento
+que la bola seleccionada esta etiquetada por 1. El problema es entonces determinar la probabilidad "`condicional`" que el 
+evento B ocurra, dado que el evento A ocurrio. 
+
+**Definicion 3** Sea A y B dos eventos tales que :math:`P(A) > 0`. Entonces la `probabilidad condicional`
+de B dado A, escrito P(B|A), es definido como:
+
+.. math::
+
+   P(B|A) = \frac{P(B \cap A)}{P(A)}
+
+Si P(A) = 0 la probabilidad condicional de B dado A no esta definido.
+
+

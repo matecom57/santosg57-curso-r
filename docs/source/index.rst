@@ -77,7 +77,17 @@ Contenido
    R_NIFTI/lee_probabilidad
    programas_mar1225/clase_mar1226
 
+**Clase - mar2426**
 
+1. Probabilidad
+2. ggplot2
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   Probabilidad/index2
 
 
 

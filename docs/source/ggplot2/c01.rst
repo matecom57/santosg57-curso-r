@@ -1,0 +1,34 @@
+Introducción al paquete grafico ggplot2
+=======================================
+
+ggplot2 es paquete para hacer graficos de alta calidad, y trabaja en capas.
+
+Imagina que estás pintando un cuadro: primero preparas el lienzo, luego dibujas los puntos y finalmente retocas los colores.
+
+La estructura básica siempre sigue este patrón:
+
+**Data:** El dataset que vas a usar.
+
+**Aesthetics (aes):** Qué variables van en el eje x, en el eje y, y si quieres usar colores o formas según los datos.
+
+**Geoms:** El tipo de gráfico (puntos, barras, líneas).
+
+Para empezar, instala el paquete ``tidyverse`` (que incluye ggplot2)
+
+**Ejemplo:** Utilicemos el dataset ``mpg`` (datos de eficiencia de combustible).
+
+.. code:: R
+
+   library(ggplot2)
+
+   ggplot(data = mpg, aes(x = displ, y = hwy)) + geom_point()
+
+
+Los Geoms más comunes:
+
+* Dispersión: geom_point()
+* Líneas: geom_line()
+* Histogramas: geom_histogram()
+* Boxplots: geom_boxplot()
+* Barras: geom_bar() o geom_col()
+
