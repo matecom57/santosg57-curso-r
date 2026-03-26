@@ -92,5 +92,11 @@ Contenido
    BIOSTATISTICS_Daniel/c03B
    ggplot2/c01
 
+**Clase - mar2626**
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 
+   BIOSTATISTICS_Daniel/tarea_mar2626
+   
