@@ -32,8 +32,7 @@ Contenido
    :caption: Contents:
 
    introduccion/index2
-   vectores_R
-   matrices
+   estructura_datos/index2
    funciones
    script
    caracter
