@@ -41,8 +41,7 @@ Contenido
    ejercicios/index2
    listas_dadaframes/index2
    Imagenes/index2
-   BIOSTATISTICS_Daniel/c02
-   Observaciones/observaciones
+   BIOSTATISTICS_Daniel/index2
    Tareas/tarea_mar0526
    Daniel_Ejercicios_jun0417/ch01/table_2_3_3
    Imagenes/analisis_imagenes
@@ -73,16 +72,7 @@ Contenido
    :maxdepth: 2
    :caption: Contents:
 
-   Probabilidad/c01
    Distribuciones_Probabilidad/c01
-   BIOSTATISTICS_Daniel/c03B
    ggplot2/c01
 
-**Clase - mar2626**
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   BIOSTATISTICS_Daniel/tarea_mar2626
    
