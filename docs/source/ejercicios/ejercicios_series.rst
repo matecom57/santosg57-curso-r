@@ -1,4 +1,4 @@
-Ejercicios
+Series
 ==========
 
 .. URL: https://es.wikipedia.org/wiki/Serie_de_Taylor

@@ -1,4 +1,4 @@
-Análisis de Imágenes
+Imagenes
 ====================
 
 Ver las siguientes imágenes para determinar algunas medidas de interés.

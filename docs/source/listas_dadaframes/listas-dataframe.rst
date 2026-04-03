@@ -1,7 +1,8 @@
 Listas y DataFrame's
 ====================
 
-**Listas**
+Listas
+------
 
 Una lista es una estructura de datos que puede guardar cualquier tipo de datos.
 
@@ -38,7 +39,8 @@ Ejemplos
    ls()				# lista lo que esta en memoria
    save(z, file="z.RData")		# salva a disco la variable "z" que esta en memoria
 
-**DataFrame's**
+DataFrame's
+-----------
 
 Un DataFrame es una estructura de datos parecida a una hoja de calculo en excel, tiene
 columnas (variables) y tienen un nombre cada variable, el header de las variables. La longitud de las
