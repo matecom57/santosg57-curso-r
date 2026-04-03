@@ -35,8 +35,8 @@ Contenido
    estructura_datos/index2
    script_funciones/index2
    estadistica/index2
-   funciones_rep_sample
-   funciones_probabilidad
+   funciones_especiales/index2
+   probabilidad/index2
    clase_feb1726/ejercicios_series
    clase_feb1726/funciones_rep_sample
    clase_feb1726/Estructuras_Control
