@@ -9,4 +9,5 @@ Estructura de Datos
    matrices
    vectores_matrices
    vectores_R
+   caracter
 

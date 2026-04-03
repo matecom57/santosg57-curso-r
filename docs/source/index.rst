@@ -34,9 +34,7 @@ Contenido
    introduccion/index2
    estructura_datos/index2
    script_funciones/index2
-   caracter
-   estadistica_descriptiva
-   Regresion_lineal
+   estadistica/index2
    funciones_rep_sample
    funciones_probabilidad
    clase_feb1726/ejercicios_series
