@@ -8,17 +8,17 @@ R como calculadora
 * ``Inf`` - es el infinito y prepresenta un número muy grande.
 
 
-**Operadores Aritméticos**: +, -, *, ^, /, 
+**Operadores Aritméticos**: ``+, -, *, ^, /``, 
 
 Si x, y son números naturales entonces:
 
-* :math:`x \%\% y` calcula el residio de x entre y
+* ``x \%\% y`` - calcula el residio de x entre y
 
-* :math:`x \%/\% y` calcula el cociente de x entre y
+* ``x \%/\% y`` - calcula el cociente de x entre y
 
-**Constantes Lógicas**: FALSE, TRUE
+**Constantes Lógicas**: ``FALSE, TRUE``
 
-**Opreradores de Comparación**: :math:`<, \leq, >, \geq, ==, !=`
+**Opreradores de Comparación**: `<, <=, >, >=, ==, !=``
 
 **Ejercicios 01.**
 

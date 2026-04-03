@@ -25,16 +25,16 @@ Conjunto de los Números Reales: :math:`\mathbb{R} = \mathbb{Q} \cup \mathbb{I}`
 Se cumple lo siguiente:
 
 * :math:`\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}`
-* :math:`\mathbb{Q} \cap \mathbb{I} = \O`
+* :math:`\mathbb{Q} \cap \mathbb{I} = \emptyset`
 
-Conjunto de los Números Complejo: :math:`\mathbb{C} = \{ a+ib | a,b \mathbb{R} \text{ y } 
+Conjunto de los Números Complejo: :math:`\mathbb{C} = \{ a+ib | a,b \in \mathbb{R} \text{ y } 
 i = \sqrt{-1} \}`
 
-Si :math:`z_1=a_1 + i b_1, z_2 = a_2 + i b_2 \in \mathbb{C}` se definen las operaciones:
+Si :math:`z_1=a_1 + i b_1, z_2 = a_2 + i b_2 \in \mathbb{C}` son dos números complejos se definen las operaciones:
 
 1. :math:`z_1 + z_2 = (a_1 + a_2) + i (b_1 + b_2)`
 
-2. :math:`z_1 z_2 = (a_1a_2 - b_1 b_2) + i(a_1b_2 + a_2 b_1)` 
+2. :math:`z_1 \times z_2 = (a_1a_2 - b_1 b_2) + i(a_1b_2 + a_2 b_1)` 
 
 Tambien se define el conjugado y la norma de un número complejo como sigue.
 

@@ -41,7 +41,7 @@ Una **matriz** en :math:`\mathbb{R}^m \times \mathbb{R}^n` es definida como:
    a_{m1} & a_{m2} & \cdots  & a_{mn}  \\
    \end{pmatrix}
 
-la magtriz esta formada de m-files y n-columnas.
+la matriz esta formada de m-files y n-columnas.
 
 Dadas dos matrices **A** y **B**  en :math:`\mathbb{R}^m \times \mathbb{R}^n` y c un escalar en :math:`\mathbb{R}` se definen las 
 operaciones:
@@ -58,7 +58,11 @@ operaciones:
    b_{21} & b_{22} & \cdots  & b_{2n}  \\
    \cdots & \cdots  & \ddots & \cdots  \\
    b_{m1} & b_{m2} & \cdots  & b_{mn}  \\
-   \end{pmatrix} = \begin{pmatrix}
+   \end{pmatrix} 
+
+.. math::
+
+   = \begin{pmatrix}
    a_{11}+b_{11} & a_{12}+b_{12} & \cdots  & a_{1n}+b_{1n}  \\
    a_{21}+b_{21} & a_{22}+b_{22} & \cdots  & a_{2n}+b_{2n}  \\
    \cdots & \cdots  & \ddots & \cdots  \\
@@ -79,7 +83,7 @@ operaciones:
    ca_{m1} & ca_{m2} & \cdots  & ca_{mn}  \\
    \end{pmatrix}
 
-La **transpuesta de la matriz** :math:`\mathbf{A}` es definida por:
+La **transpuesta de la matriz** :math:`\mathbf{A}` se define como:
 
 .. math::
    
@@ -104,7 +108,11 @@ Dadas dos matrices, :math:`\mathbf{A}` de tamaño :math:`m \times p` y :math:`\m
    b_{21} & b_{22} & \cdots  & b_{2n}  \\
    \cdots & \cdots  & \ddots & \cdots  \\
    b_{p1} & b_{p2} & \cdots  & b_{pn}  \\
-   \end{pmatrix} = \begin{pmatrix}
+   \end{pmatrix} 
+
+.. math::
+
+   = \begin{pmatrix}
    \sum_{i=1}^p a_{1i}b_{i1} & \sum_{i=1}^p a_{1i}b_{i2} & \cdots  & \sum_{i=1}^p a_{1i}b_{in}  \\
    \sum_{i=1}^p a_{2i}b_{i1} & \sum_{i=1}^p a_{2i}b_{i2} & \cdots  & \sum_{i=1}^p a_{2i}b_{in}  \\
    \cdots & \cdots  & \ddots & \cdots  \\

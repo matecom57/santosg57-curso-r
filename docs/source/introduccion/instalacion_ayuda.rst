@@ -9,13 +9,13 @@ Ir al URL: https://www.r-project.org/
 
 * ``citation()`` - Cómo citar paquetes R en las publicaciones.
 
-* `demo(graphics)` - Demostración grafica
+* ``demo(graphics)`` - Demostración grafica
 
-* `help(package = base)` - Muestra las funciones que contiene el paquete **base**.
+* ``help(package = base)`` - Muestra las funciones que contiene el paquete **base**.
 
-* `library(MASS)` - has disponible la libreria **MASS**
+* ``library(MASS)`` - has disponible la libreria **MASS**
 
-* `data()` - lista todos los datos que tenemos disponibles
+* ``data()`` - lista todos los datos que tenemos disponibles
 
 **RStudio**
 
