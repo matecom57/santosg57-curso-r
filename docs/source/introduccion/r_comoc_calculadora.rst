@@ -3,9 +3,9 @@ R como calculadora
 
 **Constantes Numericas**
 
-* **pi** - equivale 3.1415.....
+* ``pi`` - equivale 3.1415.....
 
-* **Inf** - es el infinito y prepresenta un número muy grande.
+* ``Inf`` - es el infinito y prepresenta un número muy grande.
 
 
 **Operadores Aritméticos**: +, -, *, ^, /, 
