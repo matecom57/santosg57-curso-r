@@ -9,3 +9,5 @@ Contenido
    :caption: Contents:
 
    ejercicios_series
+   ejercicios_feb1927
+

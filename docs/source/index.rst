@@ -37,12 +37,10 @@ Contenido
    estructuras_control/index2
    estadistica/index2
    funciones_especiales/index2
-   probabilidad/index2
+   Probabilidad/index2
    ejercicios/index2
-   clase_feb1726/algebra
-   Ejercicios/ejercicios_feb1927
-   listas_dadaframes/listas-dataframe
-   Imagenes/imagenes
+   listas_dadaframes/index2
+   Imagenes/index2
    BIOSTATISTICS_Daniel/c02
    Observaciones/observaciones
    Tareas/tarea_mar0526
@@ -50,9 +48,6 @@ Contenido
    Imagenes/analisis_imagenes
    REGRESION_Lineal/Regresion_lineal
    REGRESION_Lineal/ejemplo
-   Probabilidad/un_dado
-   Probabilidad/simu_uniforme
-   Probabilidad/dis_probabilidad
 
 **Clase - mar1226**
 
