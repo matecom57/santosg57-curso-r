@@ -11,6 +11,9 @@ Estructuras de Control
 
 **Ejemplos**
 
+IF
+--
+
 1.
 
 .. code:: R
@@ -53,7 +56,8 @@ Estructuras de Control
       print('FALSO')
    }
 
-**FOR**
+FOR
+---
 
 6. 
 
@@ -74,7 +78,8 @@ Estructuras de Control
        print(i)
    }
    
-**while**
+WHILE
+-----
 
 8. 
 

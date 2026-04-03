@@ -1,9 +1,9 @@
 Funciones en R
 ==============
 
-Las funciones en R son **programas** que realizan un calculo y entrega resultados.
+Las funciones en R son **programas** que realizan un cálculo y entrega resultados.
 
-Estas funciones aceptan parametros de entrada para realizar sus calculos.
+Estas funciones aceptan parámetros de entrada para realizar sus calculos.
 
 **Ejemplos**
 
@@ -28,7 +28,7 @@ Estas funciones aceptan parametros de entrada para realizar sus calculos.
 +--------------+------------------------------------------------------------------------+
 | **points()** | grafica pares ordenados en el plano en la ventana previamente definida |
 +--------------+------------------------------------------------------------------------+
-| **rep()      | repite un vector tantas veces como uno quiere                          |
+| **rep()**    | repite un vector tantas veces como uno quiere                          |
 +--------------+------------------------------------------------------------------------+
 
 **Ejemplos**
@@ -58,9 +58,12 @@ Una función definida por el usuario sigue la estructura siguiente:
      resultado
    }
 
-donde **nombreFuncion** es el nombre de la función que le asignamos, ``function`` es la palabra reservada de "R"
-para definir una función, **par1, par2,...,parn** son parámetros que representan variables que son utilizadas
-por la funcion para hacer sus calculos, **resultado** es la ultima instrucción y es la que devuelve el resultado cuando 
+donde 
+
+* **nombreFuncion** - es el nombre de la función que le asignamos, 
+* ``function`` es la palabra reservada de "R" para definir una función, 
+* **par1, par2,...,parn** son parámetros que representan variables que son utilizadas por la función para hacer sus calculos, 
+* **resultado** es la ultima instrucción y es la que devuelve el resultado cuando 
 es llamada dentro del programa principal,
 
 **Ejemplos**

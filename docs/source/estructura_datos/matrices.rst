@@ -79,7 +79,7 @@ Ejemplos.
 
 **Funciones utilizadas**
 
-**cbind** -  vectores o matrices con el mismo número de filas se pueden unir con esta función.
+``cbind()`` -  vectores o matrices con el mismo número de filas se pueden unir con esta función.
 
-**rbind** - vectores o matrices con el mismo número de columnas se pueden unir con esta función. 
+``rbind()`` - vectores o matrices con el mismo número de columnas se pueden unir con esta función. 
 

@@ -7,7 +7,6 @@ Estructura de Datos
    :caption: Contents:
 
    matrices
-   vectores_matrices
    vectores_R
    caracter
    ejemplo_string

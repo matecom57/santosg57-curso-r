@@ -21,35 +21,37 @@ El vector es logitud n.
 
 En lenguaje **R**, los vectores se pueden definir de varias maneras, veamos algunos ejemplos:
 
-1) x = c(3,4,33,5),  el vector esta formado de 4 elementos,  es asignado a la variable **x**, el 3 esta en la posición 1, el 4 esta en la posicion 2 y así sucesivamente. Estamos utilizando la función ``c()``
+1) ``x = c(3,4,33,5)``,  el vector esta formado de 4 elementos,  es asignado a la variable **x**, el 3 esta en la posición 1, el 4 esta en la posicion 2 y así sucesivamente. Estamos utilizando la función ``c()``
 
-2) y = -3:7,  el vector esta formado de la secuencia de números -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7. Utiliza el oprrador ``:``
+2) ``y = -3:7``,  el vector esta formado de la secuencia de números -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7. Utiliza el oprrador ``:``
 
-3) z = seq(0, 1,.3), el vector con valor de inicio 0 e incrementos de .3 es decir 0, .3, .6, .9`. Utiliza la función ``seq()``
+3) ``z = seq(0, 1,.3)``, el vector con valor de inicio 0 e incrementos de .3 es decir 0, .3, .6, .9`. Utiliza la función ``seq()``
 
-4) Consideremos los vectores x = c(3,4,33,5), y=1:4 y z = seq(0,1,.3) entonces se puede contruir los vectores:
+4) Consideremos los vectores ``x = c(3,4,33,5)``, ``y=1:4`` y ``z = seq(0,1,.3)`` entonces se puede contruir los vectores:
 
-a) x = c(x,y)
+a) ``x = c(x,y)``
 
-b) w = c(y,z)
+b) ``w = c(y,z)``
 
 **Operaciones en Vectores**
 
 Sean x = 0:4, y = -2:2. Estos vectores tienen la misma longitud.
 
-a) x+y
+.. code:: R
 
-b) x-y
+   x+y
 
-c) x^Inf
+   x-y
 
-d) x^x
+   x^Inf
 
-e) x*y
+   x^x
 
-f) x/y
+   x*y
 
-g) 5*x-3y + x^2- 1/(y+1)
+   x/y
+
+   5*x-3y + x^2- 1/(y+1)
 
 **Sacando elementos de un vector**
 
