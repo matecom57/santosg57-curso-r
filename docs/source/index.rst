@@ -39,7 +39,6 @@ Contenido
    funciones_especiales/index2
    probabilidad/index2
    ejercicios/index2
-   clase_feb1726/ejemplo_string   
    clase_feb1726/algebra
    Ejercicios/ejercicios_feb1927
    listas_dadaframes/listas-dataframe

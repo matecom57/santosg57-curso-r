@@ -10,4 +10,5 @@ Estructura de Datos
    vectores_matrices
    vectores_R
    caracter
+   ejemplo_string
 
