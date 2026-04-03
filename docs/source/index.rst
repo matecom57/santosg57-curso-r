@@ -34,12 +34,11 @@ Contenido
    introduccion/index2
    estructura_datos/index2
    script_funciones/index2
+   estructuras_control/index2
    estadistica/index2
    funciones_especiales/index2
    probabilidad/index2
-   clase_feb1726/ejercicios_series
-   clase_feb1726/funciones_rep_sample
-   clase_feb1726/Estructuras_Control
+   ejercicios/index2
    clase_feb1726/ejemplo_string   
    clase_feb1726/algebra
    Ejercicios/ejercicios_feb1927
