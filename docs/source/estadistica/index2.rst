@@ -8,3 +8,5 @@ Introducción a la Estadística
    estadistica_descriptiva.rst
    estadistica_no_par.rst
    Regresion_lineal.rst
+   REGRESION_Lineal/Regresion_lineal
+   REGRESION_Lineal/ejemplo

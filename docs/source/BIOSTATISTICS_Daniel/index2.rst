@@ -9,3 +9,5 @@ BIO-ESTADISTICA
    c02
    c03B
    tarea_mar2626
+   ch01/table_2_3_3
+
