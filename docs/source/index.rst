@@ -33,8 +33,7 @@ Contenido
 
    introduccion/index2
    estructura_datos/index2
-   funciones
-   script
+   script_funciones/index2
    caracter
    estadistica_descriptiva
    Regresion_lineal
