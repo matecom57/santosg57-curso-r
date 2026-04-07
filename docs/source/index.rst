@@ -46,4 +46,11 @@ Contenido
    R_NIFTI/index2
 
 
-   
+**Clase - abr0726**
+
+.. toctree::
+   :maxdepth: 2   
+   :caption: Contents:
+
+   apply/apply
+

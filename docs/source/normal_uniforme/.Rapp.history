@@ -1,0 +1,293 @@
+b <- ggplot(mtcars, aes(wt, mpg)) +#
+  geom_point()
+print(b)
+df <- data.frame(x1 = 2.62, x2 = 3.57, y1 = 21.0, y2 = 15.0)
+df
+b <- ggplot(mtcars, aes(wt, mpg)) +#
+  geom_point()
+df <- data.frame(x1 = 2.62, x2 = 3.57, y1 = 21.0, y2 = 15.0)
+b +#
+ geom_curve(aes(x = x1, y = y1, xend = x2, yend = y2, colour = "curve"), data = df)
+geom_segment(aes(x = x1, y = y1, xend = x2, yend = y2, colour = "segment"), data = df)
+?geom_curve
+? xend
+dd = c(rnorm(12, mean=55, sd=5), rnorm(10, mean=58, sd=7))
+ss = c(rep(1,12), rep(2,10))
+mm = data.frame(dd, ss)
+str(mm)
+ggplot(data = mm, aes(dd, ss)) + geom_boxplot()
+ss = as.factor(c(rep(1,12), rep(2,10)))
+mm = data.frame(dd, ss)
+str(dd)
+str(mm)
+ggplot(data = mm, aes(dd, ss)) + geom_boxplot()
+ggplot(data = mm, aes(dd, ss)) + geom_points()
+ggplot(data = mm, aes(dd, ss)) + geom_point()
+ggplot(data = mm, aes(ss, dd)) + geom_point()
+ggplot(data = mm, aes(ss, dd), color='red') + geom_point()
+ggplot(data = mm, aes(ss, dd, color='red') + geom_point()
+q
+ggplot(data = mm, aes(ss, dd, color='red')) + geom_point()
+ggplot(data = mm, aes(ss, dd, color='red')) + geom_boxplot()
+ggplot(data = mm, aes(ss, dd, color=c('red', 'green')) + geom_boxplot()
+q
+ggplot(data = mm, aes(ss, dd, color=c('red', 'green')) )+ geom_boxplot()
+tao = .02
+np = 2
+to = seq(0, tao, length.out = np)
+to
+to = seq(0, tao, length.out = 3)
+to
+to = seq(0, tao, length.out = 4)
+to
+to = seq(0, tao, length.out = 10)
+to
+to = seq(0, tao, length.out = 11)
+to
+tao
+np = 11#
+  del = .001#
+  to = seq(0, tao, length.out = np)
+to
+pbinom
+?pbinom
+pbinom(1, 3, .5)
+pbinom(2, 3, .5)
+7/8
+dbinom(1, 3, .5)
+dbinom(1, 3, .5) + dbinom(2, 3, .5)
+dbinom(1, 3, .5) + dbinom(2, 3, .5) + dbinom(3, 3, .5)
+10/16
+1-dbinom(3, 4, .5)
+7/8
+pbinom(2, 3, .5)
+dbinom(1, 3, .5) + dbinom(2, 3, .5) + dbinom(3, 3, .5)
+pbinom(1, 3, .5)
+dbinom(3, 3, .5)
+dbinom(1, 3, .5)
+dbinom(0, 3, .5)
+pbinom(1, 3, .5)
+pbinom(0, 3, .5)
+dbinom(0, 3, .5)
+pbinom(1, 3, .5)
+dbinom(1, 3, .5)
+1/8
+3/8
+1/8
+2*.375+.125
+dbinom(1, 3, .5)
+dbinom(0, 3, .5)
+dbinom(1, 3, .5)
+dbinom(2, 3, .5)
+dbinom(3, 3, .5)
+dbinom(1, 4, .5)
+dbinom(3, 4, .5)
+pbinom(2, 3, .5)
+pbinom(0, 3, .5)
+dbinom(0, 3, .5)
+3/8
+1/8
+pbinom(1,3,.5)
+pbinom(0,3,.5)
+pbinom(033,.5)
+pbinom(3,3,.5)
+.5*.5*.5
+.5^3*3
+dbinom(0,3,.5)
+dbinom(1,3,.5)
+dbinom(2,3,.5)
+dbinom(3,3,.5)
+1-pbinom(2, 3, .5)
+1-pbinom(1, 3, .5)
+pbinom(2, 3, .5)
+pbinom(1, 3, .5)
+1-pbinom(3, 3, .5)
+pbinom(1, 3, .5)
+pbinom(2, 3, .5)
+1-pbinom(1, 3, .5)
+1-pbinom(0, 3, .5)
+pbinom(2, 3, .5)
+pbinom(3, 3, .5)
+pbinom(2, 3, .5)
+1-pbinom(1, 3, .5)
+1-pbinom(0, 3, .5)
+11/16
+1-pbinom(1,4,.5)
+dbinom(2,4,.5)+dbinom(3,4,.5)+dbinom(4,4,.5)
+(1+4+6+3)/16
+pnorm(3,4,.5)
+pbinom(3,4,.5)
+(1+4+6)/16
+pbinom(2,4,.5)
+dbinom(0,4,.5) + dbinom(1,4,.5) +dbinom(2,4,.5)
+library(tidyverse)
+notas <- read.table('http://verso.mat.uam.es/~joser.berrendero/datos/notas.txt',#
+                   sep = ' ',#
+                   dec = ',',#
+                   header=TRUE)
+dir(notas)
+str(notas)
+?notas
+notas$tipo
+library(knitr)
+?knitr
+12.7/sqrt(10)
+1-qnorm(1.1)
+1-pnorm(1.1)
+15/sqrt(50)
+m = 204#
+   s = 44#
+   n = 50#
+   mm = m#
+   es = s/sqrt(n)#
+   m#
+   es
+m = 5.7#
+   s = 1#
+   n = 9#
+   mm = 6#
+   1-qnorm((mm - m)/(s/sqrt(n)
+)
+q
+m = 5.7#
+   s = 1#
+   n = 9#
+   mm = 6#
+   1-qnorm((mm - m)/(s/sqrt(n))
+q
+m = 5.7#
+   s = 1#
+   n = 9#
+   mm = 6#
+   1-qnorm((mm - m)/(s/sqrt(n)))
+qnorm((mm - m)/(s/sqrt(n)))
+m = 5.7#
+   s = 1#
+   n = 9#
+   mm = 6#
+   1-pnorm((mm - m)/(s/sqrt(n)))
+m = 5.7#
+   s = 1#
+   n = 9#
+   mm1 = 5#
+   mm2 = 6#
+   pnorm((mm2 - m)/(s/sqrt(n))) - pnorm((mm1 - m)/(s/sqrt(n)))
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+?hist
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('p1.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+pob <- round(runif(100, min=30, max=70))
+print(shapiro.test(pob))#
+   mp = mean(pob)#
+   sd1 = sd(pob)#
+   nl = length(pop)#
+   hist(pob, main =titulo, xlim=c(mp-3*sd1, mp+3*sd1))#
+#
+   points(c(mp, mp), c(0,h1), type ='l', lwd=3, col='blue')
+? length
+mp = mean(pob)#
+   sd1 = sd(pob)#
+   nl = length(pob)
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+source('uniforme.R')
+?save
+?apply
+median(1, 7,13,19)
+median(c(1, 7,13,19))
+median(1:6)
+median(7:12)
+sd(7:12)
+?lapply
+? sapply
+?tapply
+sum(1:12)
