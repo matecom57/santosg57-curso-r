@@ -53,4 +53,4 @@ Contenido
    :caption: Contents:
 
    apply/apply
-
+   normal_uniforme/Graf_Normal_Uniforme
