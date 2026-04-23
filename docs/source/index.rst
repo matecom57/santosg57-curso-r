@@ -54,3 +54,5 @@ Contenido
 
    apply/apply
    normal_uniforme/Graf_Normal_Uniforme
+   clase_abr2326
+
