@@ -44,14 +44,6 @@ Contenido
    BIOSTATISTICS_Daniel/index2
    ggplot2/index2
    R_NIFTI/index2
-
-
-**Clase - abr0726**
-
-.. toctree::
-   :maxdepth: 2   
-   :caption: Contents:
-
    apply/apply
    normal_uniforme/Graf_Normal_Uniforme
    clase_abr2326
