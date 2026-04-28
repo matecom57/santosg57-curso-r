@@ -47,4 +47,5 @@ Contenido
    apply/apply
    normal_uniforme/Graf_Normal_Uniforme
    clase_abr2326
+   clase_abr2826
 
