@@ -1,15 +1,29 @@
-Estimación
-==========
+c06. Estimación
+===============
 
-Se tiene algunas medidas que se tomaron de una población
+Si tienes algunas medidas que se tomaron de una población
 
 .. math::
 
    x_1, x_2, x_3, ..., x_n
 
-de estas medidadas deseamos estimar la media poblacional: :math:`\mu` y su varianza :math:`\sigma`.
+con estas medidadas buscamos  estimar la media poblacional :math:`\mu` y su varianza :math:`\sigma`.
 
-Para esto, buscamos algunas fórmulas (**estimadores o estadística**) que estime estos parámetros (:math:`\mu, \sigma`) de la población.
+Para esto, buscamos algunas fórmulas (**estimadores o estadísticas**) que estime estos parámetros (:math:`\mu, \sigma`) de la población.
+
+**DEFINICIÓN**
+
+La **inferencia estadística** es el procedimiento mediante el cual llegamos a una conclusión sobre una población basándonos en la información contenida en una muestra extraída de esa población.
+
+**DEFINICIÓN**
+
+Una **estimación puntual** es un único valor numérico que se utiliza para estimar el parámetro poblacional correspondiente.
+
+**DEFINICIÓN**
+
+Una **estimación por intervalo** consiste en dos valores numéricos que definen un rango de valores que, con un grado de confianza especificado, probablemente incluya el parámetro que se está estimando.
+
+
 
 
 **Algunos Estimadores Puntuales**
@@ -27,7 +41,7 @@ Para esto, buscamos algunas fórmulas (**estimadores o estadística**) que estim
 * u Otra Fórmula
 
 
-**Definición**
+**DEFINICIÓN**
 
 Se dice que un estimador, digamos T, del parámetro :math:`\Theta` es un estimador 
 insesgado de :math:`\Theta` si :math:`E(T) = \Theta`.
@@ -57,7 +71,7 @@ Un intervalo de confianza aproximado del 95 por ciento para :math:`\mu` viene da
 
    (17.76, 26.24)
 
-**Componentes de la estimación por intervalos**
+**Componentes de la estimación por intervalo**
 
 .. math::
 
@@ -123,6 +137,7 @@ A continuación se muestran los valores de actividad (micromoles por minuto por 
 
 Deseamos utilizar el paquete de software MINITAB para construir un intervalo de confianza del 95 % para la media poblacional. Supongamos que conocemos la varianza poblacional de 0,36. No es necesario asumir que la población muestreada de valores sigue una distribución normal, ya que el tamaño de la muestra es suficientemente grande para aplicar el teorema del límite central.
 
+**Solución:** ( 0.519, 0.917)
 
 **6.3 LA DISTRIBUCIÓN t**
 
@@ -150,15 +165,15 @@ Un equipo de investigación está interesado en la diferencia entre los niveles
 de ácido úrico sérico en pacientes con y sin síndrome de Down. En un gran 
 hospital para el tratamiento de personas con discapacidad intelectual, 
 una muestra de 12 individuos con síndrome de Down arrojó una media de 
-:math:`x_1 = 4.5` mg/100 ml. En un hospital general, una muestra de 15 
+:math:`\bar{x}_1 = 4.5` mg/100 ml. En un hospital general, una muestra de 15 
 individuos normales de la misma edad y sexo presentó un valor medio de 
-:math:`x_2 = 3.4`. Si es razonable suponer que las dos poblaciones de 
+:math:`\bar{x}_2 = 3.4`. Si es razonable suponer que las dos poblaciones de 
 valores se distribuyen normalmente con varianzas iguales a 1 y 1,5, 
 calcule el intervalo de confianza del 95% para :math:`\mu_1 - \mu_2`.
 
 **Solución:** (.26, 1.94)
 
-**Muestreo de poblaciones no normales**
+**Muestreo de poblaciones NO normales**
 
 **EJEMPLO 6.4.2**
 
@@ -168,7 +183,7 @@ A pesar del conocimiento generalizado de los efectos adversos de fumar, muchas m
 
 **La distribución t y la diferencia entre medias**
 
-**Population Variances Equal**
+**Varianzas poblacionales iguales**
 
 El intervalo de confianza del :math:`100(1 - \alpha)` por ciento para 
 :math:`\mu_1 - \mu_2` viene dado por
@@ -196,7 +211,7 @@ El propósito de un estudio de Granholm et al. (A-7) fue determinar la efectivid
 
 El intervalo de confianza del :math:`100(1-\alpha)%` para el intervalo :math:`\mu_1 - \mu_2` esta dado como:
 
-,, math::
+.. math::
 
    (\bar{x}_1 - \bar{x}_2) \pm t'_{(1-\alpha/2)} \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2} }
 
@@ -206,7 +221,7 @@ donde
 
    t'_{1-\alpha/2} = \frac{w_1 t_1 + w_2 t_2}{w_1 + w_2}
 
-y :math:`w_1 = s_1^2, w_2 = s_2^2/n_2, t_1 = t_{1-\alpha/2}` para :math:`n_1-1` 
+y :math:`w_1 = s_1^2/n_1, w_2 = s_2^2/n_2, t_1 = t_{1-\alpha/2}` para :math:`n_1-1` 
 grados de libertad, y :math:`t_2 = t_{1-\alpha/2}` para :math:`n_2-1` grados de libertad.
 
 **EJEMPLO 6.4.4**

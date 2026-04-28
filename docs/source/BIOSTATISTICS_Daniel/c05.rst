@@ -1,0 +1,60 @@
+c05. SOME IMPORTANT SAMPLING DISTRIBUTIONS
+==========================================
+
+SAMPLING DISTRIBUTIONS
+----------------------
+
+**DEFINITION**
+
+The distribution of all possible values that can be assumed by some
+statistic, computed from samples of the same size randomly drawn
+from the same population, is called the sampling distribution of that
+statistic.
+
+DISTRIBUTION OF THE SAMPLE MEAN
+--------------------------------
+
+**The Sampling Distribution of x: A Summary**
+
+Let us summarize the
+characteristics of the sampling distribution of :math:`\bar{x}` under two conditions.
+
+1. Sampling is from a normally distributed population with a known population
+variance:
+
+(a) :math:`\mu_{\bar{x}} = \mu`
+
+(b) :math:`\sigma_{\bar{x}} = \sigma/\sqrt{n}`
+
+(c) The sampling distribution of :math:`\bar{x}` is normal.
+
+2. Sampling is from a nonnormally distributed population with a known population
+variance:
+
+(a) :math:`\mu_{\bar{x}} = \mu`
+
+(b) :math:`\sigma_{\bar{x}} = \sigma / \sqrt{n}` cuando :math:`n/N \geq .05`
+
+:math:`\sigma_{\bar{x}} = \sigma / \sqrt{n}\sqrt{\frac{N-n}{N-1}}, de otro modo
+
+(c) The sampling distribution of :math:`\bar{x}` is approximately normal.
+
+
+**EXAMPLE 5.3.2**
+
+Suppose it is known that in a certain large human population cranial length is approx-
+imately normally distributed with a mean of 185.6 mm and a standard deviation of
+12.7 mm. What is the probability that a random sample of size 10 from this popula-
+tion will have a mean greater than 190?
+
+**EXAMPLE 5.3.3**
+
+If the mean and standard deviation of serum iron values for healthy men are 120 and
+15 micrograms per 100 ml, respectively, what is the probability that a random sample
+of 50 normal men will yield a mean between 115 and 125 micrograms per 100 ml?
+
+DISTRIBUTION OF THE DIFFERENCE BETWEEN TWO SAMPLE MEANS
+=======================================================
+
+
+

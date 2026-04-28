@@ -1,0 +1,244 @@
+DISTRIBUCIONES DE PROBABILIDAD
+==============================
+
+DISTRIBUCIONES DE PROBABILIDAD DE VARIABLES DISCRETAS
+------------------------------------------------------
+
+**EXAMPLE 4.2.1**
+
+In an article appearing in the Journal of the American Dietetic Association, Holben et al.
+(A-1) looked at food security status in families in the Appalachian region of southern Ohio.
+The purpose of the study was to examine hunger rates of families with children in a local
+Head Start program in Athens, Ohio. The survey instrument included the 18-question U.S.
+Household Food Security Survey Module for measuring hunger and food security. In addi-
+tion, participants were asked how many food assistance programs they had used in the last
+12 months. Table 4.2.1 shows the number of food assistance programs used by subjects in
+this sample.
+
+We wish to construct the probability distribution of the discrete variable X, where
+X = number of food assistance programs used by the study subjects
+
+**EXAMPLE 4.2.2**
+
+What is the probability that a randomly selected family used three assistance
+programs?
+
+**EXAMPLE 4.2.3**
+
+What is the probability that a randomly selected family used either one or two programs?
+
+Cumulative Distributions
+------------------------
+
+**EXAMPLE 4.2.4**
+
+What is the probability that a family picked at random used two or fewer assistance
+programs?
+
+**EXAMPLE 4.2.5**
+
+What is the probability that a randomly selected family used fewer than four programs?
+
+**EXAMPLE 4.2.6**
+
+What is the probability that a randomly selected family used five or more programs?
+
+**EXAMPLE 4.2.7**
+
+What is the probability that a randomly selected family used between three and five
+programs, inclusive?
+
+THE BINOMIAL DISTRIBUTION
+-------------------------
+
+The Bernoulli Process
+
+A sequence of Bernoulli trials forms a Bernoulli
+process under the following conditions.
+
+1. Each trial results in one of two possible, mutually exclusive, outcomes. One of the pos-
+sible outcomes is denoted (arbitrarily) as a success, and the other is denoted a failure.
+
+2. The probability of a success, denoted by p, remains constant from trial to trial. The
+probability of a failure, 1 - p, is denoted by q.
+
+3. The trials are independent; that is, the outcome of any particular trial is not affected
+by the outcome of any other trial.
+
+**EXAMPLE 4.3.1**
+
+We are interested in being able to compute the probability of x successes in n Bernoulli
+trials. For example, if we examine all birth records from the North Carolina State Center
+for Health Statistics (A-3) for the calendar year 2001, we find that 85.8 percent of the
+pregnancies had delivery in week 37 or later. We will refer to this as a full-term birth.
+With that percentage, we can interpret the probability of a recorded birth in week 37 or
+later as .858. If we randomly select five birth records from this population, what is the
+probability that exactly three of the records will be for full-term births?
+
+**EXAMPLE 4.3.2**
+
+As another example of the use of the binomial distribution, the data from the North
+Carolina State Center for Health Statistics (A-3) show that 14 percent of mothers admit-
+ted to smoking one or more cigarettes per day during pregnancy. If a random sample
+of size 10 is selected from this population, what is the probability that it will contain
+exactly four mothers who admitted to smoking during pregnancy?
+
+**EXAMPLE 4.3.3**
+
+Suppose it is known that 10 percent of a certain population is color blind. If a random
+sample of 25 people is drawn from this population, use Table B in the Appendix to find
+the probability that:
+
+(a) Five or fewer will be color blind.
+
+(b) Six or more will be color blind.
+
+(c) Between six and nine inclusive will be color blind.
+
+(d) Two, three, or four will be color blind
+
+**EXAMPLE 4.3.4**
+
+According to a June 2003 poll conducted by the Massachusetts Health Benchmarks
+project (A-4), approximately 55 percent of residents answered “serious problem” to the
+question, “Some people think that childhood obesity is a national health problem. What
+do you think? Is it a very serious problem, somewhat of a problem, not much of a prob-
+lem, or not a problem at all?” Assuming that the probability of giving this answer to the
+question is .55 for any Massachusetts resident, use Table B to find the probability that if
+12 residents are chosen at random:
+
+(a) Exactly seven will answer “serious problem.”
+
+(b) Five or fewer households will answer “serious problem.”
+
+(c) Eight or more households will answer “serious problem.”
+
+**THE POISSON DISTRIBUTION**
+
+The Poisson Process We have seen that the binomial distribution results from
+a set of assumptions about an underlying process yielding a set of numerical observa-
+tions. Such, also, is the case with the Poisson distribution. The following statements
+describe what is known as the Poisson process.
+
+1. The occurrences of the events are independent. The occurrence of an event in an
+interval1 of space or time has no effect on the probability of a second occurrence
+of the event in the same, or any other, interval.
+
+2. Theoretically, an infinite number of occurrences of the event must be possible in
+the interval.
+
+3. The probability of the single occurrence of the event in a given interval is propor-
+tional to the length of the interval.
+
+4. In any infinitesimally small portion of the interval, the probability of more than
+one occurrence of the event is negligible.
+
+An interesting feature of the Poisson distribution is the fact that the mean and vari-
+ance are equal.
+
+**EXAMPLE 4.4.1**
+
+In a study of drug-induced anaphylaxis among patients taking rocuronium bromide as
+part of their anesthesia, Laake and Røttingen (A-7) found that the occurrence of anaphy-
+laxis followed a Poisson model with l = 12 incidents per year in Norway. Find the prob-
+ability that in the next year, among patients receiving rocuronium, exactly three will
+experience anaphylaxis.
+
+**EXAMPLE 4.4.2**
+
+Refer to Example 4.4.1. What is the probability that at least three patients in the next
+year will experience anaphylaxis if rocuronium is administered with anesthesia?
+
+**EXAMPLE 4.4.3**
+
+In the study of a certain aquatic organism, a large number of samples were taken from a
+pond, and the number of organisms in each sample was counted. The average number
+of organisms per sample was found to be two. Assuming that the number of organisms
+follows a Poisson distribution, find the probability that the next sample taken will contain
+one or fewer organisms.
+
+**EXAMPLE 4.4.4**
+
+Refer to Example 4.4.3. Find the probability that the next sample taken will contain
+exactly three organisms.
+
+**EXAMPLE 4.4.5**
+
+Refer to Example 4.4.3. Find the probability that the next sample taken will contain more
+than five organisms.
+
+CONTINUOUS PROBABILITY DISTRIBUTIONS
+------------------------------------
+
+THE NORMAL DISTRIBUTION
+-----------------------
+
+The Standard Normal Distribution
+--------------------------------
+
+The last-mentioned characteristic of
+the normal distribution implies that the normal distribution is really a family of distribu-
+tions in which one member is distinguished from another on the basis of the values of
+m and s. The most important member of this family is the standard normal distribution
+or unit normal distribution, as it is sometimes called, because it has a mean of 0 and a
+standard deviation of 1. It may be obtained from Equation 4.6.1 by creating a random
+variable.
+
+.. math::
+
+   z = \frac{x - \mu}{\sigma}
+
+**EXAMPLE 4.6.1**
+
+Given the standard normal distribution, find the area under the curve, above the z-axis
+between :math:`z = -\infty` and z = 2.
+
+**EXAMPLE 4.6.2**
+
+What is the probability that a z picked at random from the population of z’s will have a
+value between -2.55 and +2.55?
+
+**EXAMPLE 4.6.3**
+
+What proportion of z values are between -2.74 and 1.53?
+
+**EXAMPLE 4.6.4**
+
+Given the standard normal distribution, find :math:`P(z \geq 2.71)`.
+
+**EXAMPLE 4.6.5**
+
+Given the standard normal distribution, find :math:`P(.84 \geq z \geq 2.45).
+
+NORMAL DISTRIBUTION APPLICATIONS
+--------------------------------
+
+**EXAMPLE 4.7.1**
+
+The Uptimer is a custom-made lightweight battery-operated activity monitor that records
+the amount of time an individual spends in the upright position. In a study of children
+ages 8 to 15 years, Eldridge et al. (A-10) studied 529 normally developing children who
+each wore the Uptimer continuously for a 24-hour period that included a typical school
+day. The researchers found that the amount of time children spent in the upright position
+followed a normal distribution with a mean of 5.4 hours and standard deviation of 1.3
+hours. Assume that this finding applies to all children 8 to 15 years of age. Find the prob-
+ability that a child selected at random spends less than 3 hours in the upright position in
+a 24-hour period.
+
+**EXAMPLE 4.7.2**
+
+Diskin et al. (A-11) studied common breath metabolites such as ammonia, acetone, iso-
+prene, ethanol, and acetaldehyde in five subjects over a period of 30 days. Each day,
+breath samples were taken and analyzed in the early morning on arrival at the labora-
+tory. For subject A, a 27-year-old female, the ammonia concentration in parts per billion
+(ppb) followed a normal distribution over 30 days with mean 491 and standard devia-
+tion 119. What is the probability that on a random day, the subject’s ammonia concen-
+tration is between 292 and 649 ppb?
+
+**EXAMPLE 4.7.3**
+
+In a population of 10,000 of the children described in Example 4.7.1, how many would
+you expect to be upright more than 8.5 hours?
+
+
+

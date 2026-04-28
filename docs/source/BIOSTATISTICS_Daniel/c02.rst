@@ -1,5 +1,8 @@
-CHAPTER 2. DESCRIPTIVE STATISTICS - Biostatistic-Daniel
-=======================================================
+CHAPTER 2. Estadística Descriptiva
+================================
+
+DATOS AGRUPADOS: LA DISTRIBUCIÓN DE FRECUENCIAS
+------------------------------------------------
 
 .. image:: tabla_2_3_2.png
 
@@ -9,9 +12,26 @@ CHAPTER 2. DESCRIPTIVE STATISTICS - Biostatistic-Daniel
 
 .. image:: tabla_2_3_6.png
 
+ESTADÍSTICA DESCRIPTIVA: MEDIDAS DE TENDENCIA CENTRAL
+-----------------------------------------------------
+
+* media aritmética
+* mediana
+* simetria
+
 .. image:: skewness.png
 
+ESTADÍSTICA DESCRIPTIVA: MEDIDAS DE DISPERSIÓN
+----------------------------------------------
+
+* varianza
+* desviasión estandár
+* rango intercuartil
+* rango
+* Curtosis
+
 .. image:: kurtosis.png
+
 
 :text-blue:`EXAMPLE 2.5.5`
 

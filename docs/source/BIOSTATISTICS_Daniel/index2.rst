@@ -1,13 +1,18 @@
-BIO-ESTADISTICA
-===============
+BIOSTATISTIC-Daniel
+================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Contenido:
 
-   c01
-   c02
-   c03B
-   tarea_mar2626
-   ch01/table_2_3_3
+   c02.rst
+   c03.rst
+   c03_ejercicios
+   table_2_3_3.rst
+   tarea_mar2626.rst
+   c04
+   c05
+   c06
+   c06_ejercicios_ejemplos
+
 
