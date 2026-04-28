@@ -11,4 +11,3 @@ Clase abr-28-26
    algunas_distribuciones/algunas_distribuciones
    BIOSTATISTICS_daniel/c06_ejercicios_ejemplos
    BIOSTATISTICS_daniel/c07_ejercicios_ejemplos
-
