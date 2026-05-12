@@ -8,6 +8,6 @@ Contenido
    :maxdepth: 2
    :caption: Contents:
 
-   clase_may1226.rst
+   clase_may1226
    analisis_varianza
 
