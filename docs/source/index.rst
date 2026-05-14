@@ -49,4 +49,5 @@ Contenido
    clase_abr2326
    clase_abr2826
    clase_may1226/index2
+   diseno_bloques_completamente_aleatorio/diseno_de_bloques_completamente_aleatorizado_reducido
 
